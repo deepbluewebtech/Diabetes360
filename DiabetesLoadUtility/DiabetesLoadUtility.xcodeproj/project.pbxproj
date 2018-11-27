@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288AFF370F563DBA0085E73F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288AFF360F563DBA0085E73F /* CoreData.framework */; };
+		771135611441E47700E7F56F /* IOBFactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 771135601441E47700E7F56F /* IOBFactor.m */; };
+		771135631441EAA900E7F56F /* IOBFactors.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 771135621441E5F700E7F56F /* IOBFactors.plist */; };
+		7711357E14431A8900E7F56F /* ExerciseType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7711357C14431A8900E7F56F /* ExerciseType.m */; };
+		7711358114431C0700E7F56F /* ExerciseTypes.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 77113578144312EA00E7F56F /* ExerciseTypes.plist */; };
+		772F006E14227CC40022D872 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F005714227CC40022D872 /* Settings.m */; };
+		772F006F14227CC40022D872 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F005914227CC40022D872 /* Site.m */; };
+		772F007014227CC40022D872 /* FoodWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F005B14227CC40022D872 /* FoodWeight.m */; };
+		772F007114227CC40022D872 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F005D14227CC40022D872 /* Event.m */; };
+		772F007214227CC40022D872 /* DailySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F005F14227CC40022D872 /* DailySchedule.m */; };
+		772F007314227CC40022D872 /* InsulinScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F006114227CC40022D872 /* InsulinScale.m */; };
+		772F007414227CC40022D872 /* InsulinFactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F006314227CC40022D872 /* InsulinFactor.m */; };
+		772F007514227CC40022D872 /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F006514227CC40022D872 /* FoodItem.m */; };
+		772F007614227CC40022D872 /* ColorScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F006714227CC40022D872 /* ColorScheme.m */; };
+		772F007714227CC40022D872 /* KetoneValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F006914227CC40022D872 /* KetoneValue.m */; };
+		772F007814227CC40022D872 /* InsulinBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F006B14227CC40022D872 /* InsulinBrand.m */; };
+		772F007914227CC40022D872 /* EventFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F006D14227CC40022D872 /* EventFood.m */; };
+		7741E9D713CCE5D500B3F342 /* DailySchedule.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7741E9D613CCDE2600B3F342 /* DailySchedule.plist */; };
+		77D462E813C60BD000EB6238 /* Sites.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 773C962513C5F39700DDE00A /* Sites.plist */; };
+		77D462E913C60BD900EB6238 /* KetoneValues.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 773C962613C5F51D00DDE00A /* KetoneValues.plist */; };
+		77FAAD3015B358C000FF276F /* InsulinBrands.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 77FAAD2F15B3561C00FF276F /* InsulinBrands.plist */; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		CEE7668119107D5A00461FEC /* Diabetes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEE7667C19107D5A00461FEC /* Diabetes.xcdatamodeld */; };
+		CEE7668419107DD500461FEC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE7668219107DAA00461FEC /* AppKit.framework */; };
+		CEE766891910811800461FEC /* DiabetesLoadUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE766881910811800461FEC /* DiabetesLoadUtility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				77FAAD3015B358C000FF276F /* InsulinBrands.plist in CopyFiles */,
+				7711358114431C0700E7F56F /* ExerciseTypes.plist in CopyFiles */,
+				771135631441EAA900E7F56F /* IOBFactors.plist in CopyFiles */,
+				7741E9D713CCE5D500B3F342 /* DailySchedule.plist in CopyFiles */,
+				77D462E913C60BD900EB6238 /* KetoneValues.plist in CopyFiles */,
+				77D462E813C60BD000EB6238 /* Sites.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		288AFF330F563D1C0085E73F /* DiabetesLoadUtility.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = DiabetesLoadUtility.1; sourceTree = "<group>"; };
+		288AFF340F563D390085E73F /* DiabetesLoadUtility_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiabetesLoadUtility_Prefix.pch; sourceTree = "<group>"; };
+		288AFF360F563DBA0085E73F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7711355F1441E47700E7F56F /* IOBFactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOBFactor.h; path = ../Classes/IOBFactor.h; sourceTree = "<group>"; };
+		771135601441E47700E7F56F /* IOBFactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOBFactor.m; path = ../Classes/IOBFactor.m; sourceTree = "<group>"; };
+		771135621441E5F700E7F56F /* IOBFactors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = IOBFactors.plist; path = ../IOBFactors.plist; sourceTree = "<group>"; };
+		77113578144312EA00E7F56F /* ExerciseTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ExerciseTypes.plist; path = ../ExerciseTypes.plist; sourceTree = "<group>"; };
+		7711357C14431A8900E7F56F /* ExerciseType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseType.m; path = ../Classes/ExerciseType.m; sourceTree = "<group>"; };
+		7711357D14431A8900E7F56F /* ExerciseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseType.h; path = ../Classes/ExerciseType.h; sourceTree = "<group>"; };
+		772F005614227CC40022D872 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = ../Classes/Settings.h; sourceTree = "<group>"; };
+		772F005714227CC40022D872 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = ../Classes/Settings.m; sourceTree = "<group>"; };
+		772F005814227CC40022D872 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Site.h; path = ../Classes/Site.h; sourceTree = "<group>"; };
+		772F005914227CC40022D872 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Site.m; path = ../Classes/Site.m; sourceTree = "<group>"; };
+		772F005A14227CC40022D872 /* FoodWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodWeight.h; path = ../Classes/FoodWeight.h; sourceTree = "<group>"; };
+		772F005B14227CC40022D872 /* FoodWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodWeight.m; path = ../Classes/FoodWeight.m; sourceTree = "<group>"; };
+		772F005C14227CC40022D872 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../Classes/Event.h; sourceTree = "<group>"; };
+		772F005D14227CC40022D872 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = ../Classes/Event.m; sourceTree = "<group>"; };
+		772F005E14227CC40022D872 /* DailySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DailySchedule.h; path = ../Classes/DailySchedule.h; sourceTree = "<group>"; };
+		772F005F14227CC40022D872 /* DailySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DailySchedule.m; path = ../Classes/DailySchedule.m; sourceTree = "<group>"; };
+		772F006014227CC40022D872 /* InsulinScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsulinScale.h; path = ../Classes/InsulinScale.h; sourceTree = "<group>"; };
+		772F006114227CC40022D872 /* InsulinScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsulinScale.m; path = ../Classes/InsulinScale.m; sourceTree = "<group>"; };
+		772F006214227CC40022D872 /* InsulinFactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsulinFactor.h; path = ../Classes/InsulinFactor.h; sourceTree = "<group>"; };
+		772F006314227CC40022D872 /* InsulinFactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsulinFactor.m; path = ../Classes/InsulinFactor.m; sourceTree = "<group>"; };
+		772F006414227CC40022D872 /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodItem.h; path = ../Classes/FoodItem.h; sourceTree = "<group>"; };
+		772F006514227CC40022D872 /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodItem.m; path = ../Classes/FoodItem.m; sourceTree = "<group>"; };
+		772F006614227CC40022D872 /* ColorScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorScheme.h; path = ../Classes/ColorScheme.h; sourceTree = "<group>"; };
+		772F006714227CC40022D872 /* ColorScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorScheme.m; path = ../Classes/ColorScheme.m; sourceTree = "<group>"; };
+		772F006814227CC40022D872 /* KetoneValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KetoneValue.h; path = ../Classes/KetoneValue.h; sourceTree = "<group>"; };
+		772F006914227CC40022D872 /* KetoneValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KetoneValue.m; path = ../Classes/KetoneValue.m; sourceTree = "<group>"; };
+		772F006A14227CC40022D872 /* InsulinBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsulinBrand.h; path = ../Classes/InsulinBrand.h; sourceTree = "<group>"; };
+		772F006B14227CC40022D872 /* InsulinBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsulinBrand.m; path = ../Classes/InsulinBrand.m; sourceTree = "<group>"; };
+		772F006C14227CC40022D872 /* EventFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventFood.h; path = ../Classes/EventFood.h; sourceTree = "<group>"; };
+		772F006D14227CC40022D872 /* EventFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventFood.m; path = ../Classes/EventFood.m; sourceTree = "<group>"; };
+		773C962513C5F39700DDE00A /* Sites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Sites.plist; path = ../Sites.plist; sourceTree = "<group>"; };
+		773C962613C5F51D00DDE00A /* KetoneValues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KetoneValues.plist; path = ../KetoneValues.plist; sourceTree = "<group>"; };
+		7741E9D613CCDE2600B3F342 /* DailySchedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DailySchedule.plist; path = ../DailySchedule.plist; sourceTree = "<group>"; };
+		77B2C17C13983153009A9489 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		77FAAD2F15B3561C00FF276F /* InsulinBrands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = InsulinBrands.plist; path = ../InsulinBrands.plist; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* DiabetesLoadUtility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DiabetesLoadUtility; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE7667D19107D5A00461FEC /* Diabetes 1.03.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Diabetes 1.03.xcdatamodel"; sourceTree = "<group>"; };
+		CEE7667E19107D5A00461FEC /* Diabetes 1.64.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Diabetes 1.64.xcdatamodel"; sourceTree = "<group>"; };
+		CEE7667F19107D5A00461FEC /* Diabetes 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Diabetes 2.xcdatamodel"; sourceTree = "<group>"; };
+		CEE7668019107D5A00461FEC /* Diabetes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diabetes.xcdatamodel; sourceTree = "<group>"; };
+		CEE7668219107DAA00461FEC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CEE766881910811800461FEC /* DiabetesLoadUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabetesLoadUtility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE7668419107DD500461FEC /* AppKit.framework in Frameworks */,
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				288AFF370F563DBA0085E73F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* «PROJECTNAME» */ = {
+			isa = PBXGroup;
+			children = (
+				CEE766881910811800461FEC /* DiabetesLoadUtility.m */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				28D1EE350F56433F0089643D /* Model */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = "«PROJECTNAME»";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				77FAAD2F15B3561C00FF276F /* InsulinBrands.plist */,
+				771135621441E5F700E7F56F /* IOBFactors.plist */,
+				773C962513C5F39700DDE00A /* Sites.plist */,
+				773C962613C5F51D00DDE00A /* KetoneValues.plist */,
+				7741E9D613CCDE2600B3F342 /* DailySchedule.plist */,
+				77113578144312EA00E7F56F /* ExerciseTypes.plist */,
+				288AFF340F563D390085E73F /* DiabetesLoadUtility_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7668219107DAA00461FEC /* AppKit.framework */,
+				288AFF360F563DBA0085E73F /* CoreData.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* DiabetesLoadUtility */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28D1EE350F56433F0089643D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7667C19107D5A00461FEC /* Diabetes.xcdatamodeld */,
+				7711357C14431A8900E7F56F /* ExerciseType.m */,
+				7711357D14431A8900E7F56F /* ExerciseType.h */,
+				7711355F1441E47700E7F56F /* IOBFactor.h */,
+				771135601441E47700E7F56F /* IOBFactor.m */,
+				772F005614227CC40022D872 /* Settings.h */,
+				772F005714227CC40022D872 /* Settings.m */,
+				772F005814227CC40022D872 /* Site.h */,
+				772F005914227CC40022D872 /* Site.m */,
+				772F005A14227CC40022D872 /* FoodWeight.h */,
+				772F005B14227CC40022D872 /* FoodWeight.m */,
+				772F005C14227CC40022D872 /* Event.h */,
+				772F005D14227CC40022D872 /* Event.m */,
+				772F005E14227CC40022D872 /* DailySchedule.h */,
+				772F005F14227CC40022D872 /* DailySchedule.m */,
+				772F006014227CC40022D872 /* InsulinScale.h */,
+				772F006114227CC40022D872 /* InsulinScale.m */,
+				772F006214227CC40022D872 /* InsulinFactor.h */,
+				772F006314227CC40022D872 /* InsulinFactor.m */,
+				772F006414227CC40022D872 /* FoodItem.h */,
+				772F006514227CC40022D872 /* FoodItem.m */,
+				772F006614227CC40022D872 /* ColorScheme.h */,
+				772F006714227CC40022D872 /* ColorScheme.m */,
+				772F006814227CC40022D872 /* KetoneValue.h */,
+				772F006914227CC40022D872 /* KetoneValue.m */,
+				772F006A14227CC40022D872 /* InsulinBrand.h */,
+				772F006B14227CC40022D872 /* InsulinBrand.m */,
+				772F006C14227CC40022D872 /* EventFood.h */,
+				772F006D14227CC40022D872 /* EventFood.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				288AFF330F563D1C0085E73F /* DiabetesLoadUtility.1 */,
+				77B2C17C13983153009A9489 /* ReadMe.txt */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* DiabetesLoadUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "DiabetesLoadUtility" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiabetesLoadUtility;
+			productInstallPath = "$(HOME)/bin";
+			productName = "«PROJECTNAME»";
+			productReference = 8DD76FA10486AA7600D96B5E /* DiabetesLoadUtility */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "DiabetesLoadUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* «PROJECTNAME» */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* DiabetesLoadUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE766891910811800461FEC /* DiabetesLoadUtility.m in Sources */,
+				772F006E14227CC40022D872 /* Settings.m in Sources */,
+				772F006F14227CC40022D872 /* Site.m in Sources */,
+				772F007014227CC40022D872 /* FoodWeight.m in Sources */,
+				772F007114227CC40022D872 /* Event.m in Sources */,
+				772F007214227CC40022D872 /* DailySchedule.m in Sources */,
+				772F007314227CC40022D872 /* InsulinScale.m in Sources */,
+				772F007414227CC40022D872 /* InsulinFactor.m in Sources */,
+				772F007514227CC40022D872 /* FoodItem.m in Sources */,
+				772F007614227CC40022D872 /* ColorScheme.m in Sources */,
+				772F007714227CC40022D872 /* KetoneValue.m in Sources */,
+				772F007814227CC40022D872 /* InsulinBrand.m in Sources */,
+				772F007914227CC40022D872 /* EventFood.m in Sources */,
+				771135611441E47700E7F56F /* IOBFactor.m in Sources */,
+				7711357E14431A8900E7F56F /* ExerciseType.m in Sources */,
+				CEE7668119107D5A00461FEC /* Diabetes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DiabetesLoadUtility_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = DiabetesLoadUtility;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DiabetesLoadUtility_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = DiabetesLoadUtility;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "DiabetesLoadUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "DiabetesLoadUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEE7667C19107D5A00461FEC /* Diabetes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEE7667D19107D5A00461FEC /* Diabetes 1.03.xcdatamodel */,
+				CEE7667E19107D5A00461FEC /* Diabetes 1.64.xcdatamodel */,
+				CEE7667F19107D5A00461FEC /* Diabetes 2.xcdatamodel */,
+				CEE7668019107D5A00461FEC /* Diabetes.xcdatamodel */,
+			);
+			currentVersion = CEE7667E19107D5A00461FEC /* Diabetes 1.64.xcdatamodel */;
+			name = Diabetes.xcdatamodeld;
+			path = ../Diabetes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
