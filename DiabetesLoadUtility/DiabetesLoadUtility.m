@@ -318,7 +318,7 @@ int main (int argc, const char * argv[]) {
  	NSArray *weightRecs = [weightUSDA componentsSeparatedByString:@"\r\n"];
 	NSMutableArray *weightArray = [[NSMutableArray alloc] initWithCapacity:14000];
     cSet = [NSCharacterSet characterSetWithCharactersInString:@"~^"];
-
+///////////
     NSDictionary *dict = nil;
     NSArray *tempArray;
     NSString *ndbNumberKey = @"ndbNumberKey";
