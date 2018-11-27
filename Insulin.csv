@@ -1,0 +1,35 @@
+"brandName","genericName","classification","doseInterval","prescribed","doseType","doseUnits","mixNumerator","mixDenominator","timing","onsetLow","onsetHigh","peakLow","peakHigh","durationLow","durationHigh"
+"Apidra","Insulin Glulisine","1Rapid",,,0,,,,,,,,,,
+"Humalog","Insulin Lispro","1Rapid",,,0,,,,,,,,,,
+"Novolog","Insulin Aspart","1Rapid",,,0,,,,,,,,,,
+,"Regular","3Short",,,0,,,,,,,,,,
+"Velosulin",,"3Short",,,0,,,,,30,60,120,180,120,180
+,"NPH","4Intermediate",,,0,,,,,,,,,,
+"Lente",,"4Intermediate",,,0,,,,,,,,,,
+"Lantus","Insulin Glargine","2Long",24,,0,,,,,60,90,,,1200,1440
+"Levemir","Insulin Detemir","2Long",24,,0,,,,,60,120,360,480,0,1440
+"Ultralente",,"2Long",24,,0,,,,,30,180,600,1800,1800,2160
+"Humulin",,"5Mixed",,,0,,70,30,,30,,120,240,840,1440
+"Novolin",,"5Mixed",,,0,,70,30,,30,,120,720,0,1440
+"Humulin",,"5Mixed",,,0,,50,50,,30,,120,300,1080,1440
+"Humalog",,"5Mixed",,,0,,75,25,,15,,30,150,960,1200
+"Novolog",,"5Mixed",,,0,,70,30,,,,,,,
+,,,,,,,,,,,,,,,
+"Amaryl","glimepiride",,,,1,,,,,,,,,,
+"Glucotrol","glipizide",,,,1,,,,,,,,,,
+"Glucotrol XL","glipizide",,,,1,,,,,,,,,,
+"Diabeta","glyburide",,,,1,,,,,,,,,,
+"Glynase","glyburide",,,,1,,,,,,,,,,
+"Micronase","glyburide",,,,1,,,,,,,,,,
+"Starlix","nateglinide",,,,1,,,,,,,,,,
+"Prandin","repaglinide",,,,1,,,,,,,,,,
+"Fortamet","metformin",,,,1,,,,,,,,,,
+"Glucophage","metformin",,,,1,,,,,,,,,,
+"Glucophage XR","metformin",,,,1,,,,,,,,,,
+"Glumetza","metformin",,,,1,,,,,,,,,,
+"Riomet","metformin",,,,1,,,,,,,,,,
+"Precose","acarbose",,,,1,,,,,,,,,,
+"Glyset","acarbose",,,,1,,,,,,,,,,
+"Actos","pioglitazone",,,,1,,,,,,,,,,
+"Avandia","rosiglitazone",,,,1,,,,,,,,,,
+"Januvia","sitagliptin",,,,1,,,,,,,,,,

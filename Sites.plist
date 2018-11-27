@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sites</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Left Buttocks</string>
+			<key>active</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Right Buttocks</string>
+			<key>active</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Left Thigh</string>
+			<key>active</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Right Thigh</string>
+			<key>active</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Left Arm</string>
+			<key>active</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Right Arm</string>
+			<key>active</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Left Stomach</string>
+			<key>active</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Right Stomach</string>
+			<key>active</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Left Shoulder</string>
+			<key>active</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Right Shoulder</string>
+			<key>active</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Left Neck</string>
+			<key>active</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Right Neck</string>
+			<key>active</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Left Calf</string>
+			<key>active</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>name</key>
+            <string>Right Calf</string>
+			<key>active</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

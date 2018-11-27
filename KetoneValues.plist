@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KetoneValues</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>n/a</string>
+			<key>waterAlert</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Negative</string>
+			<key>waterAlert</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Trace</string>
+			<key>waterAlert</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Small</string>
+			<key>waterAlert</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Moderate</string>
+			<key>waterAlert</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Large</string>
+			<key>waterAlert</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

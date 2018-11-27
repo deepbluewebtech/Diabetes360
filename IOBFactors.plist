@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IOBFactors</key>
+	<array>
+		<dict>
+			<key>hours</key>
+			<string>1</string>
+			<key>percentReduce</key>
+			<string>75</string>
+		</dict>
+		<dict>
+			<key>hours</key>
+			<string>1.5</string>
+			<key>percentReduce</key>
+			<string>60</string>
+		</dict>
+		<dict>
+			<key>hours</key>
+			<string>2</string>
+			<key>percentReduce</key>
+			<string>40</string>
+		</dict>
+		<dict>
+			<key>hours</key>
+			<string>2.5</string>
+			<key>percentReduce</key>
+			<string>20</string>
+		</dict>
+		<dict>
+			<key>hours</key>
+			<string>3</string>
+			<key>percentReduce</key>
+			<string>10</string>
+		</dict>
+		<dict>
+			<key>hours</key>
+			<string>3.5</string>
+			<key>percentReduce</key>
+			<string>5</string>
+		</dict>
+		<dict>
+			<key>hours</key>
+			<string>4.0</string>
+			<key>percentReduce</key>
+			<string>0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
