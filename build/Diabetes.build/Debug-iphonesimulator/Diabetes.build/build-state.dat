@@ -1,0 +1,1031 @@
+TDiabetes
+v7
+r0
+t320205438.261923
+cCheck dependencies
+cProcessInfoPlistFile /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Info.plist Diabetes-Info.plist
+cCompileXIB /Users/josephdimaggio/Documents/Diabetes/MainWindow.xib
+cCompileXIB /Users/josephdimaggio/Documents/Diabetes/RootViewController.xib
+cCompileXIB /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib
+cProcessPCH /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld
+cCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/main.o /Users/josephdimaggio/Documents/Diabetes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/DiabetesAppDelegate.o /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/RootViewController.o /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEventController.o /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/FoodItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/MealItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes normal i386
+cGenerateDSYMFile /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app.dSYM /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes
+cTouch /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C2652560000000000000132
+t1277579862
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFDFEB400000000001CFA90
+t1274937012
+s1899152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFDFEA8000000000000046B
+t1274937000
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Classes/AddEventController.h
+c000000004D3F341F0000000000000335
+t1295987743
+s821
+i<UIKit/UIKit.h>
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Classes/AddEventController.m
+c000000004D406B6A0000000000000D66
+t1296067434
+s3430
+i"DiabetesAppDelegate.h"
+i"RootViewController.h"
+i"AddEventController.h"
+i"Event.h"
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Classes/AddEventController.xib
+c000000004D406ABE000000000000AF0D
+t1296067262
+s44813
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Classes/DiabetesAppDelegate.h
+c000000004D1B5A8D00000000000003DC
+t1293638285
+s988
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Classes/DiabetesAppDelegate.m
+c000000004D3C4EA20000000000001F71
+t1295797922
+s8049
+i"DiabetesAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Classes/RootViewController.h
+c000000004D3C95E000000000000002D3
+t1295816160
+s723
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Classes/RootViewController.m
+c000000004D4055AC00000000000036DD
+t1296061868
+s14045
+i"RootViewController.h"
+i"Event.h"
+i"AddEventController.h"
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Diabetes.xcdatamodeld
+c000000004D4055AC00000000000000EE
+t1296061868
+s238
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Diabetes.xcdatamodeld/Event.h
+c000000004D4055AC00000000000001E4
+t1296061868
+s484
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Diabetes.xcdatamodeld/Event.m
+c000000004D4055AC0000000000000124
+t1296061868
+s292
+i"Event.h"
+
+N/Users/josephdimaggio/Documents/Diabetes Save/Diabetes_Prefix.pch
+c000000004D1B5A8D0000000000000165
+t1293638285
+s357
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes Save/MainWindow.xib
+c000000004D1B5A8D0000000000005FF8
+t1293638285
+s24568
+
+N/Users/josephdimaggio/Documents/Diabetes Save/RootViewController.xib
+c000000004D3438BA00000000000043BF
+t1295268026
+s17343
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app
+t1296067434
+s306
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app.dSYM
+t1296067434
+s102
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/AddEventController.nib
+t1296067268
+s3507
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/Diabetes
+t1296067434
+s48732
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd
+t1296061868
+s136
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/Info.plist
+t1295810033
+s595
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/MainWindow.nib
+t1295810035
+s1510
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/PkgInfo
+t1295810033
+s8
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/RootViewController.nib
+t1295810035
+s979
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEventController.o
+t1296067434
+s56452
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Diabetes.LinkFileList
+c000000004D3C7DF100000000000002A2
+t1295810033
+s674
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/DiabetesAppDelegate.o
+t1295816160
+s68292
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o
+t1296061868
+s5368
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/RootViewController.o
+t1296061868
+s77756
+
+N/Users/josephdimaggio/Documents/Diabetes Save/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/main.o
+t1295810038
+s6308
+
+N/Users/josephdimaggio/Documents/Diabetes Save/main.m
+c000000004D1B5A8D000000000000016E
+t1293638285
+s366
+i<UIKit/UIKit.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/AddEvent.h
+c000000004D35F83C0000000000000122
+t1295382588
+s290
+i<UIKit/UIKit.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/AddEvent.m
+c000000004D35F82500000000000005E2
+t1295382565
+s1506
+i"AddEvent.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/AddEvent.xib
+c000000004D35F91A000000000000940C
+t1295382810
+s37900
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.h
+c000000004D62B9090000000000000434
+t1298315529
+s1076
+i<UIKit/UIKit.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m
+c000000004D65BAFD0000000000001537
+t1298512637
+s5431
+i"DiabetesAppDelegate.h"
+i"RootViewController.h"
+i"AddEventController.h"
+i"Event.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib
+c000000004D573AF2000000000000B728
+t1297562354
+s46888
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.h
+c000000004D1B5A8D00000000000003DC
+t1293638285
+s988
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m
+c000000004D3C4EA20000000000001F71
+t1295797922
+s8049
+i"DiabetesAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.h
+c000000004D3C95E000000000000002D3
+t1295816160
+s723
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m
+c000000004D5C717C000000000000370F
+t1297903996
+s14095
+i"RootViewController.h"
+i"Event.h"
+i"AddEventController.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/untitled.h
+c000000004D35DF4200000000000000D8
+t1295376194
+s216
+i<UIKit/UIKit.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/untitled.m
+c000000004D35DF420000000000000592
+t1295376194
+s1426
+i"untitled.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/untitled.xib
+c000000004D35DF420000000000001853
+t1295376194
+s6227
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld
+c000000004D619B2D00000000000001FE
+t1298242349
+s510
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.h
+c000000004D619B0E0000000000000303
+t1298242318
+s771
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m
+c000000004D619B0E000000000000013E
+t1298242318
+s318
+i"Event.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Food.h
+c000000004D5ED10700000000000001B5
+t1298059527
+s437
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Food.m
+c000000004D5ED1070000000000000113
+t1298059527
+s275
+i"Food.h"
+i"Event.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.h
+c000000004D619B0E000000000000029E
+t1298242318
+s670
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m
+c000000004D619B0E0000000000000110
+t1298242318
+s272
+i"FoodItem.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MainWindow.xib
+c000000004D1B5A8D0000000000005FF8
+t1293638285
+s24568
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.h
+c000000004D619B0E0000000000000208
+t1298242318
+s520
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m
+c000000004D619B0E000000000000014E
+t1298242318
+s334
+i"MealItem.h"
+i"Event.h"
+i"FoodItem.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch
+c000000004D1B5A8D0000000000000165
+t1293638285
+s357
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Event.h
+c000000004D5F1E92000000000000030B
+t1298079378
+s779
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Event.m
+c000000004D5F1E920000000000000154
+t1298079378
+s340
+i"Event.h"
+i"FoodItem.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/MainWindow.xib
+c000000004D1B5A8D0000000000005FF8
+t1293638285
+s24568
+
+N/Users/josephdimaggio/Documents/Diabetes/RootViewController.xib
+c000000004D3438BA00000000000043BF
+t1295268026
+s17343
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app
+t1298512638
+s306
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app.dSYM
+t1298512638
+s102
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/AddEvent.nib
+t2
+s0
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/AddEventController.nib
+t1297903951
+s3671
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes
+t1298512638
+s50796
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd
+t1298242349
+s136
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Info.plist
+t1295810033
+s595
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/MainWindow.nib
+t1295810035
+s1510
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/PkgInfo
+t1295810033
+s8
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/RootViewController.nib
+t1295810035
+s979
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/untitled.nib
+t2
+s0
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEvent.o
+t2
+s0
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEventController.o
+t1298512638
+s63932
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Diabetes.LinkFileList
+c000000004D619B2D00000000000003A6
+t1298242349
+s934
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/DiabetesAppDelegate.o
+t1297081126
+s68292
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event-40EDC204C73A0242.o
+t2
+s0
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event-BE1D95BF105B5D57.o
+t2
+s0
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event-D8BCE4E01D911052.o
+t2
+s0
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o
+t1298242350
+s5416
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Food.o
+t2
+s0
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/FoodItem.o
+t1298242350
+s5388
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/MealItem.o
+t1298242350
+s5428
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/RootViewController.o
+t1298512638
+s78352
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/main.o
+t1297081126
+s6308
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/untitled.o
+t2
+s0
+
+N/Users/josephdimaggio/Documents/Diabetes/main.m
+c000000004D1B5A8D000000000000016E
+t1293638285
+s366
+i<UIKit/UIKit.h>
+
+N/Users/josephdimaggio/Documents/Diabetes1/Classes/AddEventController.h
+c000000004D56F47E0000000000000435
+t1297544318
+s1077
+i<UIKit/UIKit.h>
+
+N/Users/josephdimaggio/Documents/Diabetes1/Classes/AddEventController.m
+c000000004D56F6CB00000000000013EF
+t1297544907
+s5103
+i"DiabetesAppDelegate.h"
+i"RootViewController.h"
+i"AddEventController.h"
+i"Event.h"
+
+N/Users/josephdimaggio/Documents/Diabetes1/Classes/AddEventController.xib
+c000000004D573AF2000000000000B728
+t1297562354
+s46888
+
+N/Users/josephdimaggio/Documents/Diabetes1/Classes/DiabetesAppDelegate.h
+c000000004D1B5A8D00000000000003DC
+t1293638285
+s988
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes1/Classes/DiabetesAppDelegate.m
+c000000004D3C4EA20000000000001F71
+t1295797922
+s8049
+i"DiabetesAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/josephdimaggio/Documents/Diabetes1/Classes/RootViewController.h
+c000000004D3C95E000000000000002D3
+t1295816160
+s723
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes1/Classes/RootViewController.m
+c000000004D5C717C000000000000370F
+t1297903996
+s14095
+i"RootViewController.h"
+i"Event.h"
+i"AddEventController.h"
+
+N/Users/josephdimaggio/Documents/Diabetes1/Diabetes.xcdatamodeld
+c000000004D5EC8E400000000000000EE
+t1298057444
+s238
+
+N/Users/josephdimaggio/Documents/Diabetes1/Diabetes.xcdatamodeld/Event.h
+c000000004D47574900000000000001E3
+t1296521033
+s483
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes1/Diabetes.xcdatamodeld/Event.m
+c000000004D4592B10000000000000123
+t1296405169
+s291
+i"Event.h"
+
+N/Users/josephdimaggio/Documents/Diabetes1/Diabetes_Prefix.pch
+c000000004D1B5A8D0000000000000165
+t1293638285
+s357
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes1/MainWindow.xib
+c000000004D1B5A8D0000000000005FF8
+t1293638285
+s24568
+
+N/Users/josephdimaggio/Documents/Diabetes1/RootViewController.xib
+c000000004D3438BA00000000000043BF
+t1295268026
+s17343
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app
+t1298057377
+s306
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app.dSYM
+t1298057377
+s102
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/AddEventController.nib
+t1297903951
+s3671
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/Diabetes
+t1298057377
+s49988
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd
+t1296521033
+s136
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/Info.plist
+t1295810033
+s595
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/MainWindow.nib
+t1295810035
+s1510
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/PkgInfo
+t1295810033
+s8
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/RootViewController.nib
+t1295810035
+s979
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEventController.o
+t1297544907
+s63816
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Diabetes.LinkFileList
+c000000004D46FC8E00000000000002A2
+t1296497806
+s674
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/DiabetesAppDelegate.o
+t1297081126
+s68292
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o
+t1297081126
+s5368
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/RootViewController.o
+t1298057377
+s78352
+
+N/Users/josephdimaggio/Documents/Diabetes1/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/main.o
+t1297081126
+s6308
+
+N/Users/josephdimaggio/Documents/Diabetes1/main.m
+c000000004D1B5A8D000000000000016E
+t1293638285
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch.gch
+t1296502740
+s16330736
+
+N/var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gqrljmunkjitofcadrqrmfqpnoiv/Diabetes_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-acztxwjvncwypkezorfxwzgoxjzq/Diabetes_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch.gch
+t1295810037
+s16330736
+
+N/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcpnwbznrdmrfybxujurkjtgysuh/Diabetes_Prefix.pch.gch
+t2
+s0
+
+NDiabetes-Info.plist
+c000000004D1B5A8D000000000000038D
+t1293638285
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320205437#320205437#0(0"0(0#1#0"8643747136#0"0#
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEvent.o /Users/josephdimaggio/Documents/Diabetes/Classes/AddEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEventController.o "/Users/josephdimaggio/Documents/Diabetes Save/Classes/AddEventController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEventController.o /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320205437.754783
+e320205438.098265
+r1
+xCompileC
+xbuild/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEventController.o
+x/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m320205437#320205438#0(0"0(0#0#69"/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m8643145664#1992"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -I/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources/i386 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources -include /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEventController.o0#
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/AddEventController.o /Users/josephdimaggio/Documents/Diabetes1/Classes/AddEventController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/DiabetesAppDelegate.o "/Users/josephdimaggio/Documents/Diabetes Save/Classes/DiabetesAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/DiabetesAppDelegate.o /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318773926.128114
+e318773926.367650
+r1
+xCompileC
+xbuild/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/DiabetesAppDelegate.o
+x/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m318773926#318773926#0(0"0(0#0#70"/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m8603363552#1994"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -I/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources/i386 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources -include /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/DiabetesAppDelegate.o0#
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/DiabetesAppDelegate.o /Users/josephdimaggio/Documents/Diabetes1/Classes/DiabetesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event-40EDC204C73A0242.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event-BE1D95BF105B5D57.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event-D8BCE4E01D911052.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o "/Users/josephdimaggio/Documents/Diabetes Save/Diabetes.xcdatamodeld/Event.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319935150.165213
+e319935150.233774
+r1
+xCompileC
+xbuild/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m319935150#319935150#0(0"0(0#0#70"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m8609496576#1980"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -I/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources/i386 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources -include /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o0#
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o /Users/josephdimaggio/Documents/Diabetes/Event.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Event.o /Users/josephdimaggio/Documents/Diabetes1/Diabetes.xcdatamodeld/Event.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Food.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Food.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/FoodItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319935150.166495
+e319935150.226736
+r1
+xCompileC
+xbuild/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/FoodItem.o
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m319935150#319935150#0(0"0(0#0#73"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m8609003008#1986"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -I/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources/i386 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources -include /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/FoodItem.o0#
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/MealItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319935150.226861
+e319935150.285598
+r1
+xCompileC
+xbuild/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/MealItem.o
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m319935150#319935150#0(0"0(0#0#73"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m8608313408#1986"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -I/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources/i386 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources -include /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/MealItem.o0#
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/RootViewController.o "/Users/josephdimaggio/Documents/Diabetes Save/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/RootViewController.o /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320205437.751500
+e320205438.105783
+r1
+xCompileC
+xbuild/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/RootViewController.o
+x/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m320205437#320205438#0(0"0(0#0#69"/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m8653869344#1992"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -I/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources/i386 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources -include /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/RootViewController.o /Users/josephdimaggio/Documents/Diabetes1/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/main.o "/Users/josephdimaggio/Documents/Diabetes Save/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/main.o /Users/josephdimaggio/Documents/Diabetes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318773926.126827
+e318773926.317278
+r1
+xCompileC
+xbuild/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/main.o
+x/Users/josephdimaggio/Documents/Diabetes/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/josephdimaggio/Documents/Diabetes/main.m318773926#318773926#0(0"0(0#0#47"/Users/josephdimaggio/Documents/Diabetes/main.m7307761437599099904#1956"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -I/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources/i386 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources -include /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/main.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/main.o /Users/josephdimaggio/Documents/Diabetes1/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/untitled.o /Users/josephdimaggio/Documents/Diabetes/Classes/untitled.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/josephdimaggio/Documents/Diabetes Save/Classes/AddEventController.xib"
+r0
+
+CCompileXIB "/Users/josephdimaggio/Documents/Diabetes Save/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/josephdimaggio/Documents/Diabetes Save/RootViewController.xib"
+r0
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes/Classes/AddEvent.xib
+r0
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib
+s319596750.103899
+e319596751.183721
+r1
+xCompileXIB
+x/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib
+lSLF07#2@41"CompileXIB Classes/AddEventController.xib319596750#319596751#0(0"0(0#0#71"/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib8636268736#601"    cd /Users/josephdimaggio/Documents/Diabetes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/AddEventController.nib /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes/Classes/untitled.xib
+r0
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MainWindow.xib
+r0
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes/MainWindow.xib
+s317502833.210582
+e317502835.180088
+r1
+xCompileXIB
+x/Users/josephdimaggio/Documents/Diabetes/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317502833#317502835#0(0"0(0#0#55"/Users/josephdimaggio/Documents/Diabetes/MainWindow.xib8642973248#577"    cd /Users/josephdimaggio/Documents/Diabetes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/MainWindow.nib /Users/josephdimaggio/Documents/Diabetes/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes/RootViewController.xib
+s317502833.211346
+e317502835.171542
+r1
+xCompileXIB
+x/Users/josephdimaggio/Documents/Diabetes/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib317502833#317502835#0(0"0(0#0#63"/Users/josephdimaggio/Documents/Diabetes/RootViewController.xib8642586848#593"    cd /Users/josephdimaggio/Documents/Diabetes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/RootViewController.nib /Users/josephdimaggio/Documents/Diabetes/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes1/Classes/AddEventController.xib
+r0
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes1/MainWindow.xib
+r0
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes1/RootViewController.xib
+r0
+
+CDataModelVersionCompile "/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd" "/Users/josephdimaggio/Documents/Diabetes Save/Diabetes.xcdatamodeld"
+r0
+
+CDataModelVersionCompile /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld
+s319935149.870969
+e319935149.971475
+r1
+xDataModelVersionCompile
+x/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld
+lSLF07#2@100"DataModelVersionCompile build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd Diabetes.xcdatamodeld319935149#319935149#0(0"0(0#0#62"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld32370056120631408#395"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd0#
+
+CDataModelVersionCompile /Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/Diabetes.momd /Users/josephdimaggio/Documents/Diabetes1/Diabetes.xcdatamodeld
+r0
+
+CGenerateDSYMFile "/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app.dSYM" "/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/Diabetes"
+r0
+
+CGenerateDSYMFile /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app.dSYM /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes
+s320205438.211124
+e320205438.256676
+r1
+xGenerateDSYMFile
+x/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app.dSYM
+x/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Diabetes.app.dSYM build/Debug-iphonesimulator/Diabetes.app/Diabetes320205438#320205438#0(0"0(0#0#90"/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes8652520224#392"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes -o /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app.dSYM0#
+
+CGenerateDSYMFile /Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app.dSYM /Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/Diabetes
+r0
+
+CLd "/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/Diabetes" normal i386
+r0
+
+CLd /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes normal i386
+s320205438.105887
+e320205438.211004
+r1
+xLd
+x/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes
+xnormal
+xi386
+lSLF07#2@95"Link /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes320205438#320205438#0(0"0(0#0#0"8652212512#935"    cd /Users/josephdimaggio/Documents/Diabetes    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -filelist /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Objects-normal/i386/Diabetes.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Diabetes0#
+
+CLd /Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/Diabetes normal i386
+r0
+
+CProcessInfoPlistFile "/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app/Info.plist" Diabetes-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Info.plist Diabetes-Info.plist
+s317502833.154880
+e317502833.210497
+r1
+xProcessInfoPlistFile
+x/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Info.plist
+xDiabetes-Info.plist
+lSLF07#2@27"Process Diabetes-Info.plist317502833#317502833#0(0"0(0#0#60"/Users/josephdimaggio/Documents/Diabetes/Diabetes-Info.plist8644295680#488"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Diabetes-Info.plist -genpkginfo /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app/Info.plist Diabetes-Info.plist
+r0
+
+CProcessPCH /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318195539.775517
+e318195540.547430
+r1
+xProcessPCH
+x/var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch.gch
+xDiabetes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Diabetes_Prefix.pch318195539#318195540#0(0"0(0#0#60"/Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch5791474525403440128#1845"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -I/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources/i386 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources -c /Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch -o /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gqrljmunkjitofcadrqrmfqpnoiv/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-acztxwjvncwypkezorfxwzgoxjzq/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317502835.799197
+e317502837.986326
+r1
+xProcessPCH
+x/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch.gch
+xDiabetes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Diabetes_Prefix.pch317502835#317502837#0(0"0(0#0#60"/Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch8642742720#1845"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator -I/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources/i386 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Debug-iphonesimulator/Diabetes.build/DerivedSources -c /Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch -o /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-dggdmksrnwfeegaifnippevevmfl/Diabetes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcpnwbznrdmrfybxujurkjtgysuh/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/josephdimaggio/Documents/Diabetes Save/build/Debug-iphonesimulator/Diabetes.app"
+r0
+
+CTouch /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app
+s320205438.256771
+e320205438.261884
+r1
+xTouch
+x/Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app
+lSLF07#2@87"Touch /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app320205438#320205438#0(0"0(0#0#0"8653096608#283"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/josephdimaggio/Documents/Diabetes/build/Debug-iphonesimulator/Diabetes.app0#
+
+CTouch /Users/josephdimaggio/Documents/Diabetes1/build/Debug-iphonesimulator/Diabetes.app
+r0
+

@@ -1,0 +1,1855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7705EA1E147AFD1900403662 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		7705EA1F147AFD1900403662 /* LogByDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* LogByDayViewController.xib */; };
+		7705EA20147AFD1900403662 /* InsulinBrandsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C169DD139D0EC6005D9F42 /* InsulinBrandsController.xib */; };
+		7705EA21147AFD1900403662 /* FoodController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774C1928139FF1260032EFE9 /* FoodController.xib */; };
+		7705EA22147AFD1900403662 /* EventFoodController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7709505213AA5D89007393EC /* EventFoodController.xib */; };
+		7705EA23147AFD1900403662 /* EventFoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7707448113AE262600D0C77B /* EventFoodCell.xib */; };
+		7705EA24147AFD1900403662 /* InsulinFactorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FA6CD513B6443F00D66189 /* InsulinFactorController.xib */; };
+		7705EA25147AFD1900403662 /* RootViewController-withads.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FA6CDA13B64C7900D66189 /* RootViewController-withads.xib */; };
+		7705EA26147AFD1900403662 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C66F3013C8A83A0096999A /* SettingsController.xib */; };
+		7705EA27147AFD1900403662 /* InsulinScaleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771C545C13CA293500736FB9 /* InsulinScaleController.xib */; };
+		7705EA28147AFD1900403662 /* InsulinScaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771C545F13CA316F00736FB9 /* InsulinScaleCell.xib */; };
+		7705EA29147AFD1900403662 /* DailyScheduleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7741E9C813CCD42B00B3F342 /* DailyScheduleController.xib */; };
+		7705EA2A147AFD1900403662 /* DailySchedDtlController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7741E9CD13CCDA3E00B3F342 /* DailySchedDtlController.xib */; };
+		7705EA2B147AFD1900403662 /* InsulinBrandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773D362A13E1B1000031183B /* InsulinBrandCell.xib */; };
+		7705EA2C147AFD1900403662 /* bar_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D363313E1DADD0031183B /* bar_select.png */; };
+		7705EA2D147AFD1900403662 /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D363413E1DADD0031183B /* crosshair.png */; };
+		7705EA2E147AFD1900403662 /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D363513E1DADD0031183B /* colormap.png */; };
+		7705EA30147AFD1900403662 /* ColorSchemeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779ED48F13F6F25A00BFCDB4 /* ColorSchemeCell.xib */; };
+		7705EA31147AFD1900403662 /* InsulinFactorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77EFECD313FC293A00804768 /* InsulinFactorCell.xib */; };
+		7705EA32147AFD1900403662 /* LogByDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774251931408219A000D399E /* LogByDayCell.xib */; };
+		7705EA33147AFD1900403662 /* LogByMonthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770A3575140964D200331905 /* LogByMonthViewController.xib */; };
+		7705EA34147AFD1900403662 /* EventDetailTblController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77EEF868140A838B001AFE29 /* EventDetailTblController.xib */; };
+		7705EA35147AFD1900403662 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7768ED28140D5D0800D0A82C /* NoteViewController.xib */; };
+		7705EA36147AFD1900403662 /* UpcomingReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7719416014110BE4004D959A /* UpcomingReminderViewController.xib */; };
+		7705EA37147AFD1900403662 /* UpcomingPumpSiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77448FBB14112C3F0081D822 /* UpcomingPumpSiteViewController.xib */; };
+		7705EA38147AFD1900403662 /* LogByMonthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77448FC11413AAD70081D822 /* LogByMonthCell.xib */; };
+		7705EA39147AFD1900403662 /* PredicateCriteriaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E30CF614166E8A009E15B3 /* PredicateCriteriaController.xib */; };
+		7705EA3A147AFD1900403662 /* buildingEmailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77931A08141939EA008E351F /* buildingEmailView.xib */; };
+		7705EA3D147AFD1900403662 /* AddLog-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB5141E663F0095D960 /* AddLog-Icon.png */; };
+		7705EA3E147AFD1900403662 /* Export-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB6141E663F0095D960 /* Export-Icon.png */; };
+		7705EA3F147AFD1900403662 /* Food-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB7141E663F0095D960 /* Food-Icon.png */; };
+		7705EA40147AFD1900403662 /* Graph-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB8141E663F0095D960 /* Graph-Icon.png */; };
+		7705EA41147AFD1900403662 /* Settings-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB9141E663F0095D960 /* Settings-Icon.png */; };
+		7705EA42147AFD1900403662 /* Log-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACC4141E7DBB0095D960 /* Log-Icon.png */; };
+		7705EA43147AFD1900403662 /* Button-Close-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77270593141EAAA900AFDC60 /* Button-Close-Icon.png */; };
+		7705EA46147AFD1900403662 /* PumpSiteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E2477B14211F590087E1FA /* PumpSiteController.xib */; };
+		7705EA47147AFD1900403662 /* glucose-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F00471422611D0022D872 /* glucose-mark.png */; };
+		7705EA48147AFD1900403662 /* glucose-avg.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F0049142264010022D872 /* glucose-avg.png */; };
+		7705EA49147AFD1900403662 /* carb-avg.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F004B142266800022D872 /* carb-avg.png */; };
+		7705EA4A147AFD1900403662 /* carb-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F004C142266800022D872 /* carb-mark.png */; };
+		7705EA4B147AFD1900403662 /* carb-line.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F004F14226B430022D872 /* carb-line.png */; };
+		7705EA4C147AFD1900403662 /* glucose-line.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F005014226B430022D872 /* glucose-line.png */; };
+		7705EA4D147AFD1900403662 /* LogByMonth-Select.png in Resources */ = {isa = PBXBuildFile; fileRef = 7759FC6D14239408006D03D6 /* LogByMonth-Select.png */; };
+		7705EA4E147AFD1900403662 /* LogByDay-Select.png in Resources */ = {isa = PBXBuildFile; fileRef = 7759FC6F142396A4006D03D6 /* LogByDay-Select.png */; };
+		7705EA4F147AFD1900403662 /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A1F14B14263070008BB6DF /* SetupViewController.xib */; };
+		7705EA50147AFD1900403662 /* WelcomeContent.html in Resources */ = {isa = PBXBuildFile; fileRef = 77229C851428DB8500BB5251 /* WelcomeContent.html */; };
+		7705EA51147AFD1900403662 /* WelcomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E168281428FB7F0040CB3F /* WelcomeButton.png */; };
+		7705EA52147AFD1900403662 /* ColorSchemes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77F14680142B86E900167B57 /* ColorSchemes.plist */; };
+		7705EA53147AFD1900403662 /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91F031434AAFC0068B237 /* back-arrow.png */; };
+		7705EA54147AFD1900403662 /* InsulinOnBoardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771135691441F51B00E7F56F /* InsulinOnBoardCell.xib */; };
+		7705EA55147AFD1900403662 /* InsulinOnBoardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7711356A1441F51B00E7F56F /* InsulinOnBoardController.xib */; };
+		7705EA56147AFD1900403662 /* ExerciseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772C6D29144603CE00E9CA07 /* ExerciseController.xib */; };
+		7705EA57147AFD1900403662 /* ExerciseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772C6D2B1446041200E9CA07 /* ExerciseCell.xib */; };
+		7705EA58147AFD1900403662 /* exercise-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 778349AB14460FB300C00ECA /* exercise-icon.png */; };
+		7705EA59147AFD1900403662 /* IOB-off-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 778349AD144612DA00C00ECA /* IOB-off-icon.png */; };
+		7705EA5A147AFD1900403662 /* IOB-on-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 778349AE144612DA00C00ECA /* IOB-on-icon.png */; };
+		7705EA5B147AFD1900403662 /* strikethrough.png in Resources */ = {isa = PBXBuildFile; fileRef = 77DE5D8B14470C4700B97309 /* strikethrough.png */; };
+		7705EA5C147AFD1900403662 /* Food-Icon-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 77DE5D8D1447169200B97309 /* Food-Icon-sm.png */; };
+		7705EA5D147AFD1900403662 /* IOBFactors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77D84A8C144A1669009548B7 /* IOBFactors.plist */; };
+		7705EA5E147AFD1900403662 /* Sites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77D84A8D144A1669009548B7 /* Sites.plist */; };
+		7705EA5F147AFD1900403662 /* KetoneValues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77D84A8E144A1669009548B7 /* KetoneValues.plist */; };
+		7705EA60147AFD1900403662 /* InsulinBrands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77D715B1144B7C6400B7205C /* InsulinBrands.plist */; };
+		7705EA61147AFD1900403662 /* ExerciseTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77EE2EC914509EC700C9BF3C /* ExerciseTypes.plist */; };
+		7705EA62147AFD1900403662 /* ActiveDBName.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77C3C420146C845700FE148F /* ActiveDBName.plist */; };
+		7705EA63147AFD1900403662 /* ActiveDatabaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7739F367146D68AB00025E2A /* ActiveDatabaseVC.xib */; };
+		7705EA66147AFD1900403662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		7705EA67147AFD1900403662 /* DiabetesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiabetesAppDelegate.m */; };
+		7705EA68147AFD1900403662 /* LogByDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* LogByDayViewController.m */; };
+		7705EA69147AFD1900403662 /* Diabetes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* Diabetes.xcdatamodeld */; };
+		7705EA6A147AFD1900403662 /* InsulinBrandsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C169DC139D0EC6005D9F42 /* InsulinBrandsController.m */; };
+		7705EA6B147AFD1900403662 /* FoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774C1927139FF1260032EFE9 /* FoodController.m */; };
+		7705EA6C147AFD1900403662 /* EventFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7709505113AA5D89007393EC /* EventFoodController.m */; };
+		7705EA6D147AFD1900403662 /* InsulinFactorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA6CD413B6443F00D66189 /* InsulinFactorController.m */; };
+		7705EA6E147AFD1900403662 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA6CD913B64C7900D66189 /* RootViewController.m */; };
+		7705EA6F147AFD1900403662 /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B7904313B79A7900DFCD7E /* DataService.m */; };
+		7705EA70147AFD1900403662 /* FoodWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F30CB213C4BA5700B8D7D5 /* FoodWeight.m */; };
+		7705EA71147AFD1900403662 /* EventFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F30CD013C4BA5800B8D7D5 /* EventFood.m */; };
+		7705EA72147AFD1900403662 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C66F2F13C8A83A0096999A /* SettingsController.m */; };
+		7705EA73147AFD1900403662 /* InsulinScaleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771C545B13CA293500736FB9 /* InsulinScaleController.m */; };
+		7705EA74147AFD1900403662 /* DailyScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7741E9C713CCD42B00B3F342 /* DailyScheduleController.m */; };
+		7705EA75147AFD1900403662 /* DailySchedDtlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7741E9CC13CCDA3E00B3F342 /* DailySchedDtlController.m */; };
+		7705EA76147AFD1900403662 /* PumpSiteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B624B513D5D29E00FC490B /* PumpSiteController.m */; };
+		7705EA77147AFD1900403662 /* KetoneValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 772C9CC213DF16BA00CAE9E1 /* KetoneValue.m */; };
+		7705EA78147AFD1900403662 /* ColorTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768A2EA13E206B4006922F1 /* ColorTransformer.m */; };
+		7705EA79147AFD1900403662 /* ColorScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E74CEA13E4824500C74A0E /* ColorScheme.m */; };
+		7705EA7A147AFD1900403662 /* GraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9CF0813E5EADC003CFFE2 /* GraphController.m */; };
+		7705EA7B147AFD1900403662 /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F221FA13F13172002DED77 /* FoodItem.m */; };
+		7705EA7C147AFD1900403662 /* InsulinFactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7717F58A13FD5AC200ACDCFE /* InsulinFactor.m */; };
+		7705EA7D147AFD1900403662 /* InsulinScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 7717F58D13FD5B7100ACDCFE /* InsulinScale.m */; };
+		7705EA7E147AFD1900403662 /* LogByMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A3574140964D100331905 /* LogByMonthViewController.m */; };
+		7705EA7F147AFD1900403662 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768ED27140D5D0800D0A82C /* NoteViewController.m */; };
+		7705EA80147AFD1900403662 /* UpcomingReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719415F14110BE4004D959A /* UpcomingReminderViewController.m */; };
+		7705EA81147AFD1900403662 /* UpcomingPumpSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77448FBA14112C3F0081D822 /* UpcomingPumpSiteViewController.m */; };
+		7705EA82147AFD1900403662 /* PeriodStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 77448FBF1412A72B0081D822 /* PeriodStatistics.m */; };
+		7705EA83147AFD1900403662 /* PredicateCriteriaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E30CF514166E8A009E15B3 /* PredicateCriteriaController.m */; };
+		7705EA84147AFD1900403662 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1F14A14263070008BB6DF /* SetupViewController.m */; };
+		7705EA86147AFD1900403662 /* InsulinBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7785623A142A51EF00A66E09 /* InsulinBrand.m */; };
+		7705EA87147AFD1900403662 /* DailySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7785623D142A51F000A66E09 /* DailySchedule.m */; };
+		7705EA88147AFD1900403662 /* PickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F6B3C5143CCC02003EE1A8 /* PickerLabel.m */; };
+		7705EA89147AFD1900403662 /* IOBFactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E49E251441CE6B0058FE28 /* IOBFactor.m */; };
+		7705EA8A147AFD1900403662 /* InsulinOnBoardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771135671441F4E700E7F56F /* InsulinOnBoardController.m */; };
+		7705EA8B147AFD1900403662 /* ExerciseType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7711357A144319B800E7F56F /* ExerciseType.m */; };
+		7705EA8C147AFD1900403662 /* ExerciseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772C6D271445FFA600E9CA07 /* ExerciseController.m */; };
+		7705EA8D147AFD1900403662 /* EventDetailTblController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778FA7231449A79300F32C86 /* EventDetailTblController.m */; };
+		7705EA8E147AFD1900403662 /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7712F833146AC72200637BD0 /* CSVParser.m */; };
+		7705EA8F147AFD1900403662 /* CSVParserReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7712F835146AC72200637BD0 /* CSVParserReceiver.m */; };
+		7705EA90147AFD1900403662 /* ActiveDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7739F366146D68AB00025E2A /* ActiveDatabaseVC.m */; };
+		7705EA91147AFD1900403662 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 776239841472CB1F00E7B6D9 /* Event.m */; };
+		7705EA92147AFD1900403662 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 770B10981473EDD3005B2292 /* Site.m */; };
+		7705EA94147AFD1900403662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		7705EA95147AFD1900403662 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		7705EA96147AFD1900403662 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		7705EA97147AFD1900403662 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		7705EA98147AFD1900403662 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E1117213D8A58F00BB39A9 /* MessageUI.framework */; };
+		7705EA9A147AFD1900403662 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B9CF0013E5E8B9003CFFE2 /* QuartzCore.framework */; };
+		770B10991473EDD3005B2292 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 770B10981473EDD3005B2292 /* Site.m */; };
+		7712F836146AC72200637BD0 /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7712F833146AC72200637BD0 /* CSVParser.m */; };
+		7712F837146AC72200637BD0 /* CSVParserReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7712F835146AC72200637BD0 /* CSVParserReceiver.m */; };
+		7712FBA114A0C50A0017844D /* Diabetes-Retina-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7712FBA014A0C50A0017844D /* Diabetes-Retina-Icon.png */; };
+		771D0D1D14505D2100DC4E4D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		771D0D1E14505D2100DC4E4D /* LogByDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* LogByDayViewController.xib */; };
+		771D0D1F14505D2100DC4E4D /* InsulinBrandsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C169DD139D0EC6005D9F42 /* InsulinBrandsController.xib */; };
+		771D0D2014505D2100DC4E4D /* FoodController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774C1928139FF1260032EFE9 /* FoodController.xib */; };
+		771D0D2114505D2100DC4E4D /* EventFoodController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7709505213AA5D89007393EC /* EventFoodController.xib */; };
+		771D0D2214505D2100DC4E4D /* EventFoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7707448113AE262600D0C77B /* EventFoodCell.xib */; };
+		771D0D2314505D2100DC4E4D /* InsulinFactorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FA6CD513B6443F00D66189 /* InsulinFactorController.xib */; };
+		771D0D2414505D2100DC4E4D /* RootViewController-withads.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FA6CDA13B64C7900D66189 /* RootViewController-withads.xib */; };
+		771D0D2514505D2100DC4E4D /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C66F3013C8A83A0096999A /* SettingsController.xib */; };
+		771D0D2614505D2100DC4E4D /* InsulinScaleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771C545C13CA293500736FB9 /* InsulinScaleController.xib */; };
+		771D0D2714505D2100DC4E4D /* InsulinScaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771C545F13CA316F00736FB9 /* InsulinScaleCell.xib */; };
+		771D0D2814505D2100DC4E4D /* DailyScheduleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7741E9C813CCD42B00B3F342 /* DailyScheduleController.xib */; };
+		771D0D2914505D2100DC4E4D /* DailySchedDtlController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7741E9CD13CCDA3E00B3F342 /* DailySchedDtlController.xib */; };
+		771D0D2A14505D2100DC4E4D /* InsulinBrandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773D362A13E1B1000031183B /* InsulinBrandCell.xib */; };
+		771D0D2B14505D2100DC4E4D /* bar_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D363313E1DADD0031183B /* bar_select.png */; };
+		771D0D2C14505D2100DC4E4D /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D363413E1DADD0031183B /* crosshair.png */; };
+		771D0D2D14505D2100DC4E4D /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D363513E1DADD0031183B /* colormap.png */; };
+		771D0D2F14505D2100DC4E4D /* ColorSchemeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779ED48F13F6F25A00BFCDB4 /* ColorSchemeCell.xib */; };
+		771D0D3014505D2100DC4E4D /* InsulinFactorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77EFECD313FC293A00804768 /* InsulinFactorCell.xib */; };
+		771D0D3114505D2100DC4E4D /* LogByDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774251931408219A000D399E /* LogByDayCell.xib */; };
+		771D0D3214505D2100DC4E4D /* LogByMonthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770A3575140964D200331905 /* LogByMonthViewController.xib */; };
+		771D0D3314505D2100DC4E4D /* EventDetailTblController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77EEF868140A838B001AFE29 /* EventDetailTblController.xib */; };
+		771D0D3414505D2100DC4E4D /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7768ED28140D5D0800D0A82C /* NoteViewController.xib */; };
+		771D0D3514505D2100DC4E4D /* UpcomingReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7719416014110BE4004D959A /* UpcomingReminderViewController.xib */; };
+		771D0D3614505D2100DC4E4D /* UpcomingPumpSiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77448FBB14112C3F0081D822 /* UpcomingPumpSiteViewController.xib */; };
+		771D0D3714505D2100DC4E4D /* LogByMonthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77448FC11413AAD70081D822 /* LogByMonthCell.xib */; };
+		771D0D3814505D2100DC4E4D /* PredicateCriteriaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E30CF614166E8A009E15B3 /* PredicateCriteriaController.xib */; };
+		771D0D3914505D2100DC4E4D /* buildingEmailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77931A08141939EA008E351F /* buildingEmailView.xib */; };
+		771D0D3C14505D2100DC4E4D /* AddLog-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB5141E663F0095D960 /* AddLog-Icon.png */; };
+		771D0D3D14505D2100DC4E4D /* Export-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB6141E663F0095D960 /* Export-Icon.png */; };
+		771D0D3E14505D2100DC4E4D /* Food-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB7141E663F0095D960 /* Food-Icon.png */; };
+		771D0D3F14505D2100DC4E4D /* Graph-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB8141E663F0095D960 /* Graph-Icon.png */; };
+		771D0D4014505D2100DC4E4D /* Settings-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACB9141E663F0095D960 /* Settings-Icon.png */; };
+		771D0D4114505D2100DC4E4D /* Log-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7745ACC4141E7DBB0095D960 /* Log-Icon.png */; };
+		771D0D4214505D2100DC4E4D /* Button-Close-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77270593141EAAA900AFDC60 /* Button-Close-Icon.png */; };
+		771D0D4514505D2100DC4E4D /* PumpSiteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E2477B14211F590087E1FA /* PumpSiteController.xib */; };
+		771D0D4614505D2100DC4E4D /* glucose-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F00471422611D0022D872 /* glucose-mark.png */; };
+		771D0D4714505D2100DC4E4D /* glucose-avg.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F0049142264010022D872 /* glucose-avg.png */; };
+		771D0D4814505D2100DC4E4D /* carb-avg.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F004B142266800022D872 /* carb-avg.png */; };
+		771D0D4914505D2100DC4E4D /* carb-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F004C142266800022D872 /* carb-mark.png */; };
+		771D0D4A14505D2100DC4E4D /* carb-line.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F004F14226B430022D872 /* carb-line.png */; };
+		771D0D4B14505D2100DC4E4D /* glucose-line.png in Resources */ = {isa = PBXBuildFile; fileRef = 772F005014226B430022D872 /* glucose-line.png */; };
+		771D0D4C14505D2100DC4E4D /* LogByMonth-Select.png in Resources */ = {isa = PBXBuildFile; fileRef = 7759FC6D14239408006D03D6 /* LogByMonth-Select.png */; };
+		771D0D4D14505D2100DC4E4D /* LogByDay-Select.png in Resources */ = {isa = PBXBuildFile; fileRef = 7759FC6F142396A4006D03D6 /* LogByDay-Select.png */; };
+		771D0D4E14505D2100DC4E4D /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77A1F14B14263070008BB6DF /* SetupViewController.xib */; };
+		771D0D4F14505D2100DC4E4D /* WelcomeContent.html in Resources */ = {isa = PBXBuildFile; fileRef = 77229C851428DB8500BB5251 /* WelcomeContent.html */; };
+		771D0D5014505D2100DC4E4D /* WelcomeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E168281428FB7F0040CB3F /* WelcomeButton.png */; };
+		771D0D5114505D2100DC4E4D /* ColorSchemes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77F14680142B86E900167B57 /* ColorSchemes.plist */; };
+		771D0D5214505D2100DC4E4D /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E91F031434AAFC0068B237 /* back-arrow.png */; };
+		771D0D5314505D2100DC4E4D /* InsulinOnBoardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771135691441F51B00E7F56F /* InsulinOnBoardCell.xib */; };
+		771D0D5414505D2100DC4E4D /* InsulinOnBoardController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7711356A1441F51B00E7F56F /* InsulinOnBoardController.xib */; };
+		771D0D5514505D2100DC4E4D /* ExerciseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772C6D29144603CE00E9CA07 /* ExerciseController.xib */; };
+		771D0D5614505D2100DC4E4D /* ExerciseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772C6D2B1446041200E9CA07 /* ExerciseCell.xib */; };
+		771D0D5714505D2100DC4E4D /* exercise-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 778349AB14460FB300C00ECA /* exercise-icon.png */; };
+		771D0D5814505D2100DC4E4D /* IOB-off-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 778349AD144612DA00C00ECA /* IOB-off-icon.png */; };
+		771D0D5914505D2100DC4E4D /* IOB-on-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 778349AE144612DA00C00ECA /* IOB-on-icon.png */; };
+		771D0D5A14505D2100DC4E4D /* strikethrough.png in Resources */ = {isa = PBXBuildFile; fileRef = 77DE5D8B14470C4700B97309 /* strikethrough.png */; };
+		771D0D5B14505D2100DC4E4D /* Food-Icon-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 77DE5D8D1447169200B97309 /* Food-Icon-sm.png */; };
+		771D0D5D14505D2100DC4E4D /* IOBFactors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77D84A8C144A1669009548B7 /* IOBFactors.plist */; };
+		771D0D5E14505D2100DC4E4D /* Sites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77D84A8D144A1669009548B7 /* Sites.plist */; };
+		771D0D5F14505D2100DC4E4D /* KetoneValues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77D84A8E144A1669009548B7 /* KetoneValues.plist */; };
+		771D0D6114505D2100DC4E4D /* InsulinBrands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77D715B1144B7C6400B7205C /* InsulinBrands.plist */; };
+		771D0D6314505D2100DC4E4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		771D0D6414505D2100DC4E4D /* DiabetesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiabetesAppDelegate.m */; };
+		771D0D6514505D2100DC4E4D /* LogByDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* LogByDayViewController.m */; };
+		771D0D6614505D2100DC4E4D /* Diabetes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* Diabetes.xcdatamodeld */; };
+		771D0D6714505D2100DC4E4D /* InsulinBrandsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C169DC139D0EC6005D9F42 /* InsulinBrandsController.m */; };
+		771D0D6814505D2100DC4E4D /* FoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774C1927139FF1260032EFE9 /* FoodController.m */; };
+		771D0D6914505D2100DC4E4D /* EventFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7709505113AA5D89007393EC /* EventFoodController.m */; };
+		771D0D6A14505D2100DC4E4D /* InsulinFactorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA6CD413B6443F00D66189 /* InsulinFactorController.m */; };
+		771D0D6B14505D2100DC4E4D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FA6CD913B64C7900D66189 /* RootViewController.m */; };
+		771D0D6C14505D2100DC4E4D /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B7904313B79A7900DFCD7E /* DataService.m */; };
+		771D0D6D14505D2100DC4E4D /* FoodWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F30CB213C4BA5700B8D7D5 /* FoodWeight.m */; };
+		771D0D6F14505D2100DC4E4D /* EventFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F30CD013C4BA5800B8D7D5 /* EventFood.m */; };
+		771D0D7014505D2100DC4E4D /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C66F2F13C8A83A0096999A /* SettingsController.m */; };
+		771D0D7114505D2100DC4E4D /* InsulinScaleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771C545B13CA293500736FB9 /* InsulinScaleController.m */; };
+		771D0D7214505D2100DC4E4D /* DailyScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7741E9C713CCD42B00B3F342 /* DailyScheduleController.m */; };
+		771D0D7314505D2100DC4E4D /* DailySchedDtlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7741E9CC13CCDA3E00B3F342 /* DailySchedDtlController.m */; };
+		771D0D7414505D2100DC4E4D /* PumpSiteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B624B513D5D29E00FC490B /* PumpSiteController.m */; };
+		771D0D7514505D2100DC4E4D /* KetoneValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 772C9CC213DF16BA00CAE9E1 /* KetoneValue.m */; };
+		771D0D7614505D2100DC4E4D /* ColorTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768A2EA13E206B4006922F1 /* ColorTransformer.m */; };
+		771D0D7714505D2100DC4E4D /* ColorScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E74CEA13E4824500C74A0E /* ColorScheme.m */; };
+		771D0D7814505D2100DC4E4D /* GraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9CF0813E5EADC003CFFE2 /* GraphController.m */; };
+		771D0D7914505D2100DC4E4D /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F221FA13F13172002DED77 /* FoodItem.m */; };
+		771D0D7A14505D2100DC4E4D /* InsulinFactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7717F58A13FD5AC200ACDCFE /* InsulinFactor.m */; };
+		771D0D7B14505D2100DC4E4D /* InsulinScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 7717F58D13FD5B7100ACDCFE /* InsulinScale.m */; };
+		771D0D7C14505D2100DC4E4D /* LogByMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A3574140964D100331905 /* LogByMonthViewController.m */; };
+		771D0D7D14505D2100DC4E4D /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768ED27140D5D0800D0A82C /* NoteViewController.m */; };
+		771D0D7E14505D2100DC4E4D /* UpcomingReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7719415F14110BE4004D959A /* UpcomingReminderViewController.m */; };
+		771D0D7F14505D2100DC4E4D /* UpcomingPumpSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77448FBA14112C3F0081D822 /* UpcomingPumpSiteViewController.m */; };
+		771D0D8014505D2100DC4E4D /* PeriodStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 77448FBF1412A72B0081D822 /* PeriodStatistics.m */; };
+		771D0D8114505D2100DC4E4D /* PredicateCriteriaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E30CF514166E8A009E15B3 /* PredicateCriteriaController.m */; };
+		771D0D8214505D2100DC4E4D /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1F14A14263070008BB6DF /* SetupViewController.m */; };
+		771D0D8414505D2100DC4E4D /* InsulinBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7785623A142A51EF00A66E09 /* InsulinBrand.m */; };
+		771D0D8514505D2100DC4E4D /* DailySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7785623D142A51F000A66E09 /* DailySchedule.m */; };
+		771D0D8614505D2100DC4E4D /* PickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F6B3C5143CCC02003EE1A8 /* PickerLabel.m */; };
+		771D0D8714505D2100DC4E4D /* IOBFactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E49E251441CE6B0058FE28 /* IOBFactor.m */; };
+		771D0D8814505D2100DC4E4D /* InsulinOnBoardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771135671441F4E700E7F56F /* InsulinOnBoardController.m */; };
+		771D0D8914505D2100DC4E4D /* ExerciseType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7711357A144319B800E7F56F /* ExerciseType.m */; };
+		771D0D8A14505D2100DC4E4D /* ExerciseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772C6D271445FFA600E9CA07 /* ExerciseController.m */; };
+		771D0D8C14505D2100DC4E4D /* EventDetailTblController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778FA7231449A79300F32C86 /* EventDetailTblController.m */; };
+		771D0D8E14505D2100DC4E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		771D0D8F14505D2100DC4E4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		771D0D9014505D2100DC4E4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		771D0D9114505D2100DC4E4D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		771D0D9214505D2100DC4E4D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E1117213D8A58F00BB39A9 /* MessageUI.framework */; };
+		771D0D9414505D2100DC4E4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B9CF0013E5E8B9003CFFE2 /* QuartzCore.framework */; };
+		7738FD4A1527B06F00683ADA /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7738FD491527B06F00683ADA /* Appirater.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7738FD4B1527B06F00683ADA /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7738FD491527B06F00683ADA /* Appirater.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7739F368146D68AB00025E2A /* ActiveDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7739F366146D68AB00025E2A /* ActiveDatabaseVC.m */; };
+		7739F369146D68AB00025E2A /* ActiveDatabaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7739F367146D68AB00025E2A /* ActiveDatabaseVC.xib */; };
+		774C0179147D775E00A293ED /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 774C0177147D775E00A293ED /* Icon.png */; };
+		774C017A147D775E00A293ED /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 774C0178147D775E00A293ED /* Icon@2x.png */; };
+		774C0181147D77BB00A293ED /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 774C017B147D777900A293ED /* Icon.png */; };
+		776239851472CB1F00E7B6D9 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 776239841472CB1F00E7B6D9 /* Event.m */; };
+		77640A74148422CF0050B90A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77640A73148422CF0050B90A /* iAd.framework */; };
+		77640A75148422D40050B90A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77640A73148422CF0050B90A /* iAd.framework */; };
+		776F5A48147C4A74004F1869 /* BuyItVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C9FAB147C41570011A4A6 /* BuyItVC.m */; };
+		776F5A49147C4ADA004F1869 /* BuyItVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779C9FAC147C41570011A4A6 /* BuyItVC.xib */; };
+		779C9FAD147C41570011A4A6 /* BuyItVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C9FAB147C41570011A4A6 /* BuyItVC.m */; };
+		779C9FAE147C41570011A4A6 /* BuyItVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779C9FAC147C41570011A4A6 /* BuyItVC.xib */; };
+		77C3C421146C845700FE148F /* ActiveDBName.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77C3C420146C845700FE148F /* ActiveDBName.plist */; };
+		77D7A65D147D678800ED531B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77D7A65B147D678800ED531B /* Default.png */; };
+		77D7A65E147D678800ED531B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77D7A65C147D678800ED531B /* Default@2x.png */; };
+		77E4337515267F8C00B7423E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E4337415267F8C00B7423E /* RootViewController.xib */; };
+		77E4337615267F8C00B7423E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E4337415267F8C00B7423E /* RootViewController.xib */; };
+		77E43395152743ED00B7423E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E43389152743ED00B7423E /* Localizable.strings */; };
+		77E43396152743ED00B7423E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E43389152743ED00B7423E /* Localizable.strings */; };
+		77E4339A1527474100B7423E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E433991527474100B7423E /* CFNetwork.framework */; };
+		77E4339B1527474100B7423E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E433991527474100B7423E /* CFNetwork.framework */; };
+		77E4339D1527476500B7423E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E4339C1527476500B7423E /* SystemConfiguration.framework */; };
+		77E4339E1527476500B7423E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E4339C1527476500B7423E /* SystemConfiguration.framework */; };
+		77EE2ECA14509EC700C9BF3C /* ExerciseTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77EE2EC914509EC700C9BF3C /* ExerciseTypes.plist */; };
+		CE14D93D17A82A580029B32A /* Diabetes.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CE14D93C17A82A570029B32A /* Diabetes.sqlite */; };
+		CE14D93E17A82A580029B32A /* Diabetes.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CE14D93C17A82A570029B32A /* Diabetes.sqlite */; };
+		CE191E4B1E7D9F39009DEDDB /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE6C2F81E76E47100864BA9 /* libCorePlot-CocoaTouch.a */; };
+		CE191E4F1E7DA21B009DEDDB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE191E4E1E7DA21B009DEDDB /* Accelerate.framework */; };
+		CE1C9FBC16D80BE80051DA38 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1C9FBB16D80BE80051DA38 /* Settings.m */; };
+		CE1C9FBD16D80BE80051DA38 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1C9FBB16D80BE80051DA38 /* Settings.m */; };
+		CE37D26D19B232CF0011DBD3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE37D26C19B232CF0011DBD3 /* GameKit.framework */; };
+		CE37D26F19B232DB0011DBD3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE37D26E19B232DB0011DBD3 /* StoreKit.framework */; };
+		CE4FD42817E39CC200A4EC8B /* Diabetes-58.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4FD42517E39CC200A4EC8B /* Diabetes-58.png */; };
+		CE4FD42917E39CC200A4EC8B /* Diabetes-80.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4FD42617E39CC200A4EC8B /* Diabetes-80.png */; };
+		CE4FD42A17E39CC200A4EC8B /* Diabetes-120.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4FD42717E39CC200A4EC8B /* Diabetes-120.png */; };
+		CE5FEFDA19AA36EB0074500B /* InputAccessory.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5FEFD919AA36EB0074500B /* InputAccessory.xib */; };
+		CE5FEFDB19AA36EB0074500B /* InputAccessory.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5FEFD919AA36EB0074500B /* InputAccessory.xib */; };
+		CE5FEFDE19AA518C0074500B /* Button-Close-square.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5FEFDD19AA518C0074500B /* Button-Close-square.png */; };
+		CE5FEFDF19AA518C0074500B /* Button-Close-square.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5FEFDD19AA518C0074500B /* Button-Close-square.png */; };
+		CE62C9FD1E7D9274002F3988 /* GraphController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE62C9FC1E7D9274002F3988 /* GraphController.xib */; };
+		CE62C9FE1E7D9274002F3988 /* GraphController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE62C9FC1E7D9274002F3988 /* GraphController.xib */; };
+		CEA71D17160DC65F006CDCB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA71D14160DC65F006CDCB5 /* Default-568h@2x.png */; };
+		CEA71D18160DC65F006CDCB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA71D15160DC65F006CDCB5 /* Default.png */; };
+		CEA71D19160DC65F006CDCB5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA71D16160DC65F006CDCB5 /* Default@2x.png */; };
+		CEA71D1B160DC688006CDCB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA71D1A160DC688006CDCB5 /* Default-568h@2x.png */; };
+		CEA71D1D160DC6BD006CDCB5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA71D1C160DC6BD006CDCB5 /* Icon@2x.png */; };
+		CEAF3BE815CF00A700FC121C /* SiteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF3BE615CF00A700FC121C /* SiteVC.m */; };
+		CEAF3BE915CF00A700FC121C /* SiteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF3BE615CF00A700FC121C /* SiteVC.m */; };
+		CEAF3BEA15CF00A700FC121C /* SiteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAF3BE715CF00A700FC121C /* SiteVC.xib */; };
+		CEAF3BEB15CF00A700FC121C /* SiteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAF3BE715CF00A700FC121C /* SiteVC.xib */; };
+		CECE14811F857E2E00A5BA98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECE14801F857E2E00A5BA98 /* Images.xcassets */; };
+		CEFC764217E75F1800CF540D /* Diabetes-Lite-58.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFC763F17E75F1800CF540D /* Diabetes-Lite-58.png */; };
+		CEFC764317E75F1800CF540D /* Diabetes-Lite-80.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFC764017E75F1800CF540D /* Diabetes-Lite-80.png */; };
+		CEFC764417E75F1800CF540D /* Diabetes-Lite-120.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFC764117E75F1800CF540D /* Diabetes-Lite-120.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE7667A19107A6600461FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE7667019107A6500461FEC /* DiabetesLoadUtility.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = DiabetesLoadUtility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DiabetesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiabetesAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DiabetesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiabetesAppDelegate.m; sourceTree = "<group>"; wrapsLines = 1; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860B760F44E54D00985440 /* Diabetes.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Diabetes.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* LogByDayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LogByDayViewController.xib; path = xib/LogByDayViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* Diabetes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diabetes_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = xib/MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* LogByDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogByDayViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* LogByDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LogByDayViewController.m; sourceTree = "<group>"; wrapsLines = 1; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7705EA9F147AFD1900403662 /* D360 Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D360 Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7707448113AE262600D0C77B /* EventFoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventFoodCell.xib; path = xib/EventFoodCell.xib; sourceTree = "<group>"; };
+		7709505013AA5D89007393EC /* EventFoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventFoodController.h; sourceTree = "<group>"; };
+		7709505113AA5D89007393EC /* EventFoodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventFoodController.m; sourceTree = "<group>"; };
+		7709505213AA5D89007393EC /* EventFoodController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventFoodController.xib; path = xib/EventFoodController.xib; sourceTree = "<group>"; };
+		770A3573140964D100331905 /* LogByMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogByMonthViewController.h; sourceTree = "<group>"; };
+		770A3574140964D100331905 /* LogByMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogByMonthViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		770A3575140964D200331905 /* LogByMonthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogByMonthViewController.xib; path = xib/LogByMonthViewController.xib; sourceTree = "<group>"; };
+		770B10971473EDD3005B2292 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Site.h; path = Classes/Site.h; sourceTree = "<group>"; };
+		770B10981473EDD3005B2292 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Site.m; path = Classes/Site.m; sourceTree = "<group>"; };
+		771135661441F4E700E7F56F /* InsulinOnBoardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsulinOnBoardController.h; sourceTree = "<group>"; };
+		771135671441F4E700E7F56F /* InsulinOnBoardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = InsulinOnBoardController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		771135691441F51B00E7F56F /* InsulinOnBoardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InsulinOnBoardCell.xib; path = xib/InsulinOnBoardCell.xib; sourceTree = "<group>"; };
+		7711356A1441F51B00E7F56F /* InsulinOnBoardController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InsulinOnBoardController.xib; path = xib/InsulinOnBoardController.xib; sourceTree = "<group>"; };
+		77113579144319B800E7F56F /* ExerciseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseType.h; path = Classes/ExerciseType.h; sourceTree = "<group>"; };
+		7711357A144319B800E7F56F /* ExerciseType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseType.m; path = Classes/ExerciseType.m; sourceTree = "<group>"; };
+		7712F832146AC72200637BD0 /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		7712F833146AC72200637BD0 /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		7712F834146AC72200637BD0 /* CSVParserReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSVParserReceiver.h; path = ../CSVParserReceiver.h; sourceTree = "<group>"; };
+		7712F835146AC72200637BD0 /* CSVParserReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSVParserReceiver.m; path = ../CSVParserReceiver.m; sourceTree = "<group>"; };
+		7712FBA014A0C50A0017844D /* Diabetes-Retina-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Diabetes-Retina-Icon.png"; path = "Graphics/Diabetes-Retina-Icon.png"; sourceTree = "<group>"; };
+		7717F58913FD5AC200ACDCFE /* InsulinFactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsulinFactor.h; path = Classes/InsulinFactor.h; sourceTree = "<group>"; };
+		7717F58A13FD5AC200ACDCFE /* InsulinFactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsulinFactor.m; path = Classes/InsulinFactor.m; sourceTree = "<group>"; };
+		7717F58C13FD5B7100ACDCFE /* InsulinScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsulinScale.h; path = Classes/InsulinScale.h; sourceTree = "<group>"; };
+		7717F58D13FD5B7100ACDCFE /* InsulinScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsulinScale.m; path = Classes/InsulinScale.m; sourceTree = "<group>"; };
+		7719415E14110BE4004D959A /* UpcomingReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpcomingReminderViewController.h; sourceTree = "<group>"; };
+		7719415F14110BE4004D959A /* UpcomingReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpcomingReminderViewController.m; sourceTree = "<group>"; };
+		7719416014110BE4004D959A /* UpcomingReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UpcomingReminderViewController.xib; path = xib/UpcomingReminderViewController.xib; sourceTree = "<group>"; };
+		771C545A13CA293400736FB9 /* InsulinScaleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsulinScaleController.h; sourceTree = "<group>"; };
+		771C545B13CA293500736FB9 /* InsulinScaleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = InsulinScaleController.m; sourceTree = "<group>"; wrapsLines = 0; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		771C545C13CA293500736FB9 /* InsulinScaleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InsulinScaleController.xib; path = xib/InsulinScaleController.xib; sourceTree = "<group>"; };
+		771C545F13CA316F00736FB9 /* InsulinScaleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InsulinScaleCell.xib; path = xib/InsulinScaleCell.xib; sourceTree = "<group>"; };
+		771D0D9914505D2100DC4E4D /* Diabetes360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diabetes360.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77229C851428DB8500BB5251 /* WelcomeContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WelcomeContent.html; sourceTree = "<group>"; };
+		77270593141EAAA900AFDC60 /* Button-Close-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-Close-Icon.png"; path = "images/Button-Close-Icon.png"; sourceTree = "<group>"; };
+		772C6D261445FFA600E9CA07 /* ExerciseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseController.h; sourceTree = "<group>"; };
+		772C6D271445FFA600E9CA07 /* ExerciseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ExerciseController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		772C6D29144603CE00E9CA07 /* ExerciseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExerciseController.xib; path = xib/ExerciseController.xib; sourceTree = "<group>"; };
+		772C6D2B1446041200E9CA07 /* ExerciseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExerciseCell.xib; path = xib/ExerciseCell.xib; sourceTree = "<group>"; };
+		772C9CC113DF16BA00CAE9E1 /* KetoneValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KetoneValue.h; path = Classes/KetoneValue.h; sourceTree = "<group>"; };
+		772C9CC213DF16BA00CAE9E1 /* KetoneValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KetoneValue.m; path = Classes/KetoneValue.m; sourceTree = "<group>"; };
+		772F00471422611D0022D872 /* glucose-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glucose-mark.png"; path = "Graphics/glucose-mark.png"; sourceTree = "<group>"; };
+		772F0049142264010022D872 /* glucose-avg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glucose-avg.png"; path = "Graphics/glucose-avg.png"; sourceTree = "<group>"; };
+		772F004B142266800022D872 /* carb-avg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "carb-avg.png"; path = "Graphics/carb-avg.png"; sourceTree = "<group>"; };
+		772F004C142266800022D872 /* carb-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "carb-mark.png"; path = "Graphics/carb-mark.png"; sourceTree = "<group>"; };
+		772F004F14226B430022D872 /* carb-line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "carb-line.png"; path = "Graphics/carb-line.png"; sourceTree = "<group>"; };
+		772F005014226B430022D872 /* glucose-line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glucose-line.png"; path = "Graphics/glucose-line.png"; sourceTree = "<group>"; };
+		7738FD481527B06F00683ADA /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Appirater.h; path = ../../Appirater/Appirater.h; sourceTree = "<group>"; };
+		7738FD491527B06F00683ADA /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Appirater.m; path = ../../Appirater/Appirater.m; sourceTree = "<group>"; };
+		7739F365146D68AB00025E2A /* ActiveDatabaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveDatabaseVC.h; sourceTree = "<group>"; };
+		7739F366146D68AB00025E2A /* ActiveDatabaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveDatabaseVC.m; sourceTree = "<group>"; };
+		7739F367146D68AB00025E2A /* ActiveDatabaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ActiveDatabaseVC.xib; path = xib/ActiveDatabaseVC.xib; sourceTree = "<group>"; };
+		773A4699144123D1003F7A7F /* Diabetes 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Diabetes 2.xcdatamodel"; sourceTree = "<group>"; };
+		773D362A13E1B1000031183B /* InsulinBrandCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InsulinBrandCell.xib; path = xib/InsulinBrandCell.xib; sourceTree = "<group>"; };
+		773D363313E1DADD0031183B /* bar_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_select.png; sourceTree = "<group>"; };
+		773D363413E1DADD0031183B /* crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair.png; sourceTree = "<group>"; };
+		773D363513E1DADD0031183B /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colormap.png; sourceTree = "<group>"; };
+		7741E9C613CCD42B00B3F342 /* DailyScheduleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyScheduleController.h; sourceTree = "<group>"; };
+		7741E9C713CCD42B00B3F342 /* DailyScheduleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyScheduleController.m; sourceTree = "<group>"; };
+		7741E9C813CCD42B00B3F342 /* DailyScheduleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DailyScheduleController.xib; path = xib/DailyScheduleController.xib; sourceTree = "<group>"; };
+		7741E9CB13CCDA3D00B3F342 /* DailySchedDtlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailySchedDtlController.h; sourceTree = "<group>"; };
+		7741E9CC13CCDA3E00B3F342 /* DailySchedDtlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DailySchedDtlController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7741E9CD13CCDA3E00B3F342 /* DailySchedDtlController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DailySchedDtlController.xib; path = xib/DailySchedDtlController.xib; sourceTree = "<group>"; };
+		774251931408219A000D399E /* LogByDayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogByDayCell.xib; path = xib/LogByDayCell.xib; sourceTree = "<group>"; };
+		77448FB914112C3F0081D822 /* UpcomingPumpSiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpcomingPumpSiteViewController.h; sourceTree = "<group>"; };
+		77448FBA14112C3F0081D822 /* UpcomingPumpSiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpcomingPumpSiteViewController.m; sourceTree = "<group>"; };
+		77448FBB14112C3F0081D822 /* UpcomingPumpSiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UpcomingPumpSiteViewController.xib; path = xib/UpcomingPumpSiteViewController.xib; sourceTree = "<group>"; };
+		77448FBE1412A72B0081D822 /* PeriodStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodStatistics.h; sourceTree = "<group>"; };
+		77448FBF1412A72B0081D822 /* PeriodStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodStatistics.m; sourceTree = "<group>"; };
+		77448FC11413AAD70081D822 /* LogByMonthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogByMonthCell.xib; path = xib/LogByMonthCell.xib; sourceTree = "<group>"; };
+		7745ACB5141E663F0095D960 /* AddLog-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AddLog-Icon.png"; path = "images/AddLog-Icon.png"; sourceTree = "<group>"; };
+		7745ACB6141E663F0095D960 /* Export-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Export-Icon.png"; path = "images/Export-Icon.png"; sourceTree = "<group>"; };
+		7745ACB7141E663F0095D960 /* Food-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Food-Icon.png"; path = "images/Food-Icon.png"; sourceTree = "<group>"; };
+		7745ACB8141E663F0095D960 /* Graph-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Graph-Icon.png"; path = "images/Graph-Icon.png"; sourceTree = "<group>"; };
+		7745ACB9141E663F0095D960 /* Settings-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Settings-Icon.png"; path = "images/Settings-Icon.png"; sourceTree = "<group>"; };
+		7745ACC4141E7DBB0095D960 /* Log-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Log-Icon.png"; path = "images/Log-Icon.png"; sourceTree = "<group>"; };
+		774C0177147D775E00A293ED /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "Icons and Launch Full Version/Icon.png"; sourceTree = "<group>"; };
+		774C0178147D775E00A293ED /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Icons and Launch Full Version/Icon@2x.png"; sourceTree = "<group>"; };
+		774C017B147D777900A293ED /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "Icons and Launch Lite Version/Icon.png"; sourceTree = "<group>"; };
+		774C1926139FF1260032EFE9 /* FoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FoodController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		774C1927139FF1260032EFE9 /* FoodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FoodController.m; sourceTree = "<group>"; wrapsLines = 1; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		774C1928139FF1260032EFE9 /* FoodController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FoodController.xib; path = xib/FoodController.xib; sourceTree = "<group>"; };
+		7759FC6D14239408006D03D6 /* LogByMonth-Select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LogByMonth-Select.png"; path = "Graphics/LogByMonth-Select.png"; sourceTree = "<group>"; };
+		7759FC6F142396A4006D03D6 /* LogByDay-Select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LogByDay-Select.png"; path = "Graphics/LogByDay-Select.png"; sourceTree = "<group>"; };
+		776239831472CB1F00E7B6D9 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = Classes/Event.h; sourceTree = "<group>"; };
+		776239841472CB1F00E7B6D9 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = Classes/Event.m; sourceTree = "<group>"; };
+		776239861472CFD000E7B6D9 /* Diabetes 1.03.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Diabetes 1.03.xcdatamodel"; sourceTree = "<group>"; };
+		77640A73148422CF0050B90A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7768A2E913E206B4006922F1 /* ColorTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTransformer.h; sourceTree = "<group>"; };
+		7768A2EA13E206B4006922F1 /* ColorTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTransformer.m; sourceTree = "<group>"; };
+		7768ED26140D5D0800D0A82C /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		7768ED27140D5D0800D0A82C /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		7768ED28140D5D0800D0A82C /* NoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoteViewController.xib; path = xib/NoteViewController.xib; sourceTree = "<group>"; };
+		778349AB14460FB300C00ECA /* exercise-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exercise-icon.png"; path = "Graphics/exercise-icon.png"; sourceTree = "<group>"; };
+		778349AD144612DA00C00ECA /* IOB-off-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IOB-off-icon.png"; path = "Graphics/IOB-off-icon.png"; sourceTree = "<group>"; };
+		778349AE144612DA00C00ECA /* IOB-on-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IOB-on-icon.png"; path = "Graphics/IOB-on-icon.png"; sourceTree = "<group>"; };
+		77856239142A51EF00A66E09 /* InsulinBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsulinBrand.h; path = Classes/InsulinBrand.h; sourceTree = "<group>"; };
+		7785623A142A51EF00A66E09 /* InsulinBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsulinBrand.m; path = Classes/InsulinBrand.m; sourceTree = "<group>"; };
+		7785623C142A51F000A66E09 /* DailySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DailySchedule.h; path = Classes/DailySchedule.h; sourceTree = "<group>"; };
+		7785623D142A51F000A66E09 /* DailySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DailySchedule.m; path = Classes/DailySchedule.m; sourceTree = "<group>"; };
+		778FA7221449A79300F32C86 /* EventDetailTblController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailTblController.h; sourceTree = "<group>"; };
+		778FA7231449A79300F32C86 /* EventDetailTblController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EventDetailTblController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		77931A08141939EA008E351F /* buildingEmailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = buildingEmailView.xib; path = xib/buildingEmailView.xib; sourceTree = "<group>"; };
+		779C9FAA147C41570011A4A6 /* BuyItVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyItVC.h; sourceTree = "<group>"; };
+		779C9FAB147C41570011A4A6 /* BuyItVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyItVC.m; sourceTree = "<group>"; };
+		779C9FAC147C41570011A4A6 /* BuyItVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BuyItVC.xib; path = xib/BuyItVC.xib; sourceTree = "<group>"; };
+		779ED48F13F6F25A00BFCDB4 /* ColorSchemeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ColorSchemeCell.xib; path = xib/ColorSchemeCell.xib; sourceTree = "<group>"; };
+		77A1F14914263070008BB6DF /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		77A1F14A14263070008BB6DF /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		77A1F14B14263070008BB6DF /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SetupViewController.xib; path = Classes/SetupViewController.xib; sourceTree = "<group>"; };
+		77B624B413D5D29E00FC490B /* PumpSiteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PumpSiteController.h; sourceTree = "<group>"; };
+		77B624B513D5D29E00FC490B /* PumpSiteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PumpSiteController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		77B7904213B79A7900DFCD7E /* DataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
+		77B7904313B79A7900DFCD7E /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
+		77B9CF0013E5E8B9003CFFE2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		77B9CF0713E5EADC003CFFE2 /* GraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphController.h; sourceTree = "<group>"; };
+		77B9CF0813E5EADC003CFFE2 /* GraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphController.m; sourceTree = "<group>"; };
+		77C169DB139D0EC6005D9F42 /* InsulinBrandsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = InsulinBrandsController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		77C169DC139D0EC6005D9F42 /* InsulinBrandsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = InsulinBrandsController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		77C169DD139D0EC6005D9F42 /* InsulinBrandsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InsulinBrandsController.xib; path = xib/InsulinBrandsController.xib; sourceTree = "<group>"; };
+		77C3C420146C845700FE148F /* ActiveDBName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ActiveDBName.plist; sourceTree = "<group>"; };
+		77C66F2E13C8A8390096999A /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		77C66F2F13C8A83A0096999A /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SettingsController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		77C66F3013C8A83A0096999A /* SettingsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsController.xib; path = xib/SettingsController.xib; sourceTree = "<group>"; };
+		77D715B1144B7C6400B7205C /* InsulinBrands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InsulinBrands.plist; sourceTree = "<group>"; };
+		77D7A65B147D678800ED531B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Icons and Launch Lite Version/Default.png"; sourceTree = "<group>"; };
+		77D7A65C147D678800ED531B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Icons and Launch Lite Version/Default@2x.png"; sourceTree = "<group>"; };
+		77D84A8C144A1669009548B7 /* IOBFactors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IOBFactors.plist; sourceTree = "<group>"; };
+		77D84A8D144A1669009548B7 /* Sites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sites.plist; sourceTree = "<group>"; };
+		77D84A8E144A1669009548B7 /* KetoneValues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KetoneValues.plist; sourceTree = "<group>"; };
+		77DE5D8B14470C4700B97309 /* strikethrough.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = strikethrough.png; path = Graphics/strikethrough.png; sourceTree = "<group>"; };
+		77DE5D8D1447169200B97309 /* Food-Icon-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Food-Icon-sm.png"; path = "Graphics/Food-Icon-sm.png"; sourceTree = "<group>"; };
+		77E1117213D8A58F00BB39A9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		77E168281428FB7F0040CB3F /* WelcomeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WelcomeButton.png; path = Graphics/WelcomeButton.png; sourceTree = "<group>"; };
+		77E2477B14211F590087E1FA /* PumpSiteController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PumpSiteController.xib; path = xib/PumpSiteController.xib; sourceTree = SOURCE_ROOT; };
+		77E30CF414166E8A009E15B3 /* PredicateCriteriaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredicateCriteriaController.h; sourceTree = "<group>"; };
+		77E30CF514166E8A009E15B3 /* PredicateCriteriaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredicateCriteriaController.m; sourceTree = "<group>"; };
+		77E30CF614166E8A009E15B3 /* PredicateCriteriaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PredicateCriteriaController.xib; path = xib/PredicateCriteriaController.xib; sourceTree = "<group>"; };
+		77E4337415267F8C00B7423E /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = xib/RootViewController.xib; sourceTree = "<group>"; };
+		77E4338B152743ED00B7423E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77E433991527474100B7423E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		77E4339C1527476500B7423E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		77E49E241441CE6B0058FE28 /* IOBFactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOBFactor.h; path = Classes/IOBFactor.h; sourceTree = "<group>"; };
+		77E49E251441CE6B0058FE28 /* IOBFactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOBFactor.m; path = Classes/IOBFactor.m; sourceTree = "<group>"; };
+		77E74CE913E4824500C74A0E /* ColorScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorScheme.h; path = Classes/ColorScheme.h; sourceTree = "<group>"; };
+		77E74CEA13E4824500C74A0E /* ColorScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorScheme.m; path = Classes/ColorScheme.m; sourceTree = "<group>"; };
+		77E91F031434AAFC0068B237 /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-arrow.png"; path = "Graphics/back-arrow.png"; sourceTree = "<group>"; };
+		77EE2EC914509EC700C9BF3C /* ExerciseTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExerciseTypes.plist; sourceTree = "<group>"; };
+		77EEF868140A838B001AFE29 /* EventDetailTblController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventDetailTblController.xib; path = xib/EventDetailTblController.xib; sourceTree = "<group>"; };
+		77EFECD313FC293A00804768 /* InsulinFactorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InsulinFactorCell.xib; path = xib/InsulinFactorCell.xib; sourceTree = "<group>"; };
+		77F14680142B86E900167B57 /* ColorSchemes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorSchemes.plist; sourceTree = "<group>"; };
+		77F221F913F13172002DED77 /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodItem.h; path = Classes/FoodItem.h; sourceTree = "<group>"; };
+		77F221FA13F13172002DED77 /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodItem.m; path = Classes/FoodItem.m; sourceTree = "<group>"; };
+		77F30CB113C4BA5700B8D7D5 /* FoodWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodWeight.h; path = Classes/FoodWeight.h; sourceTree = "<group>"; };
+		77F30CB213C4BA5700B8D7D5 /* FoodWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodWeight.m; path = Classes/FoodWeight.m; sourceTree = "<group>"; };
+		77F30CCF13C4BA5800B8D7D5 /* EventFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventFood.h; path = Classes/EventFood.h; sourceTree = "<group>"; };
+		77F30CD013C4BA5800B8D7D5 /* EventFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventFood.m; path = Classes/EventFood.m; sourceTree = "<group>"; };
+		77F6B3C4143CCC02003EE1A8 /* PickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerLabel.h; sourceTree = "<group>"; };
+		77F6B3C5143CCC02003EE1A8 /* PickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerLabel.m; sourceTree = "<group>"; };
+		77FA6CD313B6443F00D66189 /* InsulinFactorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsulinFactorController.h; sourceTree = "<group>"; };
+		77FA6CD413B6443F00D66189 /* InsulinFactorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = InsulinFactorController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		77FA6CD513B6443F00D66189 /* InsulinFactorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InsulinFactorController.xib; path = xib/InsulinFactorController.xib; sourceTree = "<group>"; };
+		77FA6CD813B64C7900D66189 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		77FA6CD913B64C7900D66189 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		77FA6CDA13B64C7900D66189 /* RootViewController-withads.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "RootViewController-withads.xib"; path = "xib/RootViewController-withads.xib"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Diabetes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Diabetes-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE11F6B116DFAB8C00F97EE3 /* Diabetes 1.64.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Diabetes 1.64.xcdatamodel"; sourceTree = "<group>"; };
+		CE14D93C17A82A570029B32A /* Diabetes.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Diabetes.sqlite; sourceTree = "<group>"; };
+		CE191E4E1E7DA21B009DEDDB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CE1C9FBA16D80BE80051DA38 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = Classes/Settings.h; sourceTree = "<group>"; };
+		CE1C9FBB16D80BE80051DA38 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = Classes/Settings.m; sourceTree = "<group>"; };
+		CE26D52B1E7EEA1400847AF6 /* CPTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAnimation.h; path = CorePlot/CorePlotHeaders/CPTAnimation.h; sourceTree = "<group>"; };
+		CE26D52C1E7EEA1400847AF6 /* CPTAnimationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAnimationOperation.h; path = CorePlot/CorePlotHeaders/CPTAnimationOperation.h; sourceTree = "<group>"; };
+		CE26D52D1E7EEA1400847AF6 /* CPTAnimationPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAnimationPeriod.h; path = CorePlot/CorePlotHeaders/CPTAnimationPeriod.h; sourceTree = "<group>"; };
+		CE26D52E1E7EEA1400847AF6 /* CPTAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAnnotation.h; path = CorePlot/CorePlotHeaders/CPTAnnotation.h; sourceTree = "<group>"; };
+		CE26D52F1E7EEA1400847AF6 /* CPTAnnotationHostLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAnnotationHostLayer.h; path = CorePlot/CorePlotHeaders/CPTAnnotationHostLayer.h; sourceTree = "<group>"; };
+		CE26D5301E7EEA1400847AF6 /* CPTAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAxis.h; path = CorePlot/CorePlotHeaders/CPTAxis.h; sourceTree = "<group>"; };
+		CE26D5311E7EEA1400847AF6 /* CPTAxisLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAxisLabel.h; path = CorePlot/CorePlotHeaders/CPTAxisLabel.h; sourceTree = "<group>"; };
+		CE26D5321E7EEA1400847AF6 /* CPTAxisLabelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAxisLabelGroup.h; path = CorePlot/CorePlotHeaders/CPTAxisLabelGroup.h; sourceTree = "<group>"; };
+		CE26D5331E7EEA1400847AF6 /* CPTAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAxisSet.h; path = CorePlot/CorePlotHeaders/CPTAxisSet.h; sourceTree = "<group>"; };
+		CE26D5341E7EEA1400847AF6 /* CPTAxisTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTAxisTitle.h; path = CorePlot/CorePlotHeaders/CPTAxisTitle.h; sourceTree = "<group>"; };
+		CE26D5351E7EEA1400847AF6 /* CPTBarPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTBarPlot.h; path = CorePlot/CorePlotHeaders/CPTBarPlot.h; sourceTree = "<group>"; };
+		CE26D5361E7EEA1400847AF6 /* CPTBorderedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTBorderedLayer.h; path = CorePlot/CorePlotHeaders/CPTBorderedLayer.h; sourceTree = "<group>"; };
+		CE26D5371E7EEA1400847AF6 /* CPTCalendarFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTCalendarFormatter.h; path = CorePlot/CorePlotHeaders/CPTCalendarFormatter.h; sourceTree = "<group>"; };
+		CE26D5381E7EEA1400847AF6 /* CPTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTColor.h; path = CorePlot/CorePlotHeaders/CPTColor.h; sourceTree = "<group>"; };
+		CE26D5391E7EEA1400847AF6 /* CPTColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTColorSpace.h; path = CorePlot/CorePlotHeaders/CPTColorSpace.h; sourceTree = "<group>"; };
+		CE26D53A1E7EEA1400847AF6 /* CPTConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTConstraints.h; path = CorePlot/CorePlotHeaders/CPTConstraints.h; sourceTree = "<group>"; };
+		CE26D53B1E7EEA1400847AF6 /* CPTDataSourceTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTDataSourceTestCase.h; path = CorePlot/CorePlotHeaders/CPTDataSourceTestCase.h; sourceTree = "<group>"; };
+		CE26D53C1E7EEA1400847AF6 /* CPTDebugQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTDebugQuickLook.h; path = CorePlot/CorePlotHeaders/CPTDebugQuickLook.h; sourceTree = "<group>"; };
+		CE26D53D1E7EEA1400847AF6 /* CPTDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTDefinitions.h; path = CorePlot/CorePlotHeaders/CPTDefinitions.h; sourceTree = "<group>"; };
+		CE26D53E1E7EEA1400847AF6 /* CPTDerivedXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTDerivedXYGraph.h; path = CorePlot/CorePlotHeaders/CPTDerivedXYGraph.h; sourceTree = "<group>"; };
+		CE26D53F1E7EEA1400847AF6 /* CPTExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTExceptions.h; path = CorePlot/CorePlotHeaders/CPTExceptions.h; sourceTree = "<group>"; };
+		CE26D5401E7EEA1400847AF6 /* CPTFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTFill.h; path = CorePlot/CorePlotHeaders/CPTFill.h; sourceTree = "<group>"; };
+		CE26D5411E7EEA1400847AF6 /* CPTFunctionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTFunctionDataSource.h; path = CorePlot/CorePlotHeaders/CPTFunctionDataSource.h; sourceTree = "<group>"; };
+		CE26D5421E7EEA1400847AF6 /* CPTGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTGradient.h; path = CorePlot/CorePlotHeaders/CPTGradient.h; sourceTree = "<group>"; };
+		CE26D5431E7EEA1400847AF6 /* CPTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTGraph.h; path = CorePlot/CorePlotHeaders/CPTGraph.h; sourceTree = "<group>"; };
+		CE26D5441E7EEA1400847AF6 /* CPTGraphHostingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTGraphHostingView.h; path = CorePlot/CorePlotHeaders/CPTGraphHostingView.h; sourceTree = "<group>"; };
+		CE26D5451E7EEA1400847AF6 /* CPTGridLineGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTGridLineGroup.h; path = CorePlot/CorePlotHeaders/CPTGridLineGroup.h; sourceTree = "<group>"; };
+		CE26D5461E7EEA1400847AF6 /* CPTGridLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTGridLines.h; path = CorePlot/CorePlotHeaders/CPTGridLines.h; sourceTree = "<group>"; };
+		CE26D5471E7EEA1400847AF6 /* CPTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTImage.h; path = CorePlot/CorePlotHeaders/CPTImage.h; sourceTree = "<group>"; };
+		CE26D5481E7EEA1400847AF6 /* CPTLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTLayer.h; path = CorePlot/CorePlotHeaders/CPTLayer.h; sourceTree = "<group>"; };
+		CE26D5491E7EEA1400847AF6 /* CPTLayerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTLayerAnnotation.h; path = CorePlot/CorePlotHeaders/CPTLayerAnnotation.h; sourceTree = "<group>"; };
+		CE26D54A1E7EEA1400847AF6 /* CPTLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTLegend.h; path = CorePlot/CorePlotHeaders/CPTLegend.h; sourceTree = "<group>"; };
+		CE26D54B1E7EEA1400847AF6 /* CPTLegendEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTLegendEntry.h; path = CorePlot/CorePlotHeaders/CPTLegendEntry.h; sourceTree = "<group>"; };
+		CE26D54C1E7EEA1400847AF6 /* CPTLimitBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTLimitBand.h; path = CorePlot/CorePlotHeaders/CPTLimitBand.h; sourceTree = "<group>"; };
+		CE26D54D1E7EEA1400847AF6 /* CPTLineCap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTLineCap.h; path = CorePlot/CorePlotHeaders/CPTLineCap.h; sourceTree = "<group>"; };
+		CE26D54E1E7EEA1400847AF6 /* CPTLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTLineStyle.h; path = CorePlot/CorePlotHeaders/CPTLineStyle.h; sourceTree = "<group>"; };
+		CE26D54F1E7EEA1400847AF6 /* CPTMutableLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTMutableLineStyle.h; path = CorePlot/CorePlotHeaders/CPTMutableLineStyle.h; sourceTree = "<group>"; };
+		CE26D5501E7EEA1400847AF6 /* CPTMutableNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTMutableNumericData.h; path = CorePlot/CorePlotHeaders/CPTMutableNumericData.h; sourceTree = "<group>"; };
+		CE26D5511E7EEA1400847AF6 /* CPTMutableNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CPTMutableNumericData+TypeConversion.h"; path = "CorePlot/CorePlotHeaders/CPTMutableNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		CE26D5521E7EEA1400847AF6 /* CPTMutablePlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTMutablePlotRange.h; path = CorePlot/CorePlotHeaders/CPTMutablePlotRange.h; sourceTree = "<group>"; };
+		CE26D5531E7EEA1400847AF6 /* CPTMutableShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTMutableShadow.h; path = CorePlot/CorePlotHeaders/CPTMutableShadow.h; sourceTree = "<group>"; };
+		CE26D5541E7EEA1400847AF6 /* CPTMutableTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTMutableTextStyle.h; path = CorePlot/CorePlotHeaders/CPTMutableTextStyle.h; sourceTree = "<group>"; };
+		CE26D5551E7EEA1400847AF6 /* CPTNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTNumericData.h; path = CorePlot/CorePlotHeaders/CPTNumericData.h; sourceTree = "<group>"; };
+		CE26D5561E7EEA1400847AF6 /* CPTNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CPTNumericData+TypeConversion.h"; path = "CorePlot/CorePlotHeaders/CPTNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		CE26D5571E7EEA1400847AF6 /* CPTNumericDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTNumericDataType.h; path = CorePlot/CorePlotHeaders/CPTNumericDataType.h; sourceTree = "<group>"; };
+		CE26D5581E7EEA1400847AF6 /* CPTPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPathExtensions.h; path = CorePlot/CorePlotHeaders/CPTPathExtensions.h; sourceTree = "<group>"; };
+		CE26D5591E7EEA1400847AF6 /* CPTPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPieChart.h; path = CorePlot/CorePlotHeaders/CPTPieChart.h; sourceTree = "<group>"; };
+		CE26D55A1E7EEA1400847AF6 /* CPTPlatformSpecificCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlatformSpecificCategories.h; path = CorePlot/CorePlotHeaders/CPTPlatformSpecificCategories.h; sourceTree = "<group>"; };
+		CE26D55B1E7EEA1400847AF6 /* CPTPlatformSpecificDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlatformSpecificDefines.h; path = CorePlot/CorePlotHeaders/CPTPlatformSpecificDefines.h; sourceTree = "<group>"; };
+		CE26D55C1E7EEA1400847AF6 /* CPTPlatformSpecificFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlatformSpecificFunctions.h; path = CorePlot/CorePlotHeaders/CPTPlatformSpecificFunctions.h; sourceTree = "<group>"; };
+		CE26D55D1E7EEA1400847AF6 /* CPTPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlot.h; path = CorePlot/CorePlotHeaders/CPTPlot.h; sourceTree = "<group>"; };
+		CE26D55E1E7EEA1400847AF6 /* CPTPlotArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlotArea.h; path = CorePlot/CorePlotHeaders/CPTPlotArea.h; sourceTree = "<group>"; };
+		CE26D55F1E7EEA1400847AF6 /* CPTPlotAreaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlotAreaFrame.h; path = CorePlot/CorePlotHeaders/CPTPlotAreaFrame.h; sourceTree = "<group>"; };
+		CE26D5601E7EEA1400847AF6 /* CPTPlotGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlotGroup.h; path = CorePlot/CorePlotHeaders/CPTPlotGroup.h; sourceTree = "<group>"; };
+		CE26D5611E7EEA1400847AF6 /* CPTPlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlotRange.h; path = CorePlot/CorePlotHeaders/CPTPlotRange.h; sourceTree = "<group>"; };
+		CE26D5621E7EEA1400847AF6 /* CPTPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlotSpace.h; path = CorePlot/CorePlotHeaders/CPTPlotSpace.h; sourceTree = "<group>"; };
+		CE26D5631E7EEA1400847AF6 /* CPTPlotSpaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlotSpaceAnnotation.h; path = CorePlot/CorePlotHeaders/CPTPlotSpaceAnnotation.h; sourceTree = "<group>"; };
+		CE26D5641E7EEA1400847AF6 /* CPTPlotSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTPlotSymbol.h; path = CorePlot/CorePlotHeaders/CPTPlotSymbol.h; sourceTree = "<group>"; };
+		CE26D5651E7EEA1400847AF6 /* CPTRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTRangePlot.h; path = CorePlot/CorePlotHeaders/CPTRangePlot.h; sourceTree = "<group>"; };
+		CE26D5661E7EEA1400847AF6 /* CPTResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTResponder.h; path = CorePlot/CorePlotHeaders/CPTResponder.h; sourceTree = "<group>"; };
+		CE26D5671E7EEA1400847AF6 /* CPTScatterPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTScatterPlot.h; path = CorePlot/CorePlotHeaders/CPTScatterPlot.h; sourceTree = "<group>"; };
+		CE26D5681E7EEA1400847AF6 /* CPTShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTShadow.h; path = CorePlot/CorePlotHeaders/CPTShadow.h; sourceTree = "<group>"; };
+		CE26D5691E7EEA1400847AF6 /* CPTTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTTestCase.h; path = CorePlot/CorePlotHeaders/CPTTestCase.h; sourceTree = "<group>"; };
+		CE26D56A1E7EEA1400847AF6 /* CPTTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTTextLayer.h; path = CorePlot/CorePlotHeaders/CPTTextLayer.h; sourceTree = "<group>"; };
+		CE26D56B1E7EEA1400847AF6 /* CPTTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTTextStyle.h; path = CorePlot/CorePlotHeaders/CPTTextStyle.h; sourceTree = "<group>"; };
+		CE26D56C1E7EEA1400847AF6 /* CPTTextStylePlatformSpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTTextStylePlatformSpecific.h; path = CorePlot/CorePlotHeaders/CPTTextStylePlatformSpecific.h; sourceTree = "<group>"; };
+		CE26D56D1E7EEA1400847AF6 /* CPTTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTTheme.h; path = CorePlot/CorePlotHeaders/CPTTheme.h; sourceTree = "<group>"; };
+		CE26D56E1E7EEA1400847AF6 /* CPTTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTTimeFormatter.h; path = CorePlot/CorePlotHeaders/CPTTimeFormatter.h; sourceTree = "<group>"; };
+		CE26D56F1E7EEA1400847AF6 /* CPTTradingRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTTradingRangePlot.h; path = CorePlot/CorePlotHeaders/CPTTradingRangePlot.h; sourceTree = "<group>"; };
+		CE26D5701E7EEA1400847AF6 /* CPTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTUtilities.h; path = CorePlot/CorePlotHeaders/CPTUtilities.h; sourceTree = "<group>"; };
+		CE26D5711E7EEA1400847AF6 /* CPTXYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTXYAxis.h; path = CorePlot/CorePlotHeaders/CPTXYAxis.h; sourceTree = "<group>"; };
+		CE26D5721E7EEA1400847AF6 /* CPTXYAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTXYAxisSet.h; path = CorePlot/CorePlotHeaders/CPTXYAxisSet.h; sourceTree = "<group>"; };
+		CE26D5731E7EEA1400847AF6 /* CPTXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTXYGraph.h; path = CorePlot/CorePlotHeaders/CPTXYGraph.h; sourceTree = "<group>"; };
+		CE26D5741E7EEA1400847AF6 /* CPTXYPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPTXYPlotSpace.h; path = CorePlot/CorePlotHeaders/CPTXYPlotSpace.h; sourceTree = "<group>"; };
+		CE26D5751E7EEA1400847AF6 /* mainpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainpage.h; path = CorePlot/CorePlotHeaders/mainpage.h; sourceTree = "<group>"; };
+		CE26D5761E7EEA1400847AF6 /* NSCoderExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSCoderExtensions.h; path = CorePlot/CorePlotHeaders/NSCoderExtensions.h; sourceTree = "<group>"; };
+		CE26D5771E7EEA1400847AF6 /* NSDecimalNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDecimalNumberExtensions.h; path = CorePlot/CorePlotHeaders/NSDecimalNumberExtensions.h; sourceTree = "<group>"; };
+		CE26D5781E7EEA1400847AF6 /* NSNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSNumberExtensions.h; path = CorePlot/CorePlotHeaders/NSNumberExtensions.h; sourceTree = "<group>"; };
+		CE37D26C19B232CF0011DBD3 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		CE37D26E19B232DB0011DBD3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CE3F577515D0172300E186AF /* Diabetes360 Lite-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Diabetes360 Lite-Info.plist"; sourceTree = "<group>"; };
+		CE4FD42517E39CC200A4EC8B /* Diabetes-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Diabetes-58.png"; path = "Icons and Launch Full Version/Diabetes-58.png"; sourceTree = "<group>"; };
+		CE4FD42617E39CC200A4EC8B /* Diabetes-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Diabetes-80.png"; path = "Icons and Launch Full Version/Diabetes-80.png"; sourceTree = "<group>"; };
+		CE4FD42717E39CC200A4EC8B /* Diabetes-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Diabetes-120.png"; path = "Icons and Launch Full Version/Diabetes-120.png"; sourceTree = "<group>"; };
+		CE5FEFD919AA36EB0074500B /* InputAccessory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InputAccessory.xib; path = Classes/InputAccessory.xib; sourceTree = "<group>"; };
+		CE5FEFDD19AA518C0074500B /* Button-Close-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-Close-square.png"; path = "images/Button-Close-square.png"; sourceTree = "<group>"; };
+		CE62C9FC1E7D9274002F3988 /* GraphController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphController.xib; sourceTree = "<group>"; };
+		CEA71D14160DC65F006CDCB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Icons and Launch Full Version/Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEA71D15160DC65F006CDCB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Icons and Launch Full Version/Default.png"; sourceTree = "<group>"; };
+		CEA71D16160DC65F006CDCB5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Icons and Launch Full Version/Default@2x.png"; sourceTree = "<group>"; };
+		CEA71D1A160DC688006CDCB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Icons and Launch Lite Version/Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEA71D1C160DC6BD006CDCB5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Icons and Launch Lite Version/Icon@2x.png"; sourceTree = "<group>"; };
+		CEAF3BE515CF00A700FC121C /* SiteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiteVC.h; path = ../SiteVC.h; sourceTree = "<group>"; };
+		CEAF3BE615CF00A700FC121C /* SiteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteVC.m; path = ../SiteVC.m; sourceTree = "<group>"; };
+		CEAF3BE715CF00A700FC121C /* SiteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SiteVC.xib; sourceTree = "<group>"; };
+		CECE14801F857E2E00A5BA98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Diabetes360/Images.xcassets; sourceTree = "<group>"; };
+		CECE148B1F86A3DC00A5BA98 /* Diabetes-Icon-Huge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Diabetes-Icon-Huge.png"; path = "Graphics/Diabetes-Icon-Huge.png"; sourceTree = "<group>"; };
+		CEE6C2F81E76E47100864BA9 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCorePlot-CocoaTouch.a"; path = "CorePlot/libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		CEE6C2FA1E76E49600864BA9 /* CorePlot-CocoaTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CorePlot-CocoaTouch.h"; path = "CorePlot/CorePlotHeaders/CorePlot-CocoaTouch.h"; sourceTree = "<group>"; };
+		CEE7666E19107A6500461FEC /* DiabetesLoadUtility.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DiabetesLoadUtility.1; sourceTree = "<group>"; };
+		CEE7666F19107A6500461FEC /* DiabetesLoadUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabetesLoadUtility.m; sourceTree = "<group>"; };
+		CEE7667019107A6500461FEC /* DiabetesLoadUtility.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DiabetesLoadUtility.xcodeproj; sourceTree = "<group>"; };
+		CEE7667319107A6600461FEC /* DiabetesLoadUtility_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiabetesLoadUtility_Prefix.pch; sourceTree = "<group>"; };
+		CEE7667719107A6600461FEC /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		CEFC763F17E75F1800CF540D /* Diabetes-Lite-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Diabetes-Lite-58.png"; path = "Icons and Launch Lite Version/Diabetes-Lite-58.png"; sourceTree = "<group>"; };
+		CEFC764017E75F1800CF540D /* Diabetes-Lite-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Diabetes-Lite-80.png"; path = "Icons and Launch Lite Version/Diabetes-Lite-80.png"; sourceTree = "<group>"; };
+		CEFC764117E75F1800CF540D /* Diabetes-Lite-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Diabetes-Lite-120.png"; path = "Icons and Launch Lite Version/Diabetes-Lite-120.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7705EA93147AFD1900403662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE37D26D19B232CF0011DBD3 /* GameKit.framework in Frameworks */,
+				7705EA94147AFD1900403662 /* Foundation.framework in Frameworks */,
+				7705EA95147AFD1900403662 /* UIKit.framework in Frameworks */,
+				CE37D26F19B232DB0011DBD3 /* StoreKit.framework in Frameworks */,
+				7705EA96147AFD1900403662 /* CoreGraphics.framework in Frameworks */,
+				7705EA97147AFD1900403662 /* CoreData.framework in Frameworks */,
+				7705EA98147AFD1900403662 /* MessageUI.framework in Frameworks */,
+				7705EA9A147AFD1900403662 /* QuartzCore.framework in Frameworks */,
+				77640A75148422D40050B90A /* iAd.framework in Frameworks */,
+				77E4339B1527474100B7423E /* CFNetwork.framework in Frameworks */,
+				77E4339E1527476500B7423E /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771D0D8D14505D2100DC4E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE191E4F1E7DA21B009DEDDB /* Accelerate.framework in Frameworks */,
+				CE191E4B1E7D9F39009DEDDB /* libCorePlot-CocoaTouch.a in Frameworks */,
+				771D0D8E14505D2100DC4E4D /* Foundation.framework in Frameworks */,
+				771D0D8F14505D2100DC4E4D /* UIKit.framework in Frameworks */,
+				771D0D9014505D2100DC4E4D /* CoreGraphics.framework in Frameworks */,
+				771D0D9114505D2100DC4E4D /* CoreData.framework in Frameworks */,
+				771D0D9214505D2100DC4E4D /* MessageUI.framework in Frameworks */,
+				771D0D9414505D2100DC4E4D /* QuartzCore.framework in Frameworks */,
+				77640A74148422CF0050B90A /* iAd.framework in Frameworks */,
+				77E4339A1527474100B7423E /* CFNetwork.framework in Frameworks */,
+				77E4339D1527476500B7423E /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7739F365146D68AB00025E2A /* ActiveDatabaseVC.h */,
+				7739F366146D68AB00025E2A /* ActiveDatabaseVC.m */,
+				779C9FAA147C41570011A4A6 /* BuyItVC.h */,
+				779C9FAB147C41570011A4A6 /* BuyItVC.m */,
+				7768A2E913E206B4006922F1 /* ColorTransformer.h */,
+				7768A2EA13E206B4006922F1 /* ColorTransformer.m */,
+				7712F834146AC72200637BD0 /* CSVParserReceiver.h */,
+				7712F835146AC72200637BD0 /* CSVParserReceiver.m */,
+				7741E9CB13CCDA3D00B3F342 /* DailySchedDtlController.h */,
+				7741E9CC13CCDA3E00B3F342 /* DailySchedDtlController.m */,
+				7741E9C613CCD42B00B3F342 /* DailyScheduleController.h */,
+				7741E9C713CCD42B00B3F342 /* DailyScheduleController.m */,
+				1D3623240D0F684500981E51 /* DiabetesAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DiabetesAppDelegate.m */,
+				778FA7221449A79300F32C86 /* EventDetailTblController.h */,
+				778FA7231449A79300F32C86 /* EventDetailTblController.m */,
+				7709505013AA5D89007393EC /* EventFoodController.h */,
+				7709505113AA5D89007393EC /* EventFoodController.m */,
+				772C6D261445FFA600E9CA07 /* ExerciseController.h */,
+				772C6D271445FFA600E9CA07 /* ExerciseController.m */,
+				774C1926139FF1260032EFE9 /* FoodController.h */,
+				774C1927139FF1260032EFE9 /* FoodController.m */,
+				77B9CF0713E5EADC003CFFE2 /* GraphController.h */,
+				77B9CF0813E5EADC003CFFE2 /* GraphController.m */,
+				77C169DB139D0EC6005D9F42 /* InsulinBrandsController.h */,
+				77C169DC139D0EC6005D9F42 /* InsulinBrandsController.m */,
+				77FA6CD313B6443F00D66189 /* InsulinFactorController.h */,
+				77FA6CD413B6443F00D66189 /* InsulinFactorController.m */,
+				771135661441F4E700E7F56F /* InsulinOnBoardController.h */,
+				771135671441F4E700E7F56F /* InsulinOnBoardController.m */,
+				771C545A13CA293400736FB9 /* InsulinScaleController.h */,
+				771C545B13CA293500736FB9 /* InsulinScaleController.m */,
+				28C286DF0D94DF7D0034E888 /* LogByDayViewController.h */,
+				28C286E00D94DF7D0034E888 /* LogByDayViewController.m */,
+				770A3573140964D100331905 /* LogByMonthViewController.h */,
+				770A3574140964D100331905 /* LogByMonthViewController.m */,
+				7768ED26140D5D0800D0A82C /* NoteViewController.h */,
+				7768ED27140D5D0800D0A82C /* NoteViewController.m */,
+				77448FBE1412A72B0081D822 /* PeriodStatistics.h */,
+				77448FBF1412A72B0081D822 /* PeriodStatistics.m */,
+				77F6B3C4143CCC02003EE1A8 /* PickerLabel.h */,
+				77F6B3C5143CCC02003EE1A8 /* PickerLabel.m */,
+				77E30CF414166E8A009E15B3 /* PredicateCriteriaController.h */,
+				77E30CF514166E8A009E15B3 /* PredicateCriteriaController.m */,
+				77B624B413D5D29E00FC490B /* PumpSiteController.h */,
+				77B624B513D5D29E00FC490B /* PumpSiteController.m */,
+				77FA6CD813B64C7900D66189 /* RootViewController.h */,
+				77FA6CD913B64C7900D66189 /* RootViewController.m */,
+				77B7904213B79A7900DFCD7E /* DataService.h */,
+				77B7904313B79A7900DFCD7E /* DataService.m */,
+				77C66F2E13C8A8390096999A /* SettingsController.h */,
+				77C66F2F13C8A83A0096999A /* SettingsController.m */,
+				77A1F14914263070008BB6DF /* SetupViewController.h */,
+				77A1F14A14263070008BB6DF /* SetupViewController.m */,
+				CEAF3BE515CF00A700FC121C /* SiteVC.h */,
+				CEAF3BE615CF00A700FC121C /* SiteVC.m */,
+				77448FB914112C3F0081D822 /* UpcomingPumpSiteViewController.h */,
+				77448FBA14112C3F0081D822 /* UpcomingPumpSiteViewController.m */,
+				7719415E14110BE4004D959A /* UpcomingReminderViewController.h */,
+				7719415F14110BE4004D959A /* UpcomingReminderViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				771D0D9914505D2100DC4E4D /* Diabetes360.app */,
+				7705EA9F147AFD1900403662 /* D360 Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7666C19107A6500461FEC /* DiabetesLoadUtility */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE26D52A1E7EE9F800847AF6 /* CorePlot */,
+				77E43386152743ED00B7423E /* Appirater */,
+				7712F831146AC70600637BD0 /* CSVParser */,
+				773D363113E1DA900031183B /* ColorPicker */,
+				28A0AAE50D9B0CCF005BE974 /* Diabetes_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CECE14801F857E2E00A5BA98 /* Images.xcassets */,
+				CE14D93C17A82A570029B32A /* Diabetes.sqlite */,
+				778CFCC913C0CA8700CD9F65 /* Model and Classes */,
+				778CFCCA13C0CA9900CD9F65 /* xib */,
+				770BA770141CE64100101699 /* Icons and Images */,
+				8D1107310486CEB800E47090 /* Diabetes-Info.plist */,
+				CE3F577515D0172300E186AF /* Diabetes360 Lite-Info.plist */,
+				77229C851428DB8500BB5251 /* WelcomeContent.html */,
+				CEE6C2FA1E76E49600864BA9 /* CorePlot-CocoaTouch.h */,
+				77D84A8A144A1614009548B7 /* App plists */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE191E4E1E7DA21B009DEDDB /* Accelerate.framework */,
+				CEE6C2F81E76E47100864BA9 /* libCorePlot-CocoaTouch.a */,
+				CE37D26E19B232DB0011DBD3 /* StoreKit.framework */,
+				CE37D26C19B232CF0011DBD3 /* GameKit.framework */,
+				77E4339C1527476500B7423E /* SystemConfiguration.framework */,
+				77E433991527474100B7423E /* CFNetwork.framework */,
+				77640A73148422CF0050B90A /* iAd.framework */,
+				77B9CF0013E5E8B9003CFFE2 /* QuartzCore.framework */,
+				77E1117213D8A58F00BB39A9 /* MessageUI.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		770BA770141CE64100101699 /* Icons and Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE5FEFDD19AA518C0074500B /* Button-Close-square.png */,
+				77D7A659147D66CC00ED531B /* Full Version */,
+				77D7A65A147D672F00ED531B /* Lite Version */,
+				77E91F031434AAFC0068B237 /* back-arrow.png */,
+				77E168281428FB7F0040CB3F /* WelcomeButton.png */,
+				778349AD144612DA00C00ECA /* IOB-off-icon.png */,
+				778349AE144612DA00C00ECA /* IOB-on-icon.png */,
+				7759FC6F142396A4006D03D6 /* LogByDay-Select.png */,
+				7759FC6D14239408006D03D6 /* LogByMonth-Select.png */,
+				77DE5D8B14470C4700B97309 /* strikethrough.png */,
+				772F004B142266800022D872 /* carb-avg.png */,
+				778349AB14460FB300C00ECA /* exercise-icon.png */,
+				772F004C142266800022D872 /* carb-mark.png */,
+				772F004F14226B430022D872 /* carb-line.png */,
+				772F005014226B430022D872 /* glucose-line.png */,
+				772F0049142264010022D872 /* glucose-avg.png */,
+				772F00471422611D0022D872 /* glucose-mark.png */,
+				77270593141EAAA900AFDC60 /* Button-Close-Icon.png */,
+				7745ACC4141E7DBB0095D960 /* Log-Icon.png */,
+				7745ACB5141E663F0095D960 /* AddLog-Icon.png */,
+				7745ACB6141E663F0095D960 /* Export-Icon.png */,
+				7745ACB7141E663F0095D960 /* Food-Icon.png */,
+				77DE5D8D1447169200B97309 /* Food-Icon-sm.png */,
+				7745ACB8141E663F0095D960 /* Graph-Icon.png */,
+				7745ACB9141E663F0095D960 /* Settings-Icon.png */,
+				7712FBA014A0C50A0017844D /* Diabetes-Retina-Icon.png */,
+			);
+			name = "Icons and Images";
+			sourceTree = "<group>";
+		};
+		7712F831146AC70600637BD0 /* CSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				7712F832146AC72200637BD0 /* CSVParser.h */,
+				7712F833146AC72200637BD0 /* CSVParser.m */,
+			);
+			name = CSVParser;
+			sourceTree = "<group>";
+		};
+		773D363113E1DA900031183B /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				773D363313E1DADD0031183B /* bar_select.png */,
+				773D363413E1DADD0031183B /* crosshair.png */,
+				773D363513E1DADD0031183B /* colormap.png */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+		778CFCC913C0CA8700CD9F65 /* Model and Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE1C9FBA16D80BE80051DA38 /* Settings.h */,
+				CE1C9FBB16D80BE80051DA38 /* Settings.m */,
+				28D3F201112F7DC200FD0661 /* Diabetes.xcdatamodeld */,
+				77E74CE913E4824500C74A0E /* ColorScheme.h */,
+				77E74CEA13E4824500C74A0E /* ColorScheme.m */,
+				7785623C142A51F000A66E09 /* DailySchedule.h */,
+				7785623D142A51F000A66E09 /* DailySchedule.m */,
+				776239831472CB1F00E7B6D9 /* Event.h */,
+				776239841472CB1F00E7B6D9 /* Event.m */,
+				77F30CCF13C4BA5800B8D7D5 /* EventFood.h */,
+				77F30CD013C4BA5800B8D7D5 /* EventFood.m */,
+				77113579144319B800E7F56F /* ExerciseType.h */,
+				7711357A144319B800E7F56F /* ExerciseType.m */,
+				77F221F913F13172002DED77 /* FoodItem.h */,
+				77F221FA13F13172002DED77 /* FoodItem.m */,
+				77F30CB113C4BA5700B8D7D5 /* FoodWeight.h */,
+				77F30CB213C4BA5700B8D7D5 /* FoodWeight.m */,
+				77856239142A51EF00A66E09 /* InsulinBrand.h */,
+				7785623A142A51EF00A66E09 /* InsulinBrand.m */,
+				7717F58913FD5AC200ACDCFE /* InsulinFactor.h */,
+				7717F58A13FD5AC200ACDCFE /* InsulinFactor.m */,
+				7717F58C13FD5B7100ACDCFE /* InsulinScale.h */,
+				7717F58D13FD5B7100ACDCFE /* InsulinScale.m */,
+				77E49E241441CE6B0058FE28 /* IOBFactor.h */,
+				77E49E251441CE6B0058FE28 /* IOBFactor.m */,
+				772C9CC113DF16BA00CAE9E1 /* KetoneValue.h */,
+				772C9CC213DF16BA00CAE9E1 /* KetoneValue.m */,
+				770B10971473EDD3005B2292 /* Site.h */,
+				770B10981473EDD3005B2292 /* Site.m */,
+			);
+			name = "Model and Classes";
+			sourceTree = "<group>";
+		};
+		778CFCCA13C0CA9900CD9F65 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				CE5FEFD919AA36EB0074500B /* InputAccessory.xib */,
+				7739F367146D68AB00025E2A /* ActiveDatabaseVC.xib */,
+				77931A08141939EA008E351F /* buildingEmailView.xib */,
+				779C9FAC147C41570011A4A6 /* BuyItVC.xib */,
+				779ED48F13F6F25A00BFCDB4 /* ColorSchemeCell.xib */,
+				7741E9CD13CCDA3E00B3F342 /* DailySchedDtlController.xib */,
+				7741E9C813CCD42B00B3F342 /* DailyScheduleController.xib */,
+				77EEF868140A838B001AFE29 /* EventDetailTblController.xib */,
+				7707448113AE262600D0C77B /* EventFoodCell.xib */,
+				7709505213AA5D89007393EC /* EventFoodController.xib */,
+				772C6D2B1446041200E9CA07 /* ExerciseCell.xib */,
+				772C6D29144603CE00E9CA07 /* ExerciseController.xib */,
+				774C1928139FF1260032EFE9 /* FoodController.xib */,
+				773D362A13E1B1000031183B /* InsulinBrandCell.xib */,
+				77C169DD139D0EC6005D9F42 /* InsulinBrandsController.xib */,
+				77EFECD313FC293A00804768 /* InsulinFactorCell.xib */,
+				77FA6CD513B6443F00D66189 /* InsulinFactorController.xib */,
+				771135691441F51B00E7F56F /* InsulinOnBoardCell.xib */,
+				7711356A1441F51B00E7F56F /* InsulinOnBoardController.xib */,
+				771C545F13CA316F00736FB9 /* InsulinScaleCell.xib */,
+				771C545C13CA293500736FB9 /* InsulinScaleController.xib */,
+				774251931408219A000D399E /* LogByDayCell.xib */,
+				2899E55F0DE3E45000AC0155 /* LogByDayViewController.xib */,
+				77448FC11413AAD70081D822 /* LogByMonthCell.xib */,
+				770A3575140964D200331905 /* LogByMonthViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				7768ED28140D5D0800D0A82C /* NoteViewController.xib */,
+				77E30CF614166E8A009E15B3 /* PredicateCriteriaController.xib */,
+				77E2477B14211F590087E1FA /* PumpSiteController.xib */,
+				77FA6CDA13B64C7900D66189 /* RootViewController-withads.xib */,
+				77E4337415267F8C00B7423E /* RootViewController.xib */,
+				77C66F3013C8A83A0096999A /* SettingsController.xib */,
+				77A1F14B14263070008BB6DF /* SetupViewController.xib */,
+				CEAF3BE715CF00A700FC121C /* SiteVC.xib */,
+				77448FBB14112C3F0081D822 /* UpcomingPumpSiteViewController.xib */,
+				7719416014110BE4004D959A /* UpcomingReminderViewController.xib */,
+				CE62C9FC1E7D9274002F3988 /* GraphController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		77D7A659147D66CC00ED531B /* Full Version */ = {
+			isa = PBXGroup;
+			children = (
+				CECE148B1F86A3DC00A5BA98 /* Diabetes-Icon-Huge.png */,
+				CE4FD42517E39CC200A4EC8B /* Diabetes-58.png */,
+				CE4FD42617E39CC200A4EC8B /* Diabetes-80.png */,
+				CE4FD42717E39CC200A4EC8B /* Diabetes-120.png */,
+				CEA71D14160DC65F006CDCB5 /* Default-568h@2x.png */,
+				CEA71D15160DC65F006CDCB5 /* Default.png */,
+				CEA71D16160DC65F006CDCB5 /* Default@2x.png */,
+				774C0177147D775E00A293ED /* Icon.png */,
+				774C0178147D775E00A293ED /* Icon@2x.png */,
+			);
+			name = "Full Version";
+			sourceTree = "<group>";
+		};
+		77D7A65A147D672F00ED531B /* Lite Version */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC763F17E75F1800CF540D /* Diabetes-Lite-58.png */,
+				CEFC764017E75F1800CF540D /* Diabetes-Lite-80.png */,
+				CEFC764117E75F1800CF540D /* Diabetes-Lite-120.png */,
+				CEA71D1C160DC6BD006CDCB5 /* Icon@2x.png */,
+				CEA71D1A160DC688006CDCB5 /* Default-568h@2x.png */,
+				774C017B147D777900A293ED /* Icon.png */,
+				77D7A65B147D678800ED531B /* Default.png */,
+				77D7A65C147D678800ED531B /* Default@2x.png */,
+			);
+			name = "Lite Version";
+			sourceTree = "<group>";
+		};
+		77D84A8A144A1614009548B7 /* App plists */ = {
+			isa = PBXGroup;
+			children = (
+				77D715B1144B7C6400B7205C /* InsulinBrands.plist */,
+				77D84A8C144A1669009548B7 /* IOBFactors.plist */,
+				77EE2EC914509EC700C9BF3C /* ExerciseTypes.plist */,
+				77D84A8D144A1669009548B7 /* Sites.plist */,
+				77D84A8E144A1669009548B7 /* KetoneValues.plist */,
+				77F14680142B86E900167B57 /* ColorSchemes.plist */,
+				77C3C420146C845700FE148F /* ActiveDBName.plist */,
+			);
+			name = "App plists";
+			sourceTree = "<group>";
+		};
+		77E43386152743ED00B7423E /* Appirater */ = {
+			isa = PBXGroup;
+			children = (
+				7738FD481527B06F00683ADA /* Appirater.h */,
+				7738FD491527B06F00683ADA /* Appirater.m */,
+				77E43389152743ED00B7423E /* Localizable.strings */,
+			);
+			path = Appirater;
+			sourceTree = "<group>";
+		};
+		CE26D52A1E7EE9F800847AF6 /* CorePlot */ = {
+			isa = PBXGroup;
+			children = (
+				CE26D52B1E7EEA1400847AF6 /* CPTAnimation.h */,
+				CE26D52C1E7EEA1400847AF6 /* CPTAnimationOperation.h */,
+				CE26D52D1E7EEA1400847AF6 /* CPTAnimationPeriod.h */,
+				CE26D52E1E7EEA1400847AF6 /* CPTAnnotation.h */,
+				CE26D52F1E7EEA1400847AF6 /* CPTAnnotationHostLayer.h */,
+				CE26D5301E7EEA1400847AF6 /* CPTAxis.h */,
+				CE26D5311E7EEA1400847AF6 /* CPTAxisLabel.h */,
+				CE26D5321E7EEA1400847AF6 /* CPTAxisLabelGroup.h */,
+				CE26D5331E7EEA1400847AF6 /* CPTAxisSet.h */,
+				CE26D5341E7EEA1400847AF6 /* CPTAxisTitle.h */,
+				CE26D5351E7EEA1400847AF6 /* CPTBarPlot.h */,
+				CE26D5361E7EEA1400847AF6 /* CPTBorderedLayer.h */,
+				CE26D5371E7EEA1400847AF6 /* CPTCalendarFormatter.h */,
+				CE26D5381E7EEA1400847AF6 /* CPTColor.h */,
+				CE26D5391E7EEA1400847AF6 /* CPTColorSpace.h */,
+				CE26D53A1E7EEA1400847AF6 /* CPTConstraints.h */,
+				CE26D53B1E7EEA1400847AF6 /* CPTDataSourceTestCase.h */,
+				CE26D53C1E7EEA1400847AF6 /* CPTDebugQuickLook.h */,
+				CE26D53D1E7EEA1400847AF6 /* CPTDefinitions.h */,
+				CE26D53E1E7EEA1400847AF6 /* CPTDerivedXYGraph.h */,
+				CE26D53F1E7EEA1400847AF6 /* CPTExceptions.h */,
+				CE26D5401E7EEA1400847AF6 /* CPTFill.h */,
+				CE26D5411E7EEA1400847AF6 /* CPTFunctionDataSource.h */,
+				CE26D5421E7EEA1400847AF6 /* CPTGradient.h */,
+				CE26D5431E7EEA1400847AF6 /* CPTGraph.h */,
+				CE26D5441E7EEA1400847AF6 /* CPTGraphHostingView.h */,
+				CE26D5451E7EEA1400847AF6 /* CPTGridLineGroup.h */,
+				CE26D5461E7EEA1400847AF6 /* CPTGridLines.h */,
+				CE26D5471E7EEA1400847AF6 /* CPTImage.h */,
+				CE26D5481E7EEA1400847AF6 /* CPTLayer.h */,
+				CE26D5491E7EEA1400847AF6 /* CPTLayerAnnotation.h */,
+				CE26D54A1E7EEA1400847AF6 /* CPTLegend.h */,
+				CE26D54B1E7EEA1400847AF6 /* CPTLegendEntry.h */,
+				CE26D54C1E7EEA1400847AF6 /* CPTLimitBand.h */,
+				CE26D54D1E7EEA1400847AF6 /* CPTLineCap.h */,
+				CE26D54E1E7EEA1400847AF6 /* CPTLineStyle.h */,
+				CE26D54F1E7EEA1400847AF6 /* CPTMutableLineStyle.h */,
+				CE26D5501E7EEA1400847AF6 /* CPTMutableNumericData.h */,
+				CE26D5511E7EEA1400847AF6 /* CPTMutableNumericData+TypeConversion.h */,
+				CE26D5521E7EEA1400847AF6 /* CPTMutablePlotRange.h */,
+				CE26D5531E7EEA1400847AF6 /* CPTMutableShadow.h */,
+				CE26D5541E7EEA1400847AF6 /* CPTMutableTextStyle.h */,
+				CE26D5551E7EEA1400847AF6 /* CPTNumericData.h */,
+				CE26D5561E7EEA1400847AF6 /* CPTNumericData+TypeConversion.h */,
+				CE26D5571E7EEA1400847AF6 /* CPTNumericDataType.h */,
+				CE26D5581E7EEA1400847AF6 /* CPTPathExtensions.h */,
+				CE26D5591E7EEA1400847AF6 /* CPTPieChart.h */,
+				CE26D55A1E7EEA1400847AF6 /* CPTPlatformSpecificCategories.h */,
+				CE26D55B1E7EEA1400847AF6 /* CPTPlatformSpecificDefines.h */,
+				CE26D55C1E7EEA1400847AF6 /* CPTPlatformSpecificFunctions.h */,
+				CE26D55D1E7EEA1400847AF6 /* CPTPlot.h */,
+				CE26D55E1E7EEA1400847AF6 /* CPTPlotArea.h */,
+				CE26D55F1E7EEA1400847AF6 /* CPTPlotAreaFrame.h */,
+				CE26D5601E7EEA1400847AF6 /* CPTPlotGroup.h */,
+				CE26D5611E7EEA1400847AF6 /* CPTPlotRange.h */,
+				CE26D5621E7EEA1400847AF6 /* CPTPlotSpace.h */,
+				CE26D5631E7EEA1400847AF6 /* CPTPlotSpaceAnnotation.h */,
+				CE26D5641E7EEA1400847AF6 /* CPTPlotSymbol.h */,
+				CE26D5651E7EEA1400847AF6 /* CPTRangePlot.h */,
+				CE26D5661E7EEA1400847AF6 /* CPTResponder.h */,
+				CE26D5671E7EEA1400847AF6 /* CPTScatterPlot.h */,
+				CE26D5681E7EEA1400847AF6 /* CPTShadow.h */,
+				CE26D5691E7EEA1400847AF6 /* CPTTestCase.h */,
+				CE26D56A1E7EEA1400847AF6 /* CPTTextLayer.h */,
+				CE26D56B1E7EEA1400847AF6 /* CPTTextStyle.h */,
+				CE26D56C1E7EEA1400847AF6 /* CPTTextStylePlatformSpecific.h */,
+				CE26D56D1E7EEA1400847AF6 /* CPTTheme.h */,
+				CE26D56E1E7EEA1400847AF6 /* CPTTimeFormatter.h */,
+				CE26D56F1E7EEA1400847AF6 /* CPTTradingRangePlot.h */,
+				CE26D5701E7EEA1400847AF6 /* CPTUtilities.h */,
+				CE26D5711E7EEA1400847AF6 /* CPTXYAxis.h */,
+				CE26D5721E7EEA1400847AF6 /* CPTXYAxisSet.h */,
+				CE26D5731E7EEA1400847AF6 /* CPTXYGraph.h */,
+				CE26D5741E7EEA1400847AF6 /* CPTXYPlotSpace.h */,
+				CE26D5751E7EEA1400847AF6 /* mainpage.h */,
+				CE26D5761E7EEA1400847AF6 /* NSCoderExtensions.h */,
+				CE26D5771E7EEA1400847AF6 /* NSDecimalNumberExtensions.h */,
+				CE26D5781E7EEA1400847AF6 /* NSNumberExtensions.h */,
+			);
+			name = CorePlot;
+			sourceTree = "<group>";
+		};
+		CEE7666C19107A6500461FEC /* DiabetesLoadUtility */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7667019107A6500461FEC /* DiabetesLoadUtility.xcodeproj */,
+				CEE7666E19107A6500461FEC /* DiabetesLoadUtility.1 */,
+				CEE7666F19107A6500461FEC /* DiabetesLoadUtility.m */,
+				CEE7667319107A6600461FEC /* DiabetesLoadUtility_Prefix.pch */,
+				CEE7667719107A6600461FEC /* ReadMe.txt */,
+			);
+			path = DiabetesLoadUtility;
+			sourceTree = "<group>";
+		};
+		CEE7667119107A6500461FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7667B19107A6600461FEC /* DiabetesLoadUtility */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7705EA1C147AFD1900403662 /* D360 Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7705EA9B147AFD1900403662 /* Build configuration list for PBXNativeTarget "D360 Lite" */;
+			buildPhases = (
+				7705EA1D147AFD1900403662 /* Resources */,
+				7705EA65147AFD1900403662 /* Sources */,
+				7705EA93147AFD1900403662 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "D360 Lite";
+			productName = Diabetes;
+			productReference = 7705EA9F147AFD1900403662 /* D360 Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		771D0D1B14505D2100DC4E4D /* Diabetes360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 771D0D9514505D2100DC4E4D /* Build configuration list for PBXNativeTarget "Diabetes360" */;
+			buildPhases = (
+				771D0D1C14505D2100DC4E4D /* Resources */,
+				771D0D6214505D2100DC4E4D /* Sources */,
+				771D0D8D14505D2100DC4E4D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diabetes360;
+			productName = Diabetes;
+			productReference = 771D0D9914505D2100DC4E4D /* Diabetes360.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					7705EA1C147AFD1900403662 = {
+						DevelopmentTeam = 425WU95BG3;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					771D0D1B14505D2100DC4E4D = {
+						DevelopmentTeam = 425WU95BG3;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Diabetes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				de,
+				es,
+				fr,
+				ja,
+				ko,
+				pl,
+				ru,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CEE7667119107A6500461FEC /* Products */;
+					ProjectRef = CEE7667019107A6500461FEC /* DiabetesLoadUtility.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				771D0D1B14505D2100DC4E4D /* Diabetes360 */,
+				7705EA1C147AFD1900403662 /* D360 Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CEE7667B19107A6600461FEC /* DiabetesLoadUtility */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DiabetesLoadUtility;
+			remoteRef = CEE7667A19107A6600461FEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7705EA1D147AFD1900403662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7705EA1E147AFD1900403662 /* MainWindow.xib in Resources */,
+				7705EA1F147AFD1900403662 /* LogByDayViewController.xib in Resources */,
+				7705EA20147AFD1900403662 /* InsulinBrandsController.xib in Resources */,
+				7705EA21147AFD1900403662 /* FoodController.xib in Resources */,
+				7705EA22147AFD1900403662 /* EventFoodController.xib in Resources */,
+				7705EA23147AFD1900403662 /* EventFoodCell.xib in Resources */,
+				7705EA24147AFD1900403662 /* InsulinFactorController.xib in Resources */,
+				7705EA25147AFD1900403662 /* RootViewController-withads.xib in Resources */,
+				CEFC764317E75F1800CF540D /* Diabetes-Lite-80.png in Resources */,
+				7705EA26147AFD1900403662 /* SettingsController.xib in Resources */,
+				7705EA27147AFD1900403662 /* InsulinScaleController.xib in Resources */,
+				7705EA28147AFD1900403662 /* InsulinScaleCell.xib in Resources */,
+				7705EA29147AFD1900403662 /* DailyScheduleController.xib in Resources */,
+				7705EA2A147AFD1900403662 /* DailySchedDtlController.xib in Resources */,
+				7705EA2B147AFD1900403662 /* InsulinBrandCell.xib in Resources */,
+				7705EA2C147AFD1900403662 /* bar_select.png in Resources */,
+				7705EA2D147AFD1900403662 /* crosshair.png in Resources */,
+				7705EA2E147AFD1900403662 /* colormap.png in Resources */,
+				7705EA30147AFD1900403662 /* ColorSchemeCell.xib in Resources */,
+				7705EA31147AFD1900403662 /* InsulinFactorCell.xib in Resources */,
+				7705EA32147AFD1900403662 /* LogByDayCell.xib in Resources */,
+				7705EA33147AFD1900403662 /* LogByMonthViewController.xib in Resources */,
+				7705EA34147AFD1900403662 /* EventDetailTblController.xib in Resources */,
+				7705EA35147AFD1900403662 /* NoteViewController.xib in Resources */,
+				7705EA36147AFD1900403662 /* UpcomingReminderViewController.xib in Resources */,
+				7705EA37147AFD1900403662 /* UpcomingPumpSiteViewController.xib in Resources */,
+				7705EA38147AFD1900403662 /* LogByMonthCell.xib in Resources */,
+				7705EA39147AFD1900403662 /* PredicateCriteriaController.xib in Resources */,
+				7705EA3A147AFD1900403662 /* buildingEmailView.xib in Resources */,
+				CEFC764417E75F1800CF540D /* Diabetes-Lite-120.png in Resources */,
+				7705EA3D147AFD1900403662 /* AddLog-Icon.png in Resources */,
+				7705EA3E147AFD1900403662 /* Export-Icon.png in Resources */,
+				CE5FEFDF19AA518C0074500B /* Button-Close-square.png in Resources */,
+				7705EA3F147AFD1900403662 /* Food-Icon.png in Resources */,
+				7705EA40147AFD1900403662 /* Graph-Icon.png in Resources */,
+				7705EA41147AFD1900403662 /* Settings-Icon.png in Resources */,
+				7705EA42147AFD1900403662 /* Log-Icon.png in Resources */,
+				CEFC764217E75F1800CF540D /* Diabetes-Lite-58.png in Resources */,
+				7705EA43147AFD1900403662 /* Button-Close-Icon.png in Resources */,
+				7705EA46147AFD1900403662 /* PumpSiteController.xib in Resources */,
+				7705EA47147AFD1900403662 /* glucose-mark.png in Resources */,
+				7705EA48147AFD1900403662 /* glucose-avg.png in Resources */,
+				7705EA49147AFD1900403662 /* carb-avg.png in Resources */,
+				7705EA4A147AFD1900403662 /* carb-mark.png in Resources */,
+				7705EA4B147AFD1900403662 /* carb-line.png in Resources */,
+				7705EA4C147AFD1900403662 /* glucose-line.png in Resources */,
+				7705EA4D147AFD1900403662 /* LogByMonth-Select.png in Resources */,
+				7705EA4E147AFD1900403662 /* LogByDay-Select.png in Resources */,
+				7705EA4F147AFD1900403662 /* SetupViewController.xib in Resources */,
+				7705EA50147AFD1900403662 /* WelcomeContent.html in Resources */,
+				7705EA51147AFD1900403662 /* WelcomeButton.png in Resources */,
+				7705EA52147AFD1900403662 /* ColorSchemes.plist in Resources */,
+				7705EA53147AFD1900403662 /* back-arrow.png in Resources */,
+				7705EA54147AFD1900403662 /* InsulinOnBoardCell.xib in Resources */,
+				7705EA55147AFD1900403662 /* InsulinOnBoardController.xib in Resources */,
+				7705EA56147AFD1900403662 /* ExerciseController.xib in Resources */,
+				7705EA57147AFD1900403662 /* ExerciseCell.xib in Resources */,
+				7705EA58147AFD1900403662 /* exercise-icon.png in Resources */,
+				7705EA59147AFD1900403662 /* IOB-off-icon.png in Resources */,
+				7705EA5A147AFD1900403662 /* IOB-on-icon.png in Resources */,
+				7705EA5B147AFD1900403662 /* strikethrough.png in Resources */,
+				7705EA5C147AFD1900403662 /* Food-Icon-sm.png in Resources */,
+				7705EA5D147AFD1900403662 /* IOBFactors.plist in Resources */,
+				7705EA5E147AFD1900403662 /* Sites.plist in Resources */,
+				7705EA5F147AFD1900403662 /* KetoneValues.plist in Resources */,
+				7705EA60147AFD1900403662 /* InsulinBrands.plist in Resources */,
+				7705EA61147AFD1900403662 /* ExerciseTypes.plist in Resources */,
+				7705EA62147AFD1900403662 /* ActiveDBName.plist in Resources */,
+				7705EA63147AFD1900403662 /* ActiveDatabaseVC.xib in Resources */,
+				779C9FAE147C41570011A4A6 /* BuyItVC.xib in Resources */,
+				77D7A65D147D678800ED531B /* Default.png in Resources */,
+				77D7A65E147D678800ED531B /* Default@2x.png in Resources */,
+				774C0181147D77BB00A293ED /* Icon.png in Resources */,
+				CE5FEFDB19AA36EB0074500B /* InputAccessory.xib in Resources */,
+				7712FBA114A0C50A0017844D /* Diabetes-Retina-Icon.png in Resources */,
+				77E4337615267F8C00B7423E /* RootViewController.xib in Resources */,
+				77E43396152743ED00B7423E /* Localizable.strings in Resources */,
+				CE62C9FE1E7D9274002F3988 /* GraphController.xib in Resources */,
+				CEAF3BEB15CF00A700FC121C /* SiteVC.xib in Resources */,
+				CEA71D1B160DC688006CDCB5 /* Default-568h@2x.png in Resources */,
+				CEA71D1D160DC6BD006CDCB5 /* Icon@2x.png in Resources */,
+				CE14D93E17A82A580029B32A /* Diabetes.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771D0D1C14505D2100DC4E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771D0D1D14505D2100DC4E4D /* MainWindow.xib in Resources */,
+				771D0D1E14505D2100DC4E4D /* LogByDayViewController.xib in Resources */,
+				771D0D1F14505D2100DC4E4D /* InsulinBrandsController.xib in Resources */,
+				771D0D2014505D2100DC4E4D /* FoodController.xib in Resources */,
+				771D0D2114505D2100DC4E4D /* EventFoodController.xib in Resources */,
+				771D0D2214505D2100DC4E4D /* EventFoodCell.xib in Resources */,
+				771D0D2314505D2100DC4E4D /* InsulinFactorController.xib in Resources */,
+				CE62C9FD1E7D9274002F3988 /* GraphController.xib in Resources */,
+				771D0D2414505D2100DC4E4D /* RootViewController-withads.xib in Resources */,
+				771D0D2514505D2100DC4E4D /* SettingsController.xib in Resources */,
+				771D0D2614505D2100DC4E4D /* InsulinScaleController.xib in Resources */,
+				771D0D2714505D2100DC4E4D /* InsulinScaleCell.xib in Resources */,
+				771D0D2814505D2100DC4E4D /* DailyScheduleController.xib in Resources */,
+				771D0D2914505D2100DC4E4D /* DailySchedDtlController.xib in Resources */,
+				771D0D2A14505D2100DC4E4D /* InsulinBrandCell.xib in Resources */,
+				771D0D2B14505D2100DC4E4D /* bar_select.png in Resources */,
+				CE5FEFDA19AA36EB0074500B /* InputAccessory.xib in Resources */,
+				771D0D2C14505D2100DC4E4D /* crosshair.png in Resources */,
+				771D0D2D14505D2100DC4E4D /* colormap.png in Resources */,
+				771D0D2F14505D2100DC4E4D /* ColorSchemeCell.xib in Resources */,
+				CE4FD42A17E39CC200A4EC8B /* Diabetes-120.png in Resources */,
+				771D0D3014505D2100DC4E4D /* InsulinFactorCell.xib in Resources */,
+				771D0D3114505D2100DC4E4D /* LogByDayCell.xib in Resources */,
+				771D0D3214505D2100DC4E4D /* LogByMonthViewController.xib in Resources */,
+				771D0D3314505D2100DC4E4D /* EventDetailTblController.xib in Resources */,
+				771D0D3414505D2100DC4E4D /* NoteViewController.xib in Resources */,
+				771D0D3514505D2100DC4E4D /* UpcomingReminderViewController.xib in Resources */,
+				771D0D3614505D2100DC4E4D /* UpcomingPumpSiteViewController.xib in Resources */,
+				771D0D3714505D2100DC4E4D /* LogByMonthCell.xib in Resources */,
+				771D0D3814505D2100DC4E4D /* PredicateCriteriaController.xib in Resources */,
+				771D0D3914505D2100DC4E4D /* buildingEmailView.xib in Resources */,
+				771D0D3C14505D2100DC4E4D /* AddLog-Icon.png in Resources */,
+				771D0D3D14505D2100DC4E4D /* Export-Icon.png in Resources */,
+				CECE14811F857E2E00A5BA98 /* Images.xcassets in Resources */,
+				771D0D3E14505D2100DC4E4D /* Food-Icon.png in Resources */,
+				771D0D3F14505D2100DC4E4D /* Graph-Icon.png in Resources */,
+				771D0D4014505D2100DC4E4D /* Settings-Icon.png in Resources */,
+				771D0D4114505D2100DC4E4D /* Log-Icon.png in Resources */,
+				771D0D4214505D2100DC4E4D /* Button-Close-Icon.png in Resources */,
+				771D0D4514505D2100DC4E4D /* PumpSiteController.xib in Resources */,
+				771D0D4614505D2100DC4E4D /* glucose-mark.png in Resources */,
+				771D0D4714505D2100DC4E4D /* glucose-avg.png in Resources */,
+				771D0D4814505D2100DC4E4D /* carb-avg.png in Resources */,
+				771D0D4914505D2100DC4E4D /* carb-mark.png in Resources */,
+				771D0D4A14505D2100DC4E4D /* carb-line.png in Resources */,
+				771D0D4B14505D2100DC4E4D /* glucose-line.png in Resources */,
+				CE5FEFDE19AA518C0074500B /* Button-Close-square.png in Resources */,
+				771D0D4C14505D2100DC4E4D /* LogByMonth-Select.png in Resources */,
+				771D0D4D14505D2100DC4E4D /* LogByDay-Select.png in Resources */,
+				771D0D4E14505D2100DC4E4D /* SetupViewController.xib in Resources */,
+				CE4FD42917E39CC200A4EC8B /* Diabetes-80.png in Resources */,
+				771D0D4F14505D2100DC4E4D /* WelcomeContent.html in Resources */,
+				771D0D5014505D2100DC4E4D /* WelcomeButton.png in Resources */,
+				771D0D5114505D2100DC4E4D /* ColorSchemes.plist in Resources */,
+				771D0D5214505D2100DC4E4D /* back-arrow.png in Resources */,
+				771D0D5314505D2100DC4E4D /* InsulinOnBoardCell.xib in Resources */,
+				771D0D5414505D2100DC4E4D /* InsulinOnBoardController.xib in Resources */,
+				771D0D5514505D2100DC4E4D /* ExerciseController.xib in Resources */,
+				771D0D5614505D2100DC4E4D /* ExerciseCell.xib in Resources */,
+				771D0D5714505D2100DC4E4D /* exercise-icon.png in Resources */,
+				771D0D5814505D2100DC4E4D /* IOB-off-icon.png in Resources */,
+				771D0D5914505D2100DC4E4D /* IOB-on-icon.png in Resources */,
+				771D0D5A14505D2100DC4E4D /* strikethrough.png in Resources */,
+				771D0D5B14505D2100DC4E4D /* Food-Icon-sm.png in Resources */,
+				771D0D5D14505D2100DC4E4D /* IOBFactors.plist in Resources */,
+				771D0D5E14505D2100DC4E4D /* Sites.plist in Resources */,
+				771D0D5F14505D2100DC4E4D /* KetoneValues.plist in Resources */,
+				771D0D6114505D2100DC4E4D /* InsulinBrands.plist in Resources */,
+				77EE2ECA14509EC700C9BF3C /* ExerciseTypes.plist in Resources */,
+				77C3C421146C845700FE148F /* ActiveDBName.plist in Resources */,
+				7739F369146D68AB00025E2A /* ActiveDatabaseVC.xib in Resources */,
+				CE4FD42817E39CC200A4EC8B /* Diabetes-58.png in Resources */,
+				776F5A49147C4ADA004F1869 /* BuyItVC.xib in Resources */,
+				774C0179147D775E00A293ED /* Icon.png in Resources */,
+				774C017A147D775E00A293ED /* Icon@2x.png in Resources */,
+				77E4337515267F8C00B7423E /* RootViewController.xib in Resources */,
+				77E43395152743ED00B7423E /* Localizable.strings in Resources */,
+				CEAF3BEA15CF00A700FC121C /* SiteVC.xib in Resources */,
+				CEA71D17160DC65F006CDCB5 /* Default-568h@2x.png in Resources */,
+				CEA71D18160DC65F006CDCB5 /* Default.png in Resources */,
+				CEA71D19160DC65F006CDCB5 /* Default@2x.png in Resources */,
+				CE14D93D17A82A580029B32A /* Diabetes.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7705EA65147AFD1900403662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7705EA66147AFD1900403662 /* main.m in Sources */,
+				7705EA67147AFD1900403662 /* DiabetesAppDelegate.m in Sources */,
+				7705EA68147AFD1900403662 /* LogByDayViewController.m in Sources */,
+				7705EA69147AFD1900403662 /* Diabetes.xcdatamodeld in Sources */,
+				7705EA6A147AFD1900403662 /* InsulinBrandsController.m in Sources */,
+				7705EA6B147AFD1900403662 /* FoodController.m in Sources */,
+				7705EA6C147AFD1900403662 /* EventFoodController.m in Sources */,
+				7705EA6D147AFD1900403662 /* InsulinFactorController.m in Sources */,
+				7705EA6E147AFD1900403662 /* RootViewController.m in Sources */,
+				7705EA6F147AFD1900403662 /* DataService.m in Sources */,
+				7705EA70147AFD1900403662 /* FoodWeight.m in Sources */,
+				7705EA71147AFD1900403662 /* EventFood.m in Sources */,
+				7705EA72147AFD1900403662 /* SettingsController.m in Sources */,
+				7705EA73147AFD1900403662 /* InsulinScaleController.m in Sources */,
+				7705EA74147AFD1900403662 /* DailyScheduleController.m in Sources */,
+				7705EA75147AFD1900403662 /* DailySchedDtlController.m in Sources */,
+				7705EA76147AFD1900403662 /* PumpSiteController.m in Sources */,
+				7705EA77147AFD1900403662 /* KetoneValue.m in Sources */,
+				7705EA78147AFD1900403662 /* ColorTransformer.m in Sources */,
+				7705EA79147AFD1900403662 /* ColorScheme.m in Sources */,
+				7705EA7A147AFD1900403662 /* GraphController.m in Sources */,
+				7705EA7B147AFD1900403662 /* FoodItem.m in Sources */,
+				7705EA7C147AFD1900403662 /* InsulinFactor.m in Sources */,
+				7705EA7D147AFD1900403662 /* InsulinScale.m in Sources */,
+				7705EA7E147AFD1900403662 /* LogByMonthViewController.m in Sources */,
+				7705EA7F147AFD1900403662 /* NoteViewController.m in Sources */,
+				7705EA80147AFD1900403662 /* UpcomingReminderViewController.m in Sources */,
+				7705EA81147AFD1900403662 /* UpcomingPumpSiteViewController.m in Sources */,
+				7705EA82147AFD1900403662 /* PeriodStatistics.m in Sources */,
+				7705EA83147AFD1900403662 /* PredicateCriteriaController.m in Sources */,
+				7705EA84147AFD1900403662 /* SetupViewController.m in Sources */,
+				7705EA86147AFD1900403662 /* InsulinBrand.m in Sources */,
+				7705EA87147AFD1900403662 /* DailySchedule.m in Sources */,
+				7705EA88147AFD1900403662 /* PickerLabel.m in Sources */,
+				7705EA89147AFD1900403662 /* IOBFactor.m in Sources */,
+				7705EA8A147AFD1900403662 /* InsulinOnBoardController.m in Sources */,
+				7705EA8B147AFD1900403662 /* ExerciseType.m in Sources */,
+				7705EA8C147AFD1900403662 /* ExerciseController.m in Sources */,
+				7705EA8D147AFD1900403662 /* EventDetailTblController.m in Sources */,
+				7705EA8E147AFD1900403662 /* CSVParser.m in Sources */,
+				7705EA8F147AFD1900403662 /* CSVParserReceiver.m in Sources */,
+				7705EA90147AFD1900403662 /* ActiveDatabaseVC.m in Sources */,
+				7705EA91147AFD1900403662 /* Event.m in Sources */,
+				7705EA92147AFD1900403662 /* Site.m in Sources */,
+				779C9FAD147C41570011A4A6 /* BuyItVC.m in Sources */,
+				7738FD4B1527B06F00683ADA /* Appirater.m in Sources */,
+				CEAF3BE915CF00A700FC121C /* SiteVC.m in Sources */,
+				CE1C9FBD16D80BE80051DA38 /* Settings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		771D0D6214505D2100DC4E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771D0D6314505D2100DC4E4D /* main.m in Sources */,
+				771D0D6414505D2100DC4E4D /* DiabetesAppDelegate.m in Sources */,
+				771D0D6514505D2100DC4E4D /* LogByDayViewController.m in Sources */,
+				771D0D6614505D2100DC4E4D /* Diabetes.xcdatamodeld in Sources */,
+				771D0D6714505D2100DC4E4D /* InsulinBrandsController.m in Sources */,
+				771D0D6814505D2100DC4E4D /* FoodController.m in Sources */,
+				771D0D6914505D2100DC4E4D /* EventFoodController.m in Sources */,
+				771D0D6A14505D2100DC4E4D /* InsulinFactorController.m in Sources */,
+				771D0D6B14505D2100DC4E4D /* RootViewController.m in Sources */,
+				771D0D6C14505D2100DC4E4D /* DataService.m in Sources */,
+				771D0D6D14505D2100DC4E4D /* FoodWeight.m in Sources */,
+				771D0D6F14505D2100DC4E4D /* EventFood.m in Sources */,
+				771D0D7014505D2100DC4E4D /* SettingsController.m in Sources */,
+				771D0D7114505D2100DC4E4D /* InsulinScaleController.m in Sources */,
+				771D0D7214505D2100DC4E4D /* DailyScheduleController.m in Sources */,
+				771D0D7314505D2100DC4E4D /* DailySchedDtlController.m in Sources */,
+				771D0D7414505D2100DC4E4D /* PumpSiteController.m in Sources */,
+				771D0D7514505D2100DC4E4D /* KetoneValue.m in Sources */,
+				771D0D7614505D2100DC4E4D /* ColorTransformer.m in Sources */,
+				771D0D7714505D2100DC4E4D /* ColorScheme.m in Sources */,
+				771D0D7814505D2100DC4E4D /* GraphController.m in Sources */,
+				771D0D7914505D2100DC4E4D /* FoodItem.m in Sources */,
+				771D0D7A14505D2100DC4E4D /* InsulinFactor.m in Sources */,
+				771D0D7B14505D2100DC4E4D /* InsulinScale.m in Sources */,
+				771D0D7C14505D2100DC4E4D /* LogByMonthViewController.m in Sources */,
+				771D0D7D14505D2100DC4E4D /* NoteViewController.m in Sources */,
+				771D0D7E14505D2100DC4E4D /* UpcomingReminderViewController.m in Sources */,
+				771D0D7F14505D2100DC4E4D /* UpcomingPumpSiteViewController.m in Sources */,
+				771D0D8014505D2100DC4E4D /* PeriodStatistics.m in Sources */,
+				771D0D8114505D2100DC4E4D /* PredicateCriteriaController.m in Sources */,
+				771D0D8214505D2100DC4E4D /* SetupViewController.m in Sources */,
+				771D0D8414505D2100DC4E4D /* InsulinBrand.m in Sources */,
+				771D0D8514505D2100DC4E4D /* DailySchedule.m in Sources */,
+				771D0D8614505D2100DC4E4D /* PickerLabel.m in Sources */,
+				771D0D8714505D2100DC4E4D /* IOBFactor.m in Sources */,
+				771D0D8814505D2100DC4E4D /* InsulinOnBoardController.m in Sources */,
+				771D0D8914505D2100DC4E4D /* ExerciseType.m in Sources */,
+				771D0D8A14505D2100DC4E4D /* ExerciseController.m in Sources */,
+				771D0D8C14505D2100DC4E4D /* EventDetailTblController.m in Sources */,
+				7712F836146AC72200637BD0 /* CSVParser.m in Sources */,
+				7712F837146AC72200637BD0 /* CSVParserReceiver.m in Sources */,
+				7739F368146D68AB00025E2A /* ActiveDatabaseVC.m in Sources */,
+				776239851472CB1F00E7B6D9 /* Event.m in Sources */,
+				770B10991473EDD3005B2292 /* Site.m in Sources */,
+				776F5A48147C4A74004F1869 /* BuyItVC.m in Sources */,
+				7738FD4A1527B06F00683ADA /* Appirater.m in Sources */,
+				CEAF3BE815CF00A700FC121C /* SiteVC.m in Sources */,
+				CE1C9FBC16D80BE80051DA38 /* Settings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77E43389152743ED00B7423E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4338B152743ED00B7423E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7705EA9C147AFD1900403662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diabetes_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LOG_MAX_FOR_LITE=5";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Diabetes360 Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepbluewebtech.D360Lite;
+				PRODUCT_NAME = "D360 Lite";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7705EA9D147AFD1900403662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diabetes_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LOG_MAX_FOR_LITE=5";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Diabetes360 Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepbluewebtech.D360Lite;
+				PRODUCT_NAME = "D360 Lite";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7705EA9E147AFD1900403662 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diabetes_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LOG_MAX_FOR_LITE=5";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Diabetes360 Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepbluewebtech.D360Lite;
+				PRODUCT_NAME = "D360 Lite";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		771D0D9614505D2100DC4E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diabetes_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "/Users/joedimaggio/Documents/iOS\\ Development/Diabetes/CorePlot/CorePlotHeaders/**";
+				INFOPLIST_FILE = "Diabetes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/CorePlot",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepbluewebtech.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Diabetes360;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		771D0D9714505D2100DC4E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diabetes_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "/Users/joedimaggio/Documents/iOS\\ Development/Diabetes/CorePlot/CorePlotHeaders/**";
+				INFOPLIST_FILE = "Diabetes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/CorePlot",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepbluewebtech.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Diabetes360;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		771D0D9814505D2100DC4E4D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Diabetes_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "/Users/joedimaggio/Documents/iOS\\ Development/Diabetes/CorePlot/CorePlotHeaders/**";
+				INFOPLIST_FILE = "Diabetes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/CorePlot",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepbluewebtech.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Diabetes360;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Distribution;
+		};
+		77D84A7F144A0814009548B7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = Diabetes360;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph DiMaggio (7XYLU765Q3)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Diabetes360;
+				PROVISIONING_PROFILE = "118F8427-D94A-4E81-BE3C-79E388E15F15";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = Diabetes360;
+				PROVISIONING_PROFILE = "A9A32033-DE35-4CAF-94E2-4E8506F544EE";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7705EA9B147AFD1900403662 /* Build configuration list for PBXNativeTarget "D360 Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7705EA9C147AFD1900403662 /* Debug */,
+				7705EA9D147AFD1900403662 /* Release */,
+				7705EA9E147AFD1900403662 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		771D0D9514505D2100DC4E4D /* Build configuration list for PBXNativeTarget "Diabetes360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771D0D9614505D2100DC4E4D /* Debug */,
+				771D0D9714505D2100DC4E4D /* Release */,
+				771D0D9814505D2100DC4E4D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Diabetes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				77D84A7F144A0814009548B7 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28D3F201112F7DC200FD0661 /* Diabetes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE11F6B116DFAB8C00F97EE3 /* Diabetes 1.64.xcdatamodel */,
+				773A4699144123D1003F7A7F /* Diabetes 2.xcdatamodel */,
+				776239861472CFD000E7B6D9 /* Diabetes 1.03.xcdatamodel */,
+				28860B760F44E54D00985440 /* Diabetes.xcdatamodel */,
+			);
+			currentVersion = CE11F6B116DFAB8C00F97EE3 /* Diabetes 1.64.xcdatamodel */;
+			path = Diabetes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

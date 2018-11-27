@@ -1,0 +1,778 @@
+TDiabetes
+v7
+r0
+t324660284.919027
+cCheck dependencies
+cCpResource build/Release-iphoneos/Diabetes.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Info.plist Diabetes-Info.plist
+cCompileXIB /Users/josephdimaggio/Documents/Diabetes/MainWindow.xib
+cCompileXIB /Users/josephdimaggio/Documents/Diabetes/RootViewController.xib
+cCompileXIB /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib
+cProcessPCH /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes.momd /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/main.o /Users/josephdimaggio/Documents/Diabetes/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/DiabetesAppDelegate.o /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/RootViewController.o /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/AddEventController.o /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Event.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/FoodItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/MealItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Diabetes normal armv6
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/main.o /Users/josephdimaggio/Documents/Diabetes/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/DiabetesAppDelegate.o /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/RootViewController.o /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/AddEventController.o /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Event.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/FoodItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/MealItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Diabetes normal armv7
+cCreateUniversalBinary /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes normal "armv6 armv7"
+cGenerateDSYMFile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app.dSYM /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes
+cProcessProductPackaging "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/06D7A94A-A13C-40C8-B03C-3B01958734C1.mobileprovision" /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision
+cTouch /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes.xcent
+cCodeSign /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+cValidate /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC10FA70000000000300DE0
+t1287720871
+s3149280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC10F8D000000000000046B
+t1287720845
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.h
+c000000004D62B9090000000000000434
+t1298315529
+s1076
+i<UIKit/UIKit.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m
+c000000004D66A80D00000000000017AA
+t1298573325
+s6058
+i"DiabetesAppDelegate.h"
+i"RootViewController.h"
+i"AddEventController.h"
+i"Event.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib
+c000000004D573AF2000000000000B728
+t1297562354
+s46888
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.h
+c000000004D1B5A8D00000000000003DC
+t1293638285
+s988
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m
+c000000004D3C4EA20000000000001F71
+t1295797922
+s8049
+i"DiabetesAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.h
+c000000004D3C95E000000000000002D3
+t1295816160
+s723
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m
+c000000004D65BDCE000000000000370F
+t1298513358
+s14095
+i"RootViewController.h"
+i"Event.h"
+i"AddEventController.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld
+c000000004D66A80D00000000000001FE
+t1298573325
+s510
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.h
+c000000004D619B0E0000000000000303
+t1298242318
+s771
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m
+c000000004D619B0E000000000000013E
+t1298242318
+s318
+i"Event.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.h
+c000000004D619B0E000000000000029E
+t1298242318
+s670
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m
+c000000004D619B0E0000000000000110
+t1298242318
+s272
+i"FoodItem.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.h
+c000000004D619B0E0000000000000208
+t1298242318
+s520
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m
+c000000004D619B0E000000000000014E
+t1298242318
+s334
+i"MealItem.h"
+i"Event.h"
+i"FoodItem.h"
+
+N/Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch
+c000000004D1B5A8D0000000000000165
+t1293638285
+s357
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/josephdimaggio/Documents/Diabetes/MainWindow.xib
+c000000004D1B5A8D0000000000005FF8
+t1293638285
+s24568
+
+N/Users/josephdimaggio/Documents/Diabetes/RootViewController.xib
+c000000004D3438BA00000000000043BF
+t1295268026
+s17343
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes.xcent
+t1299006867
+s422
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/AddEventController.o
+t1299006866
+s59924
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Diabetes
+t1299006867
+s46748
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Diabetes.LinkFileList
+c000000004D65BC01000000000000038A
+t1298512897
+s906
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/DiabetesAppDelegate.o
+t1299006866
+s66212
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Event.o
+t1299006866
+s5660
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/FoodItem.o
+t1299006866
+s5632
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/MealItem.o
+t1299006866
+s5668
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/RootViewController.o
+t1299006866
+s75296
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/main.o
+t1299006866
+s6516
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/AddEventController.o
+t1299006867
+s59492
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Diabetes
+t1299006867
+s46452
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Diabetes.LinkFileList
+c000000004D65BC01000000000000038A
+t1298512897
+s906
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/DiabetesAppDelegate.o
+t1299006866
+s66228
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Event.o
+t1299006867
+s5660
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/FoodItem.o
+t1299006867
+s5632
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/MealItem.o
+t1299006867
+s5668
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/RootViewController.o
+t1299006867
+s75148
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/main.o
+t1299006866
+s6492
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+t1301852901
+s442
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app.dSYM
+t1299006867
+s102
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/AddEventController.nib
+t1297562394
+s3665
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes
+t1299006867
+s109840
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes.momd
+t1299006866
+s136
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Info.plist
+t1297556724
+s791
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/MainWindow.nib
+t1297556724
+s1510
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/PkgInfo
+t1297556724
+s8
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/ResourceRules.plist
+t1297556724
+s485
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/RootViewController.nib
+t1297556724
+s979
+
+N/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision
+t1301852896
+s7233
+
+N/Users/josephdimaggio/Documents/Diabetes/main.m
+c000000004D1B5A8D000000000000016E
+t1293638285
+s366
+i<UIKit/UIKit.h>
+
+N/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/06D7A94A-A13C-40C8-B03C-3B01958734C1.mobileprovision
+c000000004D98B23E0000000000001C41
+t1301852734
+s7233
+
+N/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/814DDB24-843A-4F4F-B6C8-EC80D2AFF9D5.mobileprovision
+c000000004D57227F0000000000001C08
+t1297556095
+s7176
+
+N/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/D83194F1-C339-43C2-AE67-0DA03F9AA702.mobileprovision
+c000000004D6D33160000000000001C0E
+t1299002134
+s7182
+
+N/var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch.gch
+t1297556726
+s10819988
+
+N/var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch.gch
+t1297556726
+s10353044
+
+N/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-ccpptucrvyoiizbahbcovbletzqd/Diabetes_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-crqstmedpecjzvcezyvjempzzafr/Diabetes_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch.gch
+t1299006865
+s10819988
+
+N/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch.gch
+t1299006865
+s10353044
+
+NDiabetes-Info.plist
+c000000004D1B5A8D000000000000038D
+t1293638285
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies324660283#324660283#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCodeSign /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+s324660283.633921
+e324660284.317322
+r1
+xCodeSign
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+o/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app: replacing existing signature
+lSLF07#2@44"CodeSign build/Release-iphoneos/Diabetes.app324660283#324660284#0(107"/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app: replacing existing signature0(0#0#76"/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app8612272288#670"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Joseph DiMaggio (7XYLU765Q3)" --resource-rules=/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/ResourceRules.plist --entitlements /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes.xcent /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/AddEventController.o /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320699666.377213
+e320699666.629391
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/AddEventController.o
+x/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m320699666#320699666#0(0"0(0#0#69"/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m8615032800#1844"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv6 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/AddEventController.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/DiabetesAppDelegate.o /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320699666.183259
+e320699666.377109
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/DiabetesAppDelegate.o
+x/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m320699666#320699666#0(0"0(0#0#70"/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m8615426048#1846"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv6 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/DiabetesAppDelegate.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Event.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320699666.578735
+e320699666.631524
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Event.o
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m320699666#320699666#0(0"0(0#0#70"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m8615038400#1832"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv6 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Event.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/FoodItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320699666.629489
+e320699666.692601
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/FoodItem.o
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m320699666#320699666#0(0"0(0#0#73"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m8612241472#1838"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv6 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/FoodItem.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/MealItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320699666.631619
+e320699666.704803
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/MealItem.o
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m320699666#320699666#0(0"0(0#0#73"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m8610057504#1838"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv6 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/MealItem.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/RootViewController.o /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320699666.184888
+e320699666.578631
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/RootViewController.o
+x/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m320699666#320699666#0(0"0(0#0#69"/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m8615036000#1844"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv6 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/main.o /Users/josephdimaggio/Documents/Diabetes/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320699666.026292
+e320699666.184801
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/main.o
+x/Users/josephdimaggio/Documents/Diabetes/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/josephdimaggio/Documents/Diabetes/main.m320699666#320699666#0(0"0(0#0#47"/Users/josephdimaggio/Documents/Diabetes/main.m8614254944#1808"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv6 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/main.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/AddEventController.o /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320699667.247392
+e320699667.490506
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/AddEventController.o
+x/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m320699667#320699667#0(0"0(0#0#69"/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m8615287776#1844"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv7 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/AddEventController.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/DiabetesAppDelegate.o /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320699666.753858
+e320699666.936753
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/DiabetesAppDelegate.o
+x/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m320699666#320699666#0(0"0(0#0#70"/Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m8614306048#1846"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv7 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Classes/DiabetesAppDelegate.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/DiabetesAppDelegate.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Event.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320699667.257640
+e320699667.319459
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Event.o
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m320699667#320699667#0(0"0(0#0#70"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m8614712992#1832"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv7 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Event.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/FoodItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320699667.319565
+e320699667.372544
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/FoodItem.o
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m320699667#320699667#0(0"0(0#0#73"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m8612971552#1838"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv7 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/FoodItem.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/MealItem.o /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320699667.372649
+e320699667.430807
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/MealItem.o
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m320699667#320699667#0(0"0(0#0#73"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m8610824032#1838"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv7 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/MealItem.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/MealItem.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/RootViewController.o /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320699666.936882
+e320699667.247292
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/RootViewController.o
+x/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m320699666#320699667#0(0"0(0#0#69"/Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m8615425536#1844"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv7 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/Classes/RootViewController.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/main.o /Users/josephdimaggio/Documents/Diabetes/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320699666.692724
+e320699666.753750
+r1
+xCompileC
+xbuild/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/main.o
+x/Users/josephdimaggio/Documents/Diabetes/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/josephdimaggio/Documents/Diabetes/main.m320699666#320699666#0(0"0(0#0#47"/Users/josephdimaggio/Documents/Diabetes/main.m8615295808#1808"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv7 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch -c /Users/josephdimaggio/Documents/Diabetes/main.m -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib
+s319255193.525477
+e319255194.079003
+r1
+xCompileXIB
+x/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib
+lSLF07#2@41"CompileXIB Classes/AddEventController.xib319255193#319255194#0(0"0(0#0#71"/Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib32088645568430192#575"    cd /Users/josephdimaggio/Documents/Diabetes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/AddEventController.nib /Users/josephdimaggio/Documents/Diabetes/Classes/AddEventController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes/MainWindow.xib
+s319249524.454853
+e319249524.929173
+r1
+xCompileXIB
+x/Users/josephdimaggio/Documents/Diabetes/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319249524#319249524#0(0"0(0#0#55"/Users/josephdimaggio/Documents/Diabetes/MainWindow.xib8610028832#551"    cd /Users/josephdimaggio/Documents/Diabetes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/MainWindow.nib /Users/josephdimaggio/Documents/Diabetes/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/josephdimaggio/Documents/Diabetes/RootViewController.xib
+s319249524.455611
+e319249524.910581
+r1
+xCompileXIB
+x/Users/josephdimaggio/Documents/Diabetes/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib319249524#319249524#0(0"0(0#0#63"/Users/josephdimaggio/Documents/Diabetes/RootViewController.xib8608701824#567"    cd /Users/josephdimaggio/Documents/Diabetes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/RootViewController.nib /Users/josephdimaggio/Documents/Diabetes/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Release-iphoneos/Diabetes.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s319249524.392479
+e319249524.454762
+r1
+xCpResource
+xbuild/Release-iphoneos/Diabetes.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist319249524#319249524#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist5423551314508738560#522"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app0#
+
+CCreateUniversalBinary /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes normal "armv6 armv7"
+s320699667.705491
+e320699667.761419
+r1
+xCreateUniversalBinary
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Release-iphoneos/Diabetes.app/Diabetes normal "armv6 armv7"320699667#320699667#0(0"0(0#0#52"/Users/josephdimaggio/Documents/Diabetes/armv6 armv78614888256#540"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Diabetes /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Diabetes -output /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes0#
+
+CDataModelVersionCompile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes.momd /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld
+s320699666.025248
+e320699666.183061
+r1
+xDataModelVersionCompile
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes.momd
+x/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld
+lSLF07#2@95"DataModelVersionCompile build/Release-iphoneos/Diabetes.app/Diabetes.momd Diabetes.xcdatamodeld320699666#320699666#0(0"0(0#0#62"/Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld8614475168#354"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes.momd0#
+
+CGenerateDSYMFile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app.dSYM /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes
+s320699667.761529
+e320699667.916148
+r1
+xGenerateDSYMFile
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app.dSYM
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes
+lSLF07#2@102"GenerateDSYMFile build/Release-iphoneos/Diabetes.app.dSYM build/Release-iphoneos/Diabetes.app/Diabetes320699667#320699667#0(0"0(0#0#85"/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes8614521728#375"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Diabetes -o /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app.dSYM0#
+
+CLd /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Diabetes normal armv6
+s320699666.704900
+e320699667.257537
+r1
+xLd
+x/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Diabetes
+xnormal
+xarmv6
+lSLF07#2@128"Link /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Diabetes320699666#320699667#0(0"0(0#0#0"8612941504#903"    cd /Users/josephdimaggio/Documents/Diabetes    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -filelist /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Diabetes.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv6/Diabetes0#
+
+CLd /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Diabetes normal armv7
+s320699667.490605
+e320699667.705346
+r1
+xLd
+x/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Diabetes
+xnormal
+xarmv7
+lSLF07#2@128"Link /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Diabetes320699667#320699667#0(0"0(0#0#0"8612417568#903"    cd /Users/josephdimaggio/Documents/Diabetes    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -filelist /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Diabetes.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Objects-normal/armv7/Diabetes0#
+
+CProcessInfoPlistFile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Info.plist Diabetes-Info.plist
+s319249524.402795
+e319249524.447468
+r1
+xProcessInfoPlistFile
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Info.plist
+xDiabetes-Info.plist
+lSLF07#2@27"Process Diabetes-Info.plist319249524#319249524#0(0"0(0#0#60"/Users/josephdimaggio/Documents/Diabetes/Diabetes-Info.plist8609902912#580"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Diabetes-Info.plist -genpkginfo /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/ResourceRules.plist -o /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/Info.plist0#
+
+CProcessPCH /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319249525.514722
+e319249526.280090
+r1
+xProcessPCH
+x/var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch.gch
+xDiabetes_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Diabetes_Prefix.pch319249525#319249526#0(0"0(0#0#60"/Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch8608704064#1701"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv7 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch -o /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319249525.513563
+e319249526.273521
+r1
+xProcessPCH
+x/var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch.gch
+xDiabetes_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Diabetes_Prefix.pch319249525#319249526#0(0"0(0#0#60"/Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch8607649472#1701"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv6 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch -o /var/folders/JG/JGvMeHvnGrOCDPaB822KCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-ccpptucrvyoiizbahbcovbletzqd/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-crqstmedpecjzvcezyvjempzzafr/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s320699664.704020
+e320699666.025121
+r1
+xProcessPCH
+x/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch.gch
+xDiabetes_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Diabetes_Prefix.pch320699664#320699666#0(0"0(0#0#60"/Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch8612740640#1701"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv7 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch -o /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-gaybasposehjmceghvktdpoplhrh/Diabetes_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch.gch Diabetes_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s320699664.660027
+e320699665.785300
+r1
+xProcessPCH
+x/var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch.gch
+xDiabetes_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Diabetes_Prefix.pch320699664#320699665#0(0"0(0#0#60"/Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch5791474525403440128#1701"    cd /Users/josephdimaggio/Documents/Diabetes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-generated-files.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-own-target-headers.hmap -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-all-target-headers.hmap -iquote /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes-project-headers.hmap -F/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos -I/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/include -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources/armv6 -I/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/josephdimaggio/Documents/Diabetes/Diabetes_Prefix.pch -o /var/folders/U-/U-NzpePKGE4JHTLyBIMXiE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Diabetes_Prefix-hcdxmxgmysjpqsczpdftorotcfnm/Diabetes_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/06D7A94A-A13C-40C8-B03C-3B01958734C1.mobileprovision" /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision
+s323545696.707436
+e323545696.748915
+r1
+xProcessProductPackaging
+x/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/06D7A94A-A13C-40C8-B03C-3B01958734C1.mobileprovision
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/06D7A94A-A13C-40C8-B03C-3B01958734C1.mobileprovision" build/Release-iphoneos/Diabetes.app/embedded.mobileprovision323545696#323545696#0(0"0(0#0#101"/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision28429402151059556#439"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/06D7A94A-A13C-40C8-B03C-3B01958734C1.mobileprovision" -o /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/814DDB24-843A-4F4F-B6C8-EC80D2AFF9D5.mobileprovision" /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision
+s319249527.556736
+e319249527.558164
+r1
+xProcessProductPackaging
+x/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/814DDB24-843A-4F4F-B6C8-EC80D2AFF9D5.mobileprovision
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/814DDB24-843A-4F4F-B6C8-EC80D2AFF9D5.mobileprovision" build/Release-iphoneos/Diabetes.app/embedded.mobileprovision319249527#319249527#0(0"0(0#0#101"/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision8607652480#439"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/814DDB24-843A-4F4F-B6C8-EC80D2AFF9D5.mobileprovision" -o /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/D83194F1-C339-43C2-AE67-0DA03F9AA702.mobileprovision" /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision
+s320699667.916365
+e320699667.922245
+r1
+xProcessProductPackaging
+x/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/D83194F1-C339-43C2-AE67-0DA03F9AA702.mobileprovision
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/D83194F1-C339-43C2-AE67-0DA03F9AA702.mobileprovision" build/Release-iphoneos/Diabetes.app/embedded.mobileprovision320699667#320699667#0(0"0(0#0#101"/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision8609901760#439"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/josephdimaggio/Library/MobileDevice/Provisioning Profiles/D83194F1-C339-43C2-AE67-0DA03F9AA702.mobileprovision" -o /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes.xcent
+s320699667.947205
+e320699667.971750
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes.xcent
+lSLF07#2@180"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes.xcent320699667#320699667#0(0"0(0#0#108"/Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes.xcent8610285856#441"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/josephdimaggio/Documents/Diabetes/build/Diabetes.build/Release-iphoneos/Diabetes.build/Diabetes.xcent0#
+
+CTouch /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+s323545696.749200
+e323545696.780408
+r1
+xTouch
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+lSLF07#2@82"Touch /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app323545696#323545696#0(0"0(0#0#0"8612432256#271"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app0#
+
+CValidate /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+s324660284.317399
+e324660284.918966
+r1
+xValidate
+x/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app
+o2011-04-16 11:24:44.658 Validation[65040:607] *** Warning: Defaulting to the standard codesign tool
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@44"Validate build/Release-iphoneos/Diabetes.app324660284#324660284#0(343"2011-04-16 11:24:44.658 Validation[65040:607] *** Warning: Defaulting to the standard codesign toolwarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)1(22@187" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIconFile, CFBundleIconFiles, or provide a default Icon.png that is 57x57 (-19013)324660284#18446744073709551615#0#0(6@0"324660284#0#0#0#0#0"0(0#0#76"/Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app8608427840#380"    cd /Users/josephdimaggio/Documents/Diabetes    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/josephdimaggio/Documents/Diabetes/build/Release-iphoneos/Diabetes.app0#
+

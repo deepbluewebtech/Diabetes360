@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* DiabetesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1e+07, 817}}";
+			sepNavSelRange = "{897, 0}";
+			sepNavVisRange = "{0, 988}";
+		};
+	};
+	1D3623250D0F684500981E51 /* DiabetesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {970, 2990}}";
+			sepNavSelRange = "{638, 0}";
+			sepNavVisRange = "{3, 2212}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Diabetes */ = {
+		activeExec = 0;
+		executables = (
+			77A637DB12CB920D001A90E3 /* Diabetes */,
+		);
+	};
+	28860B760F44E54D00985440 /* Diabetes.xcdatamodel */ = {
+		uiCtxt = {
+			"Xdesign Model Editor Bookmark Key" = {
+				UIContextForDetailArea = {
+					_indexOfSelectedPane = 0;
+					_indexOfSelectedView = 0;
+				};
+				UIContextForEntityArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnns = (
+						"ET Entity",
+						"ET Abstract",
+						"ET Class",
+					);
+					chosenTableColumnns_sortDirections = (
+						YES,
+						YES,
+					);
+					chosenTableColumnns_sortKeys = (
+						name,
+						isAbstract,
+					);
+					chosenTableColumnns_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+						"compare:",
+					);
+					chosenTableWidths = (
+						103.000000,
+						22.000000,
+						68.080078,
+					);
+				};
+				UIContextForLayoutManager = {
+					detailSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {671, 218}}",
+							"{{676, 0}, {353, 218}}",
+						);
+					};
+					diagramSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {1029, 220}}",
+							"{{0, 225}, {1029, 607}}",
+						);
+					};
+					tableSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {218, 218}}",
+							"{{223, 0}, {446, 218}}",
+						);
+					};
+				};
+				UIContextForPropertyArea = {
+					_indexOfSelectedView = 2;
+					chosenTableColumnnFRTs = (
+						"FT Fetch Request",
+						"FT Predicate",
+					);
+					chosenTableColumnnFRTs_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnFRTs_sortKeys = (
+						name,
+					);
+					chosenTableColumnnFRTs_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsAT = (
+						"AT Attribute",
+						"AT Type",
+					);
+					chosenTableColumnnsAT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsAT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsAT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsFPT = (
+						"FP FetchedProperty",
+						"FP Destination",
+						"FP Predicate",
+					);
+					chosenTableColumnnsFPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsFPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsFPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsPT = (
+						"PT Property",
+						"PT Kind",
+						"PT SharedKeyOne",
+					);
+					chosenTableColumnnsPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsRT = (
+						"RT Relationship",
+						"RT Destination",
+					);
+					chosenTableColumnnsRT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsRT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsRT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidthsAT = (
+						128.000000,
+						365.000000,
+					);
+					chosenTableWidthsFPT = (
+						128.000000,
+						64.000000,
+						144.764160,
+					);
+					chosenTableWidthsFRT = (
+						128.000000,
+						365.764160,
+					);
+					chosenTableWidthsPT = (
+						128.000000,
+						108.110840,
+						254.570801,
+					);
+					chosenTableWidthsRT = (
+						128.000000,
+						295.000000,
+					);
+				};
+				"xdesign model browser state key - shown/hidden" = 1;
+				"xdesign model diagram view visible rect key" = "{{-147, -40}, {1014, 592}}";
+			};
+			sepNavWindowFrame = "{{15, 64}, {1011, 938}}";
+		};
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {970, 482}}";
+			sepNavSelRange = "{691, 24}";
+			sepNavVisRange = "{0, 723}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{8102, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{8153, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{8203, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 14095}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {970, 5174}}";
+			sepNavSelRange = "{3221, 0}";
+			sepNavVisRange = "{3961, 2277}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 77A637DB12CB920D001A90E3 /* Diabetes */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Diabetes */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Diabetes */,
+		);
+		breakpoints = (
+			77A90CED1322A88D00F7D329 /* objc_exception_throw */,
+		);
+		codeSenseManager = 77A637E912CB922D001A90E3 /* Code sense */;
+		executables = (
+			77A637DB12CB920D001A90E3 /* Diabetes */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					675,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					792,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					485,
+					521,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					768,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					752,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323545674;
+			PBXWorkspaceStateSaveDate = 323545674;
+		};
+		perUserProjectItems = {
+			771A8C22132AB187008B8BF9 /* PBXTextBookmark */ = 771A8C22132AB187008B8BF9 /* PBXTextBookmark */;
+			771A8C23132AB187008B8BF9 /* PBXTextBookmark */ = 771A8C23132AB187008B8BF9 /* PBXTextBookmark */;
+			777AAA1F1315F52800581F71 /* PBXTextBookmark */ = 777AAA1F1315F52800581F71 /* PBXTextBookmark */;
+			777AAA211315F52800581F71 /* PBXTextBookmark */ = 777AAA211315F52800581F71 /* PBXTextBookmark */;
+			777AAA221315F52800581F71 /* PBXTextBookmark */ = 777AAA221315F52800581F71 /* PBXTextBookmark */;
+			777F2D5213109DF100C5272E /* PBXTextBookmark */ = 777F2D5213109DF100C5272E /* PBXTextBookmark */;
+			777F2D5313109DF100C5272E /* PBXTextBookmark */ = 777F2D5313109DF100C5272E /* PBXTextBookmark */;
+			778B9DAF12EC911C00D51A5D /* PBXTextBookmark */ = 778B9DAF12EC911C00D51A5D /* PBXTextBookmark */;
+			77B1D7B1131EF674004BAF74 /* PBXTextBookmark */ = 77B1D7B1131EF674004BAF74 /* PBXTextBookmark */;
+			77B1D7B2131EF674004BAF74 /* XDModelBookmark */ = 77B1D7B2131EF674004BAF74 /* XDModelBookmark */;
+			77B1D7B3131EF674004BAF74 /* PBXTextBookmark */ = 77B1D7B3131EF674004BAF74 /* PBXTextBookmark */;
+			77B1D7B4131EF674004BAF74 /* PBXTextBookmark */ = 77B1D7B4131EF674004BAF74 /* PBXTextBookmark */;
+			77B80F0512F73EC40038EADB /* PBXTextBookmark */ = 77B80F0512F73EC40038EADB /* PBXTextBookmark */;
+			77CD36A81359EC7500DEE3A6 /* PBXTextBookmark */ = 77CD36A81359EC7500DEE3A6 /* PBXTextBookmark */;
+			77CD36A91359EC7500DEE3A6 /* PBXTextBookmark */ = 77CD36A91359EC7500DEE3A6 /* PBXTextBookmark */;
+			77D5CFA11307345700467685 /* PBXTextBookmark */ = 77D5CFA11307345700467685 /* PBXTextBookmark */;
+			77EA094912E481FD00503F97 /* PlistBookmark */ = 77EA094912E481FD00503F97 /* PlistBookmark */;
+		};
+		sourceControlManager = 77A637E812CB922D001A90E3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	771A8C22132AB187008B8BF9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* DiabetesAppDelegate.m */;
+		name = "DiabetesAppDelegate.m: 31";
+		rLen = 0;
+		rLoc = 638;
+		rType = 0;
+		vrLen = 2205;
+		vrLoc = 0;
+	};
+	771A8C23132AB187008B8BF9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 101";
+		rLen = 0;
+		rLoc = 3221;
+		rType = 0;
+		vrLen = 2277;
+		vrLoc = 3961;
+	};
+	777AA8E01311D28E00581F71 /* Event.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 593}}";
+			sepNavSelRange = "{394, 0}";
+			sepNavVisRange = "{0, 771}";
+		};
+	};
+	777AA8E11311D28E00581F71 /* Event.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 593}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 318}";
+		};
+	};
+	777AA8E21311D28E00581F71 /* FoodItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 593}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 670}";
+		};
+	};
+	777AA8E31311D28E00581F71 /* FoodItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 593}}";
+			sepNavSelRange = "{272, 0}";
+			sepNavVisRange = "{0, 272}";
+		};
+	};
+	777AA8E41311D28E00581F71 /* MealItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 593}}";
+			sepNavSelRange = "{510, 0}";
+			sepNavVisRange = "{0, 520}";
+		};
+	};
+	777AA8E51311D28E00581F71 /* MealItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 593}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 334}";
+		};
+	};
+	777AAA1F1315F52800581F71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77EA09D512E6170700503F97 /* AddEventController.h */;
+		name = "AddEventController.h: 33";
+		rLen = 0;
+		rLoc = 892;
+		rType = 0;
+		vrLen = 1076;
+		vrLoc = 0;
+	};
+	777AAA211315F52800581F71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77D5CF9E1307345700467685 /* NSManagedObject.h */;
+		name = "NSManagedObject.h: 115";
+		rLen = 39;
+		rLoc = 5573;
+		rType = 0;
+		vrLen = 2712;
+		vrLoc = 4202;
+	};
+	777AAA221315F52800581F71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 777AAA231315F52800581F71 /* NSKeyValueCoding.h */;
+		name = "NSKeyValueCoding.h: 54";
+		rLen = 35;
+		rLoc = 6357;
+		rType = 0;
+		vrLen = 3173;
+		vrLoc = 0;
+	};
+	777AAA231315F52800581F71 /* NSKeyValueCoding.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSKeyValueCoding.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSKeyValueCoding.h;
+		sourceTree = "<absolute>";
+	};
+	777F2D38130F092200C5272E /* FoodItem.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FoodItem.h;
+		path = /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.h;
+		sourceTree = "<absolute>";
+	};
+	777F2D39130F092200C5272E /* FoodItem.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FoodItem.m;
+		path = /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/FoodItem.m;
+		sourceTree = "<absolute>";
+	};
+	777F2D45130F564100C5272E /* Event.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Event.h;
+		path = /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.h;
+		sourceTree = "<absolute>";
+	};
+	777F2D46130F564100C5272E /* Event.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Event.m;
+		path = /Users/josephdimaggio/Documents/Diabetes/Diabetes.xcdatamodeld/Event.m;
+		sourceTree = "<absolute>";
+	};
+	777F2D5213109DF100C5272E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 777F2D45130F564100C5272E /* Event.h */;
+		name = "Event.h: 19";
+		rLen = 0;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 0;
+	};
+	777F2D5313109DF100C5272E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 777F2D46130F564100C5272E /* Event.m */;
+		name = "Event.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 318;
+		vrLoc = 0;
+	};
+	778B9DAF12EC911C00D51A5D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 778B9DB012EC911C00D51A5D /* NSArray.h */;
+		name = "NSArray.h: 27";
+		rLen = 27;
+		rLoc = 722;
+		rType = 0;
+		vrLen = 2800;
+		vrLoc = 0;
+	};
+	778B9DB012EC911C00D51A5D /* NSArray.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSArray.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h;
+		sourceTree = "<absolute>";
+	};
+	77A637DB12CB920D001A90E3 /* Diabetes */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Diabetes;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	77A637E812CB922D001A90E3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	77A637E912CB922D001A90E3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	77A90CED1322A88D00F7D329 /* objc_exception_throw */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libobjc.A.dylib;
+		modificationTime = 321564420.985694;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+		symbolName = objc_exception_throw;
+	};
+	77B1D7B1131EF674004BAF74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* DiabetesAppDelegate.h */;
+		name = "DiabetesAppDelegate.h: 28";
+		rLen = 0;
+		rLoc = 897;
+		rType = 0;
+		vrLen = 988;
+		vrLoc = 0;
+	};
+	77B1D7B2131EF674004BAF74 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 28860B760F44E54D00985440 /* Diabetes.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	77B1D7B3131EF674004BAF74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 777F2D39130F092200C5272E /* FoodItem.m */;
+		name = "FoodItem.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	77B1D7B4131EF674004BAF74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 777F2D38130F092200C5272E /* FoodItem.h */;
+		name = "FoodItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 0;
+	};
+	77B80F0512F73EC40038EADB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77B80F0612F73EC40038EADB /* NSNumberFormatter.h */;
+		name = "NSNumberFormatter.h: 10";
+		rLen = 45;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 1573;
+		vrLoc = 0;
+	};
+	77B80F0612F73EC40038EADB /* NSNumberFormatter.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSNumberFormatter.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNumberFormatter.h;
+		sourceTree = "<absolute>";
+	};
+	77CD36A81359EC7500DEE3A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77EA09D612E6170700503F97 /* AddEventController.m */;
+		name = "AddEventController.m: 90";
+		rLen = 0;
+		rLoc = 2218;
+		rType = 0;
+		vrLen = 1872;
+		vrLoc = 4186;
+	};
+	77CD36A91359EC7500DEE3A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* DiabetesAppDelegate.m */;
+		name = "DiabetesAppDelegate.m: 31";
+		rLen = 0;
+		rLoc = 638;
+		rType = 0;
+		vrLen = 2212;
+		vrLoc = 3;
+	};
+	77D5CF9E1307345700467685 /* NSManagedObject.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSManagedObject.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSManagedObject.h;
+		sourceTree = "<absolute>";
+	};
+	77D5CFA11307345700467685 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 23";
+		rLen = 24;
+		rLoc = 691;
+		rType = 0;
+		vrLen = 723;
+		vrLoc = 0;
+	};
+	77EA094912E481FD00503F97 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Diabetes-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/josephdimaggio/Documents/Diabetes/Diabetes-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	77EA09D512E6170700503F97 /* AddEventController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 615}}";
+			sepNavSelRange = "{892, 0}";
+			sepNavVisRange = "{0, 1076}";
+			sepNavWindowFrame = "{{109, 393}, {615, 475}}";
+		};
+	};
+	77EA09D612E6170700503F97 /* AddEventController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {970, 2756}}";
+			sepNavSelRange = "{2218, 0}";
+			sepNavVisRange = "{4186, 1872}";
+			sepNavWindowFrame = "{{-1219, 49}, {1170, 928}}";
+		};
+	};
+}
