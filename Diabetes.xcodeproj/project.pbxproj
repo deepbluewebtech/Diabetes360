@@ -1586,7 +1586,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "/Users/joedimaggio/Documents/iOS\\ Development/Diabetes/CorePlot/CorePlotHeaders/**";
 				INFOPLIST_FILE = "Diabetes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -1621,7 +1621,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "/Users/joedimaggio/Documents/iOS\\ Development/Diabetes/CorePlot/CorePlotHeaders/**";
 				INFOPLIST_FILE = "Diabetes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -1657,7 +1657,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "/Users/joedimaggio/Documents/iOS\\ Development/Diabetes/CorePlot/CorePlotHeaders/**";
 				INFOPLIST_FILE = "Diabetes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
