@@ -173,9 +173,10 @@
         
         if (self.roundingAccuracy.floatValue == 0 || self.roundingAccuracy.floatValue > 1) {
             self.roundingAccuracy = [NSNumber numberWithFloat:0.010f];
+        } else {
+            self.roundingAccuracy = settings.roundingAccuracy;
         }
         
-        self.roundingAccuracy = settings.roundingAccuracy;
         self.pumpSiteAlert = settings.pumpSiteAlert;
         self.pumpSiteInterval = settings.pumpSiteInterval;
         self.pumpSiteTime = settings.pumpSiteTime;
