@@ -282,10 +282,26 @@ int show_welcome_section;
         
         
     } else if (textField == roundingAccuracy) {
-        settings.roundingAccuracy = [numFmt numberFromString:self.roundingAccuracy.text];
-        if ([settings.roundingAccuracy floatValue] > 1) {
-            settings.roundingAccuracy = [NSNumber numberWithFloat:0.5];
-            self.roundingAccuracy.text = @"0.5";
+        
+        NSNumber *oldAccuracy = settings.roundingAccuracy;
+        NSNumber *newAccuracy = [numFmt numberFromString:self.roundingAccuracy.text];
+        
+        if ([newAccuracy floatValue] > 1 || newAccuracy.floatValue == 0) {
+            
+            settings.roundingAccuracy = oldAccuracy;
+            self.roundingAccuracy.text = [settings formatToRoundedString:oldAccuracy accuracy:[NSNumber numberWithFloat:0.010f]];
+            
+            NSString *message = @"Insulin Factor cannot be zero";
+            if (newAccuracy.floatValue > 1) {
+                message = @"Insulin Factor cannot be more than 1";
+            }
+            [[[UIAlertView alloc] initWithTitle:@""
+                                        message:message
+                                       delegate:nil
+                              cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+            
+        } else {
+            settings.roundingAccuracy = newAccuracy;
         }
     }
     
