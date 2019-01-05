@@ -284,6 +284,10 @@ int show_welcome_section;
     } else if (textField == roundingAccuracy) {
         
         NSNumber *oldAccuracy = settings.roundingAccuracy;
+        if (oldAccuracy.floatValue > 1 || oldAccuracy.floatValue == 0) { // if value is bad from prior version where it wasn't validated.
+            oldAccuracy = [NSNumber numberWithFloat:0.01f];
+            settings.roundingAccuracy = oldAccuracy;
+        }
         NSNumber *newAccuracy = [numFmt numberFromString:self.roundingAccuracy.text];
         
         if ([newAccuracy floatValue] > 1 || newAccuracy.floatValue == 0) {

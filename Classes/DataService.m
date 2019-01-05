@@ -170,6 +170,11 @@
         self.datePickerInterval = settings.datePickerInterval;
         self.glucoseUnit = settings.glucoseUnit;
         self.ketoneThreshold = settings.ketoneThreshold;
+        
+        if (self.roundingAccuracy.floatValue == 0 || self.roundingAccuracy.floatValue > 1) {
+            self.roundingAccuracy = [NSNumber numberWithFloat:0.010f];
+        }
+        
         self.roundingAccuracy = settings.roundingAccuracy;
         self.pumpSiteAlert = settings.pumpSiteAlert;
         self.pumpSiteInterval = settings.pumpSiteInterval;
