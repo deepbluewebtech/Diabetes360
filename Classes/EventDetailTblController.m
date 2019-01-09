@@ -785,6 +785,8 @@ static float totalSites;  // for calc of percentage on site picker
         [self.navigationController popViewControllerAnimated:YES];
     }
 
+    [self saveEventToCloud:event];
+    
 #ifndef LOG_MAX_FOR_LITE
     
 	[Appirater userDidSignificantEvent:YES];
@@ -797,6 +799,32 @@ static float totalSites;  // for calc of percentage on site picker
     [self.managedObjectContext deleteObject:event]; 
 
     [self.delegate dismissAddEvent];
+    
+}
+
+-(void)saveEventToCloud:(Event *)theEvent {
+    
+    CKRecordID *eventRecordID = [[CKRecordID alloc] initWithRecordName:@"testEventRecord1"];
+    CKRecord *eventRecord = [[CKRecord alloc] initWithRecordType:@"Event" recordID:eventRecordID];
+    [eventRecord setValue:@"testValue1" forKey:@"testField1"];
+    [eventRecord setValue:@"testValue2" forKey:@"testField2"];
+    [eventRecord setValue:@"testValue3" forKey:@"testField3"];
+    [eventRecord setValue:event.fmtDate forKey:@"fmtDate"];
+    [eventRecord setValue:event.glucose forKey:@"glucose"];
+    [eventRecord setValue:event.totalCarb forKey:@"totalCarb"];
+
+    CKContainer *myContainer = [CKContainer defaultContainer];
+    CKDatabase *privateDatabase = [myContainer privateCloudDatabase];
+
+    [privateDatabase saveRecord:eventRecord completionHandler:^(CKRecord *eventRecord, NSError *error) {
+        
+        if (error) {
+            NSLog(@"Error on Save:\n%@",error.userInfo);
+            return;
+        }
+        
+        NSLog(@"saved %@",eventRecord);
+    }];
     
 }
 
