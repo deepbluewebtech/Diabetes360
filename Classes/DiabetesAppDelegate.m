@@ -104,10 +104,30 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setBool:YES forKey:@"UIApplicationSupportedInterfaceOrientationIsEnabled"];
 
+    [self checkCloud];
+    
     window.rootViewController = navigationController;
     [window makeKeyAndVisible];
 
     return YES;
+}
+
+-(void)checkCloud {
+    
+    CKDatabase *privateDatabase = [[CKContainer defaultContainer] privateCloudDatabase];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"recordChangeTag = %@", @"jqobrl37"];
+    CKQuery *query = [[CKQuery alloc] initWithRecordType:@"Event" predicate:predicate];
+    [privateDatabase performQuery:query inZoneWithID:nil completionHandler:^(NSArray *results, NSError *error) {
+        if (error) {
+            NSLog(@"%@",error.userInfo);
+            // Error handling for failed fetch from public database
+        }
+        else {
+            NSLog(@"%@",results);
+            // Display the fetched records
+        }
+    }];
+    
 }
 
 -(void)handleSites {
@@ -186,7 +206,7 @@
         }
     }
     
-    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:i];
+//    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:i];
     
     [settings saveSettings];
 
