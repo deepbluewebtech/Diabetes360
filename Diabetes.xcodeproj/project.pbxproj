@@ -1592,6 +1592,7 @@
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/CorePlot",
 				);
+				MARKETING_VERSION = 1.8.6;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1627,6 +1628,7 @@
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/CorePlot",
 				);
+				MARKETING_VERSION = 1.8.6;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1663,6 +1665,7 @@
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/CorePlot",
 				);
+				MARKETING_VERSION = 1.8.6;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
