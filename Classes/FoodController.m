@@ -14,8 +14,12 @@
 #import "DataService.h"
 
 
-@interface FoodController ()
+@interface FoodController () <UISearchResultsUpdating, UISearchControllerDelegate, UISearchBarDelegate>
+
+@property (nonatomic, strong) UISearchController *searchController;
+
 - (void)configureCell:(UITableView *)tableView cell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
+
 @end
 
 @implementation FoodController
@@ -73,11 +77,7 @@ BOOL searchTextIsBlank = NO;
     
     [self setFoodArray:mutableFetchResults];
     self.filteredFoodArray = [NSMutableArray arrayWithCapacity:[self.foodArray count]];
-    
-    [self.searchDisplayController setActive:NO];
-    self.searchDisplayController.searchBar.showsScopeBar = NO;
-    self.searchDisplayController.searchBar.tintColor = [UIColor colorWithRed:204/255.0f green:153/255.0f blue:153/255.0f alpha:1.0f];
-    
+        
     //self.tableView.rowHeight = kcellHeight;
     
     if ([event.totalCarb floatValue] > 0  && [event.EventFoods count] == 0) {
@@ -90,11 +90,19 @@ BOOL searchTextIsBlank = NO;
 
     numFmt = [[NSNumberFormatter alloc] init];
     
-}
-
-- (void)viewDidUnload {
-
-    [super viewDidUnload];
+    self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+    
+    self.searchController.delegate = self;
+    self.searchController.searchBar.delegate = self;
+    
+    self.searchController.searchResultsUpdater = self;
+    self.searchController.obscuresBackgroundDuringPresentation = false;
+    self.searchController.searchBar.placeholder = @"Search";
+    self.searchController.searchBar.scopeButtonTitles = @[@"All",@"Most Used"];
+    self.definesPresentationContext = true;
+    
+    self.navigationItem.searchController = self.searchController;
+    self.navigationItem.hidesSearchBarWhenScrolling = false;
 
 }
 
@@ -147,7 +155,7 @@ BOOL searchTextIsBlank = NO;
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-	if (tableView == self.searchDisplayController.searchResultsTableView)
+	if ([self searchIsActive])
 	{
         if ([self.filteredFoodArray count] == 0) {
             [self.filteredFoodArray addObject:@" "]; //supresses the "No Results" message as user types search string before hitting search button.
@@ -188,7 +196,7 @@ BOOL searchTextIsBlank = NO;
 	
     cell.accessoryType = UITableViewCellAccessoryNone;
     cell.userInteractionEnabled = YES;
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
+    if ([self searchIsActive]) {
         if ([[self.filteredFoodArray objectAtIndex:indexPath.row] isKindOfClass:[NSString class]]) {
             cell.textLabel.text = @" ";  //this will be in first element if the table is empty when searching.  supresses "No Results" message as user types search string.
             cell.detailTextLabel.text = @"";
@@ -251,7 +259,7 @@ BOOL searchTextIsBlank = NO;
     UITableViewCell *theCell = [tableView cellForRowAtIndexPath:indexPath];
 
     NSManagedObject *selectedFoodItem = nil;
-	if (tableView == self.searchDisplayController.searchResultsTableView) {
+	if ([self searchIsActive]) {
         selectedFoodItem = (FoodItem *)[self.filteredFoodArray objectAtIndex:indexPath.row];
     } else {
         selectedFoodItem = (FoodItem *)[self.fetchedResultsController objectAtIndexPath:indexPath];
@@ -383,24 +391,23 @@ BOOL searchTextIsBlank = NO;
 
 }
 
--(BOOL) isSearchTextBlank:(NSString *)text {
+#pragma mark -
+#pragma mark Content Filtering
+
+-(BOOL)searchIsActive {
     
-    NSCharacterSet *alphaChars = [NSCharacterSet alphanumericCharacterSet];
-    
-    for (int i=0; i < [text length] ; i++) {
-        if ([alphaChars characterIsMember:[text characterAtIndex:i]] ) {
-            return NO;
-        }
+    if (self.searchController.isActive && self.searchController.searchBar.text.length > 0) {
+        return YES;
     }
     
-    return YES;
+    return NO;
     
 }
 
 - (void)filterContentForSearchText:(NSString*)searchText scope:(NSInteger)scope {
     
     [self.filteredFoodArray removeAllObjects];
-	for (FoodItem *foodItem in foodArray) {
+    for (FoodItem *foodItem in foodArray) {
         if (scope == 0) {
             if (searchTextIsBlank) {
                 [self.filteredFoodArray addObject:foodItem];
@@ -425,69 +432,21 @@ BOOL searchTextIsBlank = NO;
 }
 
 #pragma mark -
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
 
-#pragma mark UISearchDisplayController Delegate Methods
-
-- (void)timer:(NSTimer *)theTimer {
-    
-    [self filterContentForSearchText:self.searchDisplayController.searchBar.text scope:[self.searchDisplayController.searchBar selectedScopeButtonIndex]];
-    [self.searchDisplayController.searchResultsTableView reloadData];
-    
-    if ([[self.filteredFoodArray objectAtIndex:0] isKindOfClass:[NSString class]] && [self.searchDisplayController.searchBar selectedScopeButtonIndex] == 1 && ![self.searchDisplayController.searchBar.text isEqualToString:@" "]) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:[NSString stringWithFormat:@"No Results for \"%@\"\nIn Most Used List\nTry Tapping \"All\"",self.searchDisplayController.searchBar.text]
-                                                       delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-        [alert show];	
-    }
-    
-    [activityIndicator stopAnimating];
-    [activityIndicator removeFromSuperview];
+//    self.searchController.active = NO;
+    [self.tableView reloadData];
     
 }
 
--(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
-
-    activityIndicator.hidesWhenStopped = YES;
-    activityIndicator.frame = CGRectMake(140, 50, 40, 40);
-    activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
-    [activityIndicator startAnimating];
-    [self.searchDisplayController.searchResultsTableView addSubview:activityIndicator];
-
-    if ([self.searchDisplayController.searchBar.text characterAtIndex:0] == ' ' && ![self.searchDisplayController.searchBar.text isEqualToString:@" "]) { // a space that was put there by searchDisplayController:shouldReloadTableForSearchScope:  Need to get rid of it now or the search won't work '_x' <> 'x' but only if search string is just a space.  nullifying search string causes hidden results.
-        [self.searchDisplayController.searchBar setText:[self.searchDisplayController.searchBar.text substringFromIndex:1]];
-    }
-
-    searchTextIsBlank = [self isSearchTextBlank:self.searchDisplayController.searchBar.text];
-    
-    filterTimer = [NSTimer scheduledTimerWithTimeInterval:0.0 target:self selector:@selector(timer:) userInfo:nil repeats:NO];
+#pragma mark UISearchResultsUpdating delegate
+- (void)updateSearchResultsForSearchController:(UISearchController *)searchController {
+            
+    [self filterContentForSearchText:self.searchController.searchBar.text scope:[self.searchController.searchBar selectedScopeButtonIndex]];
+    [self.tableView reloadData];
     
 }
 
-- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
-{
-
-    return NO;
-    
-}
-
-- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchScope:(NSInteger)searchOption {
-
-    activityIndicator.hidesWhenStopped = YES;
-    activityIndicator.frame = CGRectMake(140, 50, 40, 40);
-    activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
-    [activityIndicator startAnimating];
-
-    [self.searchDisplayController.searchResultsTableView addSubview:activityIndicator];
-
-    if ([self.searchDisplayController.searchBar.text length] == 0) {
-        [self.searchDisplayController.searchBar setText:@" "];
-    }
-    
-    searchTextIsBlank = [self isSearchTextBlank:self.searchDisplayController.searchBar.text];
-    
-    filterTimer = [NSTimer scheduledTimerWithTimeInterval:0.0 target:self selector:@selector(timer:) userInfo:nil repeats:NO];
-
-    return YES;
-}
 
 
 @end

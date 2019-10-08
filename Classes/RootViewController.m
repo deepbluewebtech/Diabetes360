@@ -192,7 +192,8 @@
     
     theNavController.navigationBar.tintColor = settings.kNavBarColor;
     
-    [self presentModalViewController:theNavController animated:YES];
+    theNavController.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:theNavController animated:YES completion:nil];
     
 }
 
