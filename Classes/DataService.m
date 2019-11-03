@@ -171,11 +171,10 @@
         self.glucoseUnit = settings.glucoseUnit;
         self.ketoneThreshold = settings.ketoneThreshold;
         
-        if (self.roundingAccuracy.floatValue == 0 || self.roundingAccuracy.floatValue > 1) {
-            self.roundingAccuracy = [NSNumber numberWithFloat:0.010f];
-        } else {
-            self.roundingAccuracy = settings.roundingAccuracy;
+        if (settings.roundingAccuracy.floatValue == 0 || settings.roundingAccuracy.floatValue > 1) {
+            settings.roundingAccuracy = [NSNumber numberWithFloat:0.010f];
         }
+        self.roundingAccuracy = settings.roundingAccuracy;
         
         self.pumpSiteAlert = settings.pumpSiteAlert;
         self.pumpSiteInterval = settings.pumpSiteInterval;
@@ -186,6 +185,55 @@
         self.useIOB = [settings.useIOB boolValue];
     }
 
+}
+
+-(BOOL)saveSettings {
+    
+  //Settings
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Settings" inManagedObjectContext:managedObjectContext];
+    [request setEntity:entity];
+    [request setSortDescriptors:nil];
+
+    NSError *error = nil;
+    NSMutableArray *settingsResult = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
+    
+    if (error != nil) {
+        [self databaseErrorAlert:error more:[NSString stringWithFormat:@"%@ saveSettings fetch",self.class]];
+    }
+    
+    if (![settingsResult count]) { //no row in InsulinFormula table so add one before save.
+        NSLog(@"empty fetch on Settings Save!!");
+        Settings *newSettings = [NSEntityDescription insertNewObjectForEntityForName:@"Settings" inManagedObjectContext:managedObjectContext];
+        [settingsResult addObject:newSettings];
+    }
+    
+    Settings *settings = (Settings *)[settingsResult objectAtIndex:0];
+    [[settingsResult objectAtIndex:0] setDatePickerInterval:self.datePickerInterval];
+    [[settingsResult objectAtIndex:0] setGlucoseUnit:self.glucoseUnit];
+    [[settingsResult objectAtIndex:0] setKetoneThreshold:self.ketoneThreshold];
+    [[settingsResult objectAtIndex:0] setRoundingAccuracy:self.roundingAccuracy];
+    [[settingsResult objectAtIndex:0] setPumpSiteInterval:self.pumpSiteInterval];
+    [[settingsResult objectAtIndex:0] setPumpSiteTime:self.pumpSiteTime];
+    [[settingsResult objectAtIndex:0] setPumpSiteAlert:self.pumpSiteAlert];
+    [[settingsResult objectAtIndex:0] setQuickSettings:self.quickSettings];
+    [[settingsResult objectAtIndex:0] setCalcType:self.calcType];
+    [[settingsResult objectAtIndex:0] setRunInitialSetup:self.runInitialSetup];
+    settings.useIOB = [NSNumber numberWithBool:self.useIOB];
+    
+ //save context
+    
+    error = nil;
+    if (![managedObjectContext save:&error]) {
+        [self databaseErrorAlert:error more:[NSString stringWithFormat:@"%@ saveSettings save",self.class]];
+        NSLog(@"%@",[error userInfo]);
+    }
+
+    [self sortSchedule];
+    [self scheduleNotifications];
+    
+    return YES;
+    
 }
 
 -(void)loadInsulinScale {
@@ -534,55 +582,6 @@
     NSArray *temp = [[NSArray alloc] initWithArray:[self.dailyScheduleArray sortedArrayUsingDescriptors:sortDescArray]];
     self.dailyScheduleArray = [temp mutableCopy];
    
-}
-
--(BOOL)saveSettings {
-    
-  //Settings
-    NSFetchRequest *request = [[NSFetchRequest alloc] init];
-    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Settings" inManagedObjectContext:managedObjectContext];
-    [request setEntity:entity];
-    [request setSortDescriptors:nil];
-
-    NSError *error = nil;
-    NSMutableArray *settingsResult = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
-    
-    if (error != nil) {
-        [self databaseErrorAlert:error more:[NSString stringWithFormat:@"%@ saveSettings fetch",self.class]];
-    }	
-    
-    if (![settingsResult count]) { //no row in InsulinFormula table so add one before save.
-        NSLog(@"empty fetch on Settings Save!!");
-        Settings *newSettings = [NSEntityDescription insertNewObjectForEntityForName:@"Settings" inManagedObjectContext:managedObjectContext];
-        [settingsResult addObject:newSettings];
-    }
-    
-    Settings *settings = (Settings *)[settingsResult objectAtIndex:0];
-    [[settingsResult objectAtIndex:0] setDatePickerInterval:self.datePickerInterval];
-    [[settingsResult objectAtIndex:0] setGlucoseUnit:self.glucoseUnit];
-    [[settingsResult objectAtIndex:0] setKetoneThreshold:self.ketoneThreshold];
-    [[settingsResult objectAtIndex:0] setRoundingAccuracy:self.roundingAccuracy];
-    [[settingsResult objectAtIndex:0] setPumpSiteInterval:self.pumpSiteInterval];
-    [[settingsResult objectAtIndex:0] setPumpSiteTime:self.pumpSiteTime];
-    [[settingsResult objectAtIndex:0] setPumpSiteAlert:self.pumpSiteAlert];
-    [[settingsResult objectAtIndex:0] setQuickSettings:self.quickSettings];
-    [[settingsResult objectAtIndex:0] setCalcType:self.calcType];
-    [[settingsResult objectAtIndex:0] setRunInitialSetup:self.runInitialSetup];
-    settings.useIOB = [NSNumber numberWithBool:self.useIOB];
-    
- //save context
-    
-    error = nil;
-	if (![managedObjectContext save:&error]) {
-        [self databaseErrorAlert:error more:[NSString stringWithFormat:@"%@ saveSettings save",self.class]];
-		NSLog(@"%@",[error userInfo]);
-	}
-
-    [self sortSchedule];
-    [self scheduleNotifications];
-    
-    return YES;
-    
 }
 
 -(void)cancelNotificationsOfType:(NSString *)notifType {

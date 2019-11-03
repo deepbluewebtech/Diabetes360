@@ -287,6 +287,7 @@ int show_welcome_section;
         if (oldAccuracy.floatValue > 1 || oldAccuracy.floatValue == 0) { // if value is bad from prior version where it wasn't validated.
             oldAccuracy = [NSNumber numberWithFloat:0.01f];
             settings.roundingAccuracy = oldAccuracy;
+            [settings saveSettings];
         }
         NSNumber *newAccuracy = [numFmt numberFromString:self.roundingAccuracy.text];
         
@@ -307,6 +308,7 @@ int show_welcome_section;
         } else {
             settings.roundingAccuracy = newAccuracy;
         }
+        [settings saveSettings];
     }
     
     textField.textColor = settings.colorScheme.textNormal; 
