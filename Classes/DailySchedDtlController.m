@@ -147,9 +147,9 @@
 {
     [super viewWillAppear:animated];
     
-    self.name.textAlignment = UITextAlignmentRight;
-    self.carbsToIngest.textAlignment = UITextAlignmentCenter;
-    self.insulinDose.textAlignment = UITextAlignmentCenter;
+    self.name.textAlignment = NSTextAlignmentRight;
+    self.carbsToIngest.textAlignment = NSTextAlignmentCenter;
+    self.insulinDose.textAlignment = NSTextAlignmentCenter;
     
 }
 

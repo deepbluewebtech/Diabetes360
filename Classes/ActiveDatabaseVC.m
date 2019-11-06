@@ -54,7 +54,7 @@
     UITextView *tblFooterView = [[UITextView alloc] initWithFrame:CGRectMake(0, 0, 320, 100)];
     tblFooterView.backgroundColor = settings.kTblBgColor;
     tblFooterView.text = @"See Instructions\nOn Support Website\nFor Adding and Managing Logs\n\ndiabetes360.deepbluewebtech.com";
-    tblFooterView.textAlignment = UITextAlignmentCenter;
+    tblFooterView.textAlignment = NSTextAlignmentCenter;
     tblFooterView.textColor = [UIColor darkGrayColor];
     tblFooterView.font = [UIFont fontWithName:@"Helvetica" size:15];
     tblFooterView.editable = NO;

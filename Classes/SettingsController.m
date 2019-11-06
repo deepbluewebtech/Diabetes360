@@ -196,9 +196,9 @@ int show_welcome_section;
     self.datePickerInterval.text = [settings.datePickerInterval stringValue];
     self.roundingAccuracy.text = [settings formatToRoundedString:settings.roundingAccuracy accuracy:[NSNumber numberWithFloat:0.001f]];
 
-    self.roundingAccuracy.textAlignment = UITextAlignmentRight;
-    self.ketoneThreshold.textAlignment = UITextAlignmentRight;
-    self.datePickerInterval.textAlignment = UITextAlignmentRight;
+    self.roundingAccuracy.textAlignment = NSTextAlignmentRight;
+    self.ketoneThreshold.textAlignment = NSTextAlignmentRight;
+    self.datePickerInterval.textAlignment = NSTextAlignmentRight;
 
 }
 

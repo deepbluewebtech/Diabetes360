@@ -129,10 +129,10 @@
     } else {
         label.text = @"";
     }
-    label.textAlignment = UITextAlignmentRight;
+    label.textAlignment = NSTextAlignmentRight;
     if ([self.reminders count] == 0) {
         label.text = @"No Upcoming Reminders";
-        label.textAlignment = UITextAlignmentCenter;
+        label.textAlignment = NSTextAlignmentCenter;
     }
     label.textColor = [UIColor colorWithWhite:0.3f alpha:1];
     label.font = [UIFont fontWithName:@"Helvetica" size:15];

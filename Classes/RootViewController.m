@@ -61,7 +61,7 @@
 {
     [super viewDidLoad];
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back"
-                                                                              style: UIBarButtonItemStyleBordered
+                                                                              style: UIBarButtonItemStylePlain
                                                                              target:nil
                                                                              action:nil];
     [self.navigationController.navigationBar setTintColor:settings.kNavBarColor];
@@ -93,17 +93,6 @@
     activeDBName.text = [settings.activeDBName stringByDeletingPathExtension];
     
     
-}
-- (void)viewDidUnload
-{
-    [self setActiveDBName:nil];
-    [self setAdBanner:nil];
-    [self setRootView:nil];
-    [self setExportButton:nil];
-    [self setSettingsButton:nil];
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -147,20 +136,6 @@
     
 }
 
-- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
-{
-
-    [self moveBannerViewOffScreen];
-    
-}
-
-- (void)bannerViewDidLoadAd:(ADBannerView *)banner
-{
-    
-    [self moveBannerViewOnScreen];
-    
-}
-
 #pragma mark buttons
 
 - (void)addEvent:(id)sender {
@@ -193,13 +168,15 @@
     theNavController.navigationBar.tintColor = settings.kNavBarColor;
     
     theNavController.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:theNavController animated:YES completion:nil];
+    [self presentViewController:theNavController animated:YES completion:^(){
+        NSLog(@"");
+    }];
     
 }
 
 - (void)dismissAddEvent {
     
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 

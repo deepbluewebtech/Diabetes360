@@ -14,7 +14,6 @@
 		7705EA22147AFD1900403662 /* EventFoodController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7709505213AA5D89007393EC /* EventFoodController.xib */; };
 		7705EA23147AFD1900403662 /* EventFoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7707448113AE262600D0C77B /* EventFoodCell.xib */; };
 		7705EA24147AFD1900403662 /* InsulinFactorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FA6CD513B6443F00D66189 /* InsulinFactorController.xib */; };
-		7705EA25147AFD1900403662 /* RootViewController-withads.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FA6CDA13B64C7900D66189 /* RootViewController-withads.xib */; };
 		7705EA26147AFD1900403662 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C66F3013C8A83A0096999A /* SettingsController.xib */; };
 		7705EA27147AFD1900403662 /* InsulinScaleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771C545C13CA293500736FB9 /* InsulinScaleController.xib */; };
 		7705EA28147AFD1900403662 /* InsulinScaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771C545F13CA316F00736FB9 /* InsulinScaleCell.xib */; };
@@ -133,7 +132,6 @@
 		771D0D2114505D2100DC4E4D /* EventFoodController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7709505213AA5D89007393EC /* EventFoodController.xib */; };
 		771D0D2214505D2100DC4E4D /* EventFoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7707448113AE262600D0C77B /* EventFoodCell.xib */; };
 		771D0D2314505D2100DC4E4D /* InsulinFactorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FA6CD513B6443F00D66189 /* InsulinFactorController.xib */; };
-		771D0D2414505D2100DC4E4D /* RootViewController-withads.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FA6CDA13B64C7900D66189 /* RootViewController-withads.xib */; };
 		771D0D2514505D2100DC4E4D /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C66F3013C8A83A0096999A /* SettingsController.xib */; };
 		771D0D2614505D2100DC4E4D /* InsulinScaleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771C545C13CA293500736FB9 /* InsulinScaleController.xib */; };
 		771D0D2714505D2100DC4E4D /* InsulinScaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771C545F13CA316F00736FB9 /* InsulinScaleCell.xib */; };
@@ -479,7 +477,6 @@
 		77FA6CD513B6443F00D66189 /* InsulinFactorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InsulinFactorController.xib; path = xib/InsulinFactorController.xib; sourceTree = "<group>"; };
 		77FA6CD813B64C7900D66189 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		77FA6CD913B64C7900D66189 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
-		77FA6CDA13B64C7900D66189 /* RootViewController-withads.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "RootViewController-withads.xib"; path = "xib/RootViewController-withads.xib"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Diabetes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Diabetes-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		CE11F6B116DFAB8C00F97EE3 /* Diabetes 1.64.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Diabetes 1.64.xcdatamodel"; sourceTree = "<group>"; };
 		CE14D93C17A82A570029B32A /* Diabetes.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Diabetes.sqlite; sourceTree = "<group>"; };
@@ -894,7 +891,6 @@
 				7768ED28140D5D0800D0A82C /* NoteViewController.xib */,
 				77E30CF614166E8A009E15B3 /* PredicateCriteriaController.xib */,
 				77E2477B14211F590087E1FA /* PumpSiteController.xib */,
-				77FA6CDA13B64C7900D66189 /* RootViewController-withads.xib */,
 				77E4337415267F8C00B7423E /* RootViewController.xib */,
 				77C66F3013C8A83A0096999A /* SettingsController.xib */,
 				77A1F14B14263070008BB6DF /* SetupViewController.xib */,
@@ -1129,13 +1125,9 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Diabetes" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
 				en,
 				de,
 				es,
@@ -1144,6 +1136,7 @@
 				ko,
 				pl,
 				ru,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -1183,7 +1176,6 @@
 				7705EA22147AFD1900403662 /* EventFoodController.xib in Resources */,
 				7705EA23147AFD1900403662 /* EventFoodCell.xib in Resources */,
 				7705EA24147AFD1900403662 /* InsulinFactorController.xib in Resources */,
-				7705EA25147AFD1900403662 /* RootViewController-withads.xib in Resources */,
 				CEFC764317E75F1800CF540D /* Diabetes-Lite-80.png in Resources */,
 				7705EA26147AFD1900403662 /* SettingsController.xib in Resources */,
 				7705EA27147AFD1900403662 /* InsulinScaleController.xib in Resources */,
@@ -1273,7 +1265,6 @@
 				771D0D2214505D2100DC4E4D /* EventFoodCell.xib in Resources */,
 				771D0D2314505D2100DC4E4D /* InsulinFactorController.xib in Resources */,
 				CE62C9FD1E7D9274002F3988 /* GraphController.xib in Resources */,
-				771D0D2414505D2100DC4E4D /* RootViewController-withads.xib in Resources */,
 				771D0D2514505D2100DC4E4D /* SettingsController.xib in Resources */,
 				771D0D2614505D2100DC4E4D /* InsulinScaleController.xib in Resources */,
 				771D0D2714505D2100DC4E4D /* InsulinScaleCell.xib in Resources */,
@@ -1593,7 +1584,7 @@
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/CorePlot",
 				);
-				MARKETING_VERSION = 1.8.7;
+				MARKETING_VERSION = 1.8.8;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1630,7 +1621,7 @@
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/CorePlot",
 				);
-				MARKETING_VERSION = 1.8.7;
+				MARKETING_VERSION = 1.8.8;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1668,7 +1659,7 @@
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/CorePlot",
 				);
-				MARKETING_VERSION = 1.8.7;
+				MARKETING_VERSION = 1.8.8;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",

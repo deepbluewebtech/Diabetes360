@@ -138,7 +138,7 @@
     
     UILabel *exerciseTypeFld = (UILabel *)[cell viewWithTag:EXERCISE_TYPE_TAG];
     UITextField *factorValueFld = (UITextField *)[cell viewWithTag:EXERCISE_FACTOR_TAG];
-    factorValueFld.textAlignment = UITextAlignmentRight;
+    factorValueFld.textAlignment = NSTextAlignmentRight;
     factorValueFld.inputAccessoryView = settings.accessoryView;
     [settings.theCloseButton addTarget:self action:@selector(doneButton:) forControlEvents:UIControlEventTouchUpInside];
 

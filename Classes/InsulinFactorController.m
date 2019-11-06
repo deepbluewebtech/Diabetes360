@@ -219,7 +219,7 @@ int fullTableHeight;
     
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 5, 320, 20)];
-    label.textAlignment = UITextAlignmentCenter;
+    label.textAlignment = NSTextAlignmentCenter;
     label.text = @"Tap Here To Add Time Slot";
     label.textColor = [UIColor colorWithWhite:0.3f alpha:1];
     label.font = [UIFont fontWithName:@"Helvetica" size:15];
@@ -266,7 +266,7 @@ int fullTableHeight;
     value.inputAccessoryView = settings.accessoryView;
     [settings.theCloseButton addTarget:self action:@selector(doneButton:) forControlEvents:UIControlEventTouchUpInside];
 
-    value.textAlignment = UITextAlignmentRight;
+    value.textAlignment = NSTextAlignmentRight;
     
     time.text       = [dateFmt stringFromDate:[[self.fetchedResultsController objectAtIndexPath:indexPath] valueForKey:@"timeOfDayBegin"]];
     if (indexPath.section < 2) {

@@ -225,7 +225,7 @@
     
     UITextField *hours = (UITextField *)[cell viewWithTag:RANGE_HOURS_TAG];
     UITextField *percentReduce = (UITextField *)[cell viewWithTag:RANGE_PCT_REDUCE_TAG];
-    percentReduce.textAlignment = UITextAlignmentRight;
+    percentReduce.textAlignment = NSTextAlignmentRight;
     
     int size = [settings.IOBFactorArray count];
     float round = 0.01f;

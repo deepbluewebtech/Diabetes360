@@ -127,7 +127,7 @@
     } else {
         label.text = @"";
     }
-    label.textAlignment = UITextAlignmentRight;
+    label.textAlignment = NSTextAlignmentRight;
     label.textColor = [UIColor colorWithWhite:0.3f alpha:1];
     label.font = [UIFont fontWithName:@"Helvetica" size:15];
     label.backgroundColor = settings.kTblBgColor;

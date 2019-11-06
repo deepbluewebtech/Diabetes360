@@ -193,7 +193,7 @@
     UITextField *low = (UITextField *)[cell viewWithTag:RANGE_LOW_TAG];
     UILabel *high = (UILabel *)[cell viewWithTag:RANGE_HIGH_TAG];
     UITextField *units = (UITextField *)[cell viewWithTag:RANGE_UNITS_TAG];
-    units.textAlignment = UITextAlignmentRight;
+    units.textAlignment = NSTextAlignmentRight;
     
     //UILabel *unitsLabel = (UILabel *)[cell viewWithTag:RANGE_UNITS_LABEL_TAG];
     

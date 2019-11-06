@@ -134,7 +134,7 @@
     UITextView *textView = [[UITextView alloc] initWithFrame:CGRectMake(20, 0, 280, 80)];
     textView.text = @"These are automatically scheduled\nseveral weeks in the future.\nEdit Via Pump Site Change Settings";
     
-    textView.textAlignment = UITextAlignmentCenter;
+    textView.textAlignment = NSTextAlignmentCenter;
     textView.textColor = [UIColor colorWithWhite:0.3f alpha:1];
     textView.font = [UIFont fontWithName:@"Helvetica" size:15];
     textView.backgroundColor = settings.kTblBgColor;

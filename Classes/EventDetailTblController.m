@@ -292,8 +292,6 @@ static float totalSites;  // for calc of percentage on site picker
     
     self.numericChars = [NSCharacterSet characterSetWithCharactersInString:@"0123456789."];
     
-    [self.searchDisplayController setActive:YES];  
-    
     if (delegate) { 
         self.title = @"Add Log Entry";
         UIBarButtonItem *buttonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancelEventAdd:)];
@@ -510,9 +508,9 @@ static float totalSites;  // for calc of percentage on site picker
     [self calcInsulin];
     self.noCalc = NO;
     
-    self.glucose.textAlignment = UITextAlignmentCenter;
-    self.insulinAmt.textAlignment = UITextAlignmentRight;
-    self.totalCarb.textAlignment = UITextAlignmentCenter;
+    self.glucose.textAlignment = NSTextAlignmentCenter;
+    self.insulinAmt.textAlignment = NSTextAlignmentRight;
+    self.totalCarb.textAlignment = NSTextAlignmentCenter;
 
 }
 
