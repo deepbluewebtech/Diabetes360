@@ -231,8 +231,6 @@
 		771D0D9114505D2100DC4E4D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
 		771D0D9214505D2100DC4E4D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E1117213D8A58F00BB39A9 /* MessageUI.framework */; };
 		771D0D9414505D2100DC4E4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B9CF0013E5E8B9003CFFE2 /* QuartzCore.framework */; };
-		7738FD4A1527B06F00683ADA /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7738FD491527B06F00683ADA /* Appirater.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7738FD4B1527B06F00683ADA /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7738FD491527B06F00683ADA /* Appirater.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7739F368146D68AB00025E2A /* ActiveDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7739F366146D68AB00025E2A /* ActiveDatabaseVC.m */; };
 		7739F369146D68AB00025E2A /* ActiveDatabaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7739F367146D68AB00025E2A /* ActiveDatabaseVC.xib */; };
 		774C0179147D775E00A293ED /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 774C0177147D775E00A293ED /* Icon.png */; };
@@ -283,6 +281,7 @@
 		CEAF3BE915CF00A700FC121C /* SiteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF3BE615CF00A700FC121C /* SiteVC.m */; };
 		CEAF3BEA15CF00A700FC121C /* SiteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAF3BE715CF00A700FC121C /* SiteVC.xib */; };
 		CEAF3BEB15CF00A700FC121C /* SiteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAF3BE715CF00A700FC121C /* SiteVC.xib */; };
+		CEBE940023746DE500BD38BD /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 7738FD491527B06F00683ADA /* Appirater.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CECE14811F857E2E00A5BA98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECE14801F857E2E00A5BA98 /* Images.xcassets */; };
 		CEFC764217E75F1800CF540D /* Diabetes-Lite-58.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFC763F17E75F1800CF540D /* Diabetes-Lite-58.png */; };
 		CEFC764317E75F1800CF540D /* Diabetes-Lite-80.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFC764017E75F1800CF540D /* Diabetes-Lite-80.png */; };
@@ -1393,7 +1392,6 @@
 				7705EA91147AFD1900403662 /* Event.m in Sources */,
 				7705EA92147AFD1900403662 /* Site.m in Sources */,
 				779C9FAD147C41570011A4A6 /* BuyItVC.m in Sources */,
-				7738FD4B1527B06F00683ADA /* Appirater.m in Sources */,
 				CEAF3BE915CF00A700FC121C /* SiteVC.m in Sources */,
 				CE1C9FBD16D80BE80051DA38 /* Settings.m in Sources */,
 			);
@@ -1433,6 +1431,7 @@
 				771D0D7F14505D2100DC4E4D /* UpcomingPumpSiteViewController.m in Sources */,
 				771D0D8014505D2100DC4E4D /* PeriodStatistics.m in Sources */,
 				771D0D8114505D2100DC4E4D /* PredicateCriteriaController.m in Sources */,
+				CEBE940023746DE500BD38BD /* Appirater.m in Sources */,
 				771D0D8214505D2100DC4E4D /* SetupViewController.m in Sources */,
 				771D0D8414505D2100DC4E4D /* InsulinBrand.m in Sources */,
 				771D0D8514505D2100DC4E4D /* DailySchedule.m in Sources */,
@@ -1448,7 +1447,6 @@
 				776239851472CB1F00E7B6D9 /* Event.m in Sources */,
 				770B10991473EDD3005B2292 /* Site.m in Sources */,
 				776F5A48147C4A74004F1869 /* BuyItVC.m in Sources */,
-				7738FD4A1527B06F00683ADA /* Appirater.m in Sources */,
 				CEAF3BE815CF00A700FC121C /* SiteVC.m in Sources */,
 				CE1C9FBC16D80BE80051DA38 /* Settings.m in Sources */,
 			);
